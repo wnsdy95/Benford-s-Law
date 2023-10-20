@@ -52,8 +52,22 @@ function App() {
     }
   };
 
+  const handleTextChange = (e) => {
+    const text = e.target.value;
+    const numbers = text
+      .split("\n")
+      .map((line) => parseFloat(line))
+      .filter((num) => !isNaN(num));
+    setData(numbers);
+  };
+
   return (
     <div className="App">
+      <textarea
+        style={{ width: "100px", height: "200px" }}
+        value={data.join("\n")}
+        onChange={(e) => handleTextChange(e)}
+      />
       <input type="file" onChange={handleFileUpload} />
       <Histogram data={data} />
     </div>
