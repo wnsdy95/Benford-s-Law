@@ -6,6 +6,9 @@ import Papa from "papaparse";
 import Histogram from "./components/Histogram";
 
 function App() {
+  const [data, setData] = useState([]);
+  const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
+
   function readExcelData(file) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -25,8 +28,6 @@ function App() {
       reader.readAsBinaryString(file);
     });
   }
-
-  const [data, setData] = useState([]);
 
   function extractNumericData(rawData) {
     // Filter rows that have numeric data.
@@ -49,10 +50,12 @@ function App() {
       const rawData = await readExcelData(file);
       const numericData = extractNumericData(rawData);
       setData(numericData);
+      setTextBoxContent(numericData.join("\n"));
     }
   };
 
-  const handleTextChange = (e) => {
+  const handleTextBoxChange = (e) => {
+    setTextBoxContent(e.target.value);
     const text = e.target.value;
     const numbers = text
       .split("\n")
@@ -65,8 +68,8 @@ function App() {
     <div className="App">
       <textarea
         style={{ width: "100px", height: "200px" }}
-        value={data.join("\n")}
-        onChange={(e) => handleTextChange(e)}
+        value={textBoxContent}
+        onChange={handleTextBoxChange}
       />
       <input type="file" onChange={handleFileUpload} />
       <Histogram data={data} />
