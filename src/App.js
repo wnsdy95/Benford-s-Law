@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import React, { useState, useEffect, useRef } from "react";
+import "./components/DnD.css";
+import React, { useState, useEffect, useRef,useCallback } from "react";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
 import Histogram from "./components/Histogram";
+import DragDropFile from "./components/DnD"
 
 function App() {
   function readExcelData(file) {
@@ -54,8 +56,8 @@ function App() {
 
   return (
     <div className="App">
-      <input type="file" onChange={handleFileUpload} />
       <Histogram data={data} />
+      <DragDropFile onFileUpload={handleFileUpload} />
     </div>
   );
 }

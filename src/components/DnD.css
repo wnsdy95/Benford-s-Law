@@ -1,0 +1,101 @@
+#form-file-upload {
+    height: 6rem;
+    width:24rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#input-file-upload {
+    display: none;
+}
+
+#label-file-upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 3px;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: lightcoral;
+    background-color: #f8fafc;
+}
+.upload-button-text {
+    line-height: 70%;
+    cursor: pointer;
+    padding: 0rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Sometype Mono', monospace;
+    background-color: transparent;
+}
+#label-file-upload.drag-active {
+    background-color: #ffffff;
+}
+
+.upload-button {
+    cursor: pointer;
+    padding: 0.05rem;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Sometype Mono', monospace;
+    background-color: transparent;
+}
+
+.upload-button:hover {
+    text-decoration-line: underline;
+}
+
+#drag-file-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.gg-software-upload {
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 6px;
+    border: 2px solid;
+    border-top: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-top: 8px
+}
+.gg-software-upload::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    transform: rotate(45deg);
+    left: 2px;
+    bottom: 4px
+}
+.gg-software-upload::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+    left: 5px;
+    bottom: 3px
+}
