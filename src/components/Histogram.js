@@ -8,7 +8,7 @@ const Histogram = ({ data }) => {
 
   const width = 600;
   const height = 400;
-  const margin = { top: 20, right: 20, bottom: 30, left: 40 };
+  const margin = { top: 20, right: 60, bottom: 30, left: 40 };
 
   const colorScale = d3
     .scaleLinear()
@@ -90,12 +90,19 @@ const Histogram = ({ data }) => {
           .attr("offset", "0%")
           .style("stop-color", colorScale(i + 1));
 
-        grad
-          .append("stop")
-          .attr("offset", "100%")
-          .style("stop-color", "#ffffff"); // Use a light color as the end of the gradient
+        grad.append("stop").attr("offset", "100%").style("stop-color", "black"); // Use a light color as the end of the gradient
       });
-
+      // Add dots to Benford's Law line
+      svg
+        .selectAll(".benford-dot")
+        .data(idealBenfordDistribution())
+        .enter()
+        .append("circle")
+        .attr("class", "benford-dot")
+        .attr("cx", (d) => x(d))
+        .attr("cy", (d, i) => y(i + 1) + y.bandwidth() / 2)
+        .attr("r", 3)
+        .attr("fill", "orange");
       // Add percentages to the right of each bar
       svg
         .selectAll(".percentage-label")
@@ -121,18 +128,6 @@ const Histogram = ({ data }) => {
         .attr("dy", "0.35em")
         .style("text-anchor", "end")
         .text((d, i) => i + 1); // Display the numbers 1 to 9
-
-      // Add dots to Benford's Law line
-      svg
-        .selectAll(".benford-dot")
-        .data(idealBenfordDistribution())
-        .enter()
-        .append("circle")
-        .attr("class", "benford-dot")
-        .attr("cx", (d) => x(d))
-        .attr("cy", (d, i) => y(i + 1) + y.bandwidth() / 2)
-        .attr("r", 3)
-        .attr("fill", "orange");
 
       // X-axis
       svg

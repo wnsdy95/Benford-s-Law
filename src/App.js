@@ -39,7 +39,6 @@ function App() {
           style={{
             position: "absolute",
             left: "50px",
-            marginTop: "5%",
             width: "100px",
             height: "400px",
             borderRadius: 5,
@@ -48,7 +47,7 @@ function App() {
           onChange={handleTextBoxChange}
         />
       </div>
-
+      <SampleData setData={setData} setTextBoxContent={setTextBoxContent} />
       <Histogram className="his" data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
       <p className="bagging">
