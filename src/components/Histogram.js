@@ -6,8 +6,8 @@ const Histogram = ({ data }) => {
   const [distribution, setDistribution] = useState([]);
   const svgRef = useRef(null);
 
-  const width = 500;
-  const height = 600;
+  const width = 600;
+  const height = 400;
   const margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
   const colorScale = d3
@@ -158,7 +158,7 @@ const Histogram = ({ data }) => {
     //   .call(d3.axisLeft(x).tickSize(0));
   }, []);
 
-  return <svg ref={svgRef}></svg>;
+  return <svg className="graph" ref={svgRef}></svg>;
 };
 
 export default Histogram;

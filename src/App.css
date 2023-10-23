@@ -66,8 +66,13 @@
   font-family: 'Sometype Mono', monospace;
   font-weight: lighter;
   margin-left: 140px;
+  margin-bottom: 50px;
 }
 .bagging {
   color: #64CCC5;
   font-family: 'Sometype Mono', monospace;
+}
+.his {
+  position: center;
+  margin-left: 100px;
 }
