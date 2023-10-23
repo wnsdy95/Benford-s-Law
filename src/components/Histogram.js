@@ -7,11 +7,12 @@ const Histogram = ({ data }) => {
   const svgRef = useRef(null);
 
   const width = 500;
-  const height = 300;
+  const height = 600;
   const margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
-  const colorScale = d3.scaleLinear()
-    .domain([1, 9])  // Assuming you have 9 categories
+  const colorScale = d3
+    .scaleLinear()
+    .domain([1, 9]) // Assuming you have 9 categories
     .range(["#ff0000", "#0000ff"]);
 
   const y = d3
@@ -139,7 +140,7 @@ const Histogram = ({ data }) => {
         .attr("transform", `translate(0, ${height - margin.bottom})`)
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
-    } 
+    }
   }, [distribution]);
 
   useEffect(() => {

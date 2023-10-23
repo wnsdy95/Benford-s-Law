@@ -6,6 +6,7 @@ import * as XLSX from "xlsx";
 import Papa from "papaparse";
 import Histogram from "./components/Histogram";
 import DragDropFile from "./components/DnD";
+import SampleData from "./components/SampleData";
 
 function App() {
   const [data, setData] = useState([]);
@@ -22,23 +23,34 @@ function App() {
   };
   const navigateToURL = () => {
     window.location.href = "https://en.wikipedia.org/wiki/Benford%27s_law";
-  }
+  };
   return (
-
     <div className="App">
-        <div className="Title-Wrap">
-            <h1 className='title'>Benford's Law</h1>
-            <h2 className="sub-title">Test your data</h2>
-            <p className='link' onClick={navigateToURL}> About Benford's Law...</p>
-        </div>
+      <div className="Title-Wrap">
+        <h1 className="title">Benford's Law</h1>
+        <h2 className="sub-title">Test your data</h2>
+        <p className="link" onClick={navigateToURL}>
+          {" "}
+          About Benford's Law...
+        </p>
+      </div>
       <textarea
-        style={{ marginRight: "40%",marginTop:"5%",width: "100px", height: "400px", borderRadius:5}}
+        style={{
+          marginRight: "40%",
+          marginTop: "5%",
+          width: "100px",
+          height: "400px",
+          borderRadius: 5,
+        }}
         value={textBoxContent}
         onChange={handleTextBoxChange}
       />
+      {/* <SampleData setData={setData} /> */}
       <Histogram data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
-        <p className="bagging">Established by Team, Hire Me: Junhaeng Lee, Junyong Min, Oshu Kwon</p>
+      <p className="bagging">
+        Established by Team, Hire Me: Junhaeng Lee, Junyong Min, Oshu Kwon
+      </p>
     </div>
   );
 }
