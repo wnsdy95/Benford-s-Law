@@ -22,7 +22,12 @@ function App() {
   };
 
   return (
+
     <div className="App">
+        <div className="Title-Wrap">
+            <h1 className='title'>Benford's Law</h1>
+            <h2 className="sub-title">Test your data.</h2>
+        </div>
       <textarea
         style={{ width: "100px", height: "200px" }}
         value={textBoxContent}

@@ -1,6 +1,7 @@
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -13,10 +14,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* {
-  color: white;
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -40,4 +37,26 @@
     transform: rotate(360deg);
   }
 }
-
+.Title-Wrap{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #64CCC5;
+  font-size: xxx-large;
+  font-family: 'Sometype Mono', monospace;
+  font-weight: lighter;
+}
+.sub-title {
+  margin-top: 0px;
+  margin-left: 90px;
+  font-size: xx-large;
+  white-space: pre-line;
+  color: #64CCC5;
+  font-family: 'Sometype Mono', monospace;
+  font-weight: lighter;
+}
