@@ -32,10 +32,25 @@ const Histogram = ({ data }) => {
     const distribution = Array(9).fill(0);
 
     data.forEach((value) => {
-      const leadingDigit = parseInt(String(value)[0]);
-      if (leadingDigit > 0) {
-        distribution[leadingDigit - 1] += 1;
+      var numf = parseFloat(value);
+      if (numf >= 1) {
+        const leadingDigit = parseInt(String(value)[0]);
+        if (leadingDigit > 0) {
+          distribution[leadingDigit - 1] += 1;
+        }
+      } else if (numf > 0 && 1 > numf) {
+        var i;
+
+        for (i = 1; ;i++) {
+
+          numf = numf * 10 ** i;
+          if (numf >= 1) {
+            distribution[ parseInt(String(numf)[0]) - 1] += 1;
+            break;
+          }
+        }
       }
+
     });
 
     return distribution.map((count) => count / totalCount);

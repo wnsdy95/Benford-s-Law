@@ -1,0 +1,1206 @@
+{{weight/header|0.0|0.0|21.8|9.9}}
+{{weight/entry|0092|Gastly|Ghost|Poison|0.2|0.1}}
+{{weight/entry|0093|Haunter|Ghost|Poison|0.2|0.1}}
+{{weight/entry|0669|Flabébé|Fairy|Fairy|0.2|0.1}}
+{{weight/entry|0789|Cosmog|Psychic|Psychic|0.2|0.1}}
+{{weight/entry|0798|Kartana|Grass|Steel|0.2|0.1}}
+{{weight/entry|0999|Gimmighoul|Ghost|Ghost|0.2|0.1|form=Roaming Form|formimg=-Roaming}}
+{{weight/entry|0742|Cutiefly|Bug|Fairy|0.4|0.2}}
+{{weight/entry|0854|Sinistea|Ghost|Ghost|0.4|0.2}}
+{{weight/entry|0479|Rotom|Electric|Ghost|0.7|0.3}}
+{{weight/entry|0480|Uxie|Psychic|Psychic|0.7|0.3}}
+{{weight/entry|0481|Mesprit|Psychic|Psychic|0.7|0.3}}
+{{weight/entry|0482|Azelf|Psychic|Psychic|0.7|0.3}}
+{{weight/entry|0602|Tynamo|Electric|Electric|0.7|0.3}}
+{{weight/entry|0746|Wishiwashi|Water|Water|0.7|0.3|form=Solo Form}}
+{{weight/entry|0764|Comfey|Fairy|Fairy|0.7|0.3}}
+{{weight/entry|0774|Minior|Rock|Flying|0.7|0.3|form=Core Form|formimg=-Core}}
+{{weight/entry|0868|Milcery|Fairy|Fairy|0.7|0.3}}
+{{weight/entry|0855|Polteageist|Ghost|Ghost|0.9|0.4}}
+{{weight/entry|0864|Cursola|Ghost|Ghost|0.9|0.4}}
+{{weight/entry|0938|Tadbulb|Electric|Electric|0.9|0.4}}
+{{weight/entry|0187|Hoppip|Grass|Flying|1.1|0.5}}
+{{weight/entry|0682|Spritzee|Fairy|Fairy|1.1|0.5}}
+{{weight/entry|0743|Ribombee|Bug|Fairy|1.1|0.5}}
+{{weight/entry|0840|Applin|Grass|Dragon|1.1|0.5}}
+{{weight/entry|0869|Alcremie|Fairy|Fairy|1.1|0.5}}
+{{weight/entry|0222|Corsola|name=Galarian Corsola|Ghost|Ghost|1.1|0.5|formimg=-Galar}}
+{{weight/entry|0433|Chingling|Psychic|Psychic|1.3|0.6}}
+{{weight/entry|0546|Cottonee|Grass|Fairy|1.3|0.6}}
+{{weight/entry|0595|Joltik|Bug|Electric|1.3|0.6}}
+{{weight/entry|0946|Bramblin|Grass|Ghost|1.3|0.6}}
+{{weight/entry|0778|Mimikyu|Ghost|Fairy|1.5|0.7}}
+{{weight/entry|0944|Shroodle|Poison|Normal|1.5|0.7}}
+{{weight/entry|0050|Diglett|Ground|Ground|1.8|0.8}}
+{{weight/entry|0351|Castform|Normal|Normal|1.8|0.8}}
+{{weight/entry|0670|Floette|Fairy|Fairy|2.0|0.9}}
+{{weight/entry|0050|Diglett|name=Alolan Diglett|Ground|Steel|2.2|1.0|formimg=-Alola}}
+{{weight/entry|0109|Koffing|Poison|Poison|2.2|1.0}}
+{{weight/entry|0174|Igglybuff|Normal|Fairy|2.2|1.0}}
+{{weight/entry|0188|Skiploom|Grass|Flying|2.2|1.0}}
+{{weight/entry|0200|Misdreavus|Ghost|Ghost|2.2|1.0}}
+{{weight/entry|0358|Chimecho|Psychic|Psychic|2.2|1.0}}
+{{weight/entry|0577|Solosis|Psychic|Psychic|2.2|1.0}}
+{{weight/entry|0590|Foongus|Grass|Poison|2.2|1.0}}
+{{weight/entry|0841|Flapple|Grass|Dragon|2.2|1.0}}
+{{weight/entry|0846|Arrokuda|Water|Water|2.2|1.0}}
+{{weight/entry|0850|Sizzlipede|Fire|Bug|2.2|1.0}}
+{{weight/entry|0871|Pincurchin|Electric|Electric|2.2|1.0}}
+{{weight/entry|0919|Nymble|Bug|Bug|2.2|1.0}}
+{{weight/entry|0953|Rellor|Bug|Bug|2.2|1.0}}
+{{weight/entry|0385|Jirachi|Steel|Psychic|2.4|1.1}}
+{{weight/entry|1012|Poltchageist|Grass|Ghost|2.4|1.1}}
+{{weight/entry|0292|Shedinja|Bug|Ghost|2.6|1.2}}
+{{weight/entry|0333|Swablu|Normal|Flying|2.6|1.2}}
+{{weight/entry|0406|Budew|Grass|Poison|2.6|1.2}}
+{{weight/entry|0425|Drifloon|Ghost|Flying|2.6|1.2}}
+{{weight/entry|0731|Pikipek|Normal|Flying|2.6|1.2}}
+{{weight/entry|0771|Pyukumuku|Water|Water|2.6|1.2}}
+{{weight/entry|0490|Manaphy|Water|Water|3.1|1.4}}
+{{weight/entry|0175|Togepi|Fairy|Fairy|3.3|1.5}}
+{{weight/entry|0562|Yamask|Ghost|Ghost|3.3|1.5}}
+{{weight/entry|0562|Yamask|name=Galarian Yamask|Ground|Ghost|3.3|1.5|formimg=-Galar}}
+{{weight/entry|0722|Rowlet|Grass|Flying|3.3|1.5}}
+{{weight/entry|0753|Fomantis|Grass|Grass|3.3|1.5}}
+{{weight/entry|0755|Morelull|Grass|Fairy|3.3|1.5}}
+{{weight/entry|0955|Flittle|Psychic|Psychic|3.3|1.5}}
+{{weight/entry|0283|Surskit|Bug|Water|3.7|1.7}}
+{{weight/entry|0661|Fletchling|Normal|Flying|3.7|1.7}}
+{{weight/entry|0016|Pidgey|Normal|Flying|4.0|1.8}}
+{{weight/entry|0191|Sunkern|Grass|Grass|4.0|1.8}}
+{{weight/entry|0803|Poipole|Poison|Poison|4.0|1.8}}
+{{weight/entry|0821|Rookidee|Flying|Flying|4.0|1.8}}
+{{weight/entry|0924|Tandemaus|Normal|Normal|4.0|1.8}}
+{{weight/entry|0960|Wiglett|Water|Water|4.0|1.8}}
+{{weight/entry|0339|Barboach|Water|Ground|4.2|1.9}}
+{{weight/entry|0441|Chatot|Normal|Flying|4.2|1.9}}
+{{weight/entry|0021|Spearow|Normal|Flying|4.4|2.0}}
+{{weight/entry|0172|Pichu|Electric|Electric|4.4|2.0}}
+{{weight/entry|0177|Natu|Psychic|Flying|4.4|2.0}}
+{{weight/entry|0298|Azurill|Normal|Fairy|4.4|2.0}}
+{{weight/entry|0315|Roselia|Grass|Poison|4.4|2.0}}
+{{weight/entry|0396|Starly|Normal|Flying|4.4|2.0}}
+{{weight/entry|0679|Honedge|Steel|Ghost|4.4|2.0}}
+{{weight/entry|0743|Ribombee|Bug|Fairy|4.4|2.0|form=Totem-sized}}
+{{weight/entry|0885|Dreepy|Dragon|Ghost|4.4|2.0}}
+{{weight/entry|0198|Murkrow|Dark|Flying|4.6|2.1}}
+{{weight/entry|0492|Shaymin|Grass|Grass|4.6|2.1|form=Land Forme}}
+{{weight/entry|0519|Pidove|Normal|Flying|4.6|2.1}}
+{{weight/entry|0527|Woobat|Psychic|Flying|4.6|2.1}}
+{{weight/entry|0401|Kricketot|Bug|Bug|4.9|2.2}}
+{{weight/entry|0702|Dedenne|Electric|Fairy|4.9|2.2}}
+{{weight/entry|0829|Gossifleur|Grass|Grass|4.9|2.2}}
+{{weight/entry|1013|Sinistcha|Grass|Ghost|4.9|2.2}}
+{{weight/entry|0276|Taillow|Normal|Flying|5.1|2.3}}
+{{weight/entry|0353|Shuppet|Ghost|Ghost|5.1|2.3}}
+{{weight/entry|0925|Maushold|Normal|Normal|5.1|2.3|form=Family of Three|formimg=-Three}}
+{{weight/entry|0931|Squawkabilly|Normal|Flying|5.3|2.4}}
+{{weight/entry|0102|Exeggcute|Grass|Psychic|5.5|2.5}}
+{{weight/entry|0255|Torchic|Fire|Fire|5.5|2.5}}
+{{weight/entry|0540|Sewaddle|Bug|Grass|5.5|2.5}}
+{{weight/entry|0664|Scatterbug|Bug|Bug|5.5|2.5}}
+{{weight/entry|0819|Skwovet|Normal|Normal|5.5|2.5}}
+{{weight/entry|0830|Eldegoss|Grass|Grass|5.5|2.5}}
+{{weight/entry|0921|Pawmi|Electric|Electric|5.5|2.5}}
+{{weight/entry|0270|Lotad|Water|Grass|5.7|2.6}}
+{{weight/entry|0704|Goomy|Dragon|Dragon|6.2|2.8}}
+{{weight/entry|0778|Mimikyu|Ghost|Fairy|6.2|2.8|form=Totem-sized}}
+{{weight/entry|0925|Maushold|Normal|Normal|6.2|2.8|form=Family of Four}}
+{{weight/entry|0010|Caterpie|Bug|Bug|6.4|2.9}}
+{{weight/entry|0173|Cleffa|Fairy|Fairy|6.6|3.0}}
+{{weight/entry|0189|Jumpluff|Grass|Flying|6.6|3.0}}
+{{weight/entry|0707|Klefki|Steel|Fairy|6.6|3.0}}
+{{weight/entry|0877|Morpeko|Electric|Dark|6.6|3.0}}
+{{weight/entry|0951|Capsakid|Grass|Grass|6.6|3.0}}
+{{weight/entry|0489|Phione|Water|Water|6.8|3.1}}
+{{weight/entry|0607|Litwick|Ghost|Fire|6.8|3.1}}
+{{weight/entry|0013|Weedle|Bug|Poison|7.1|3.2}}
+{{weight/entry|0176|Togetic|Fairy|Flying|7.1|3.2}}
+{{weight/entry|0761|Bounsweet|Grass|Grass|7.1|3.2}}
+{{weight/entry|0147|Dratini|Dragon|Dragon|7.3|3.3}}
+{{weight/entry|0420|Cherubi|Grass|Grass|7.3|3.3}}
+{{weight/entry|0777|Togedemaru|Electric|Steel|7.3|3.3}}
+{{weight/entry|0412|Burmy|Bug|Bug|7.5|3.4}}
+{{weight/entry|0741|Oricorio|Fire|Flying|7.5|3.4|form=Baile Style}}
+{{weight/entry|0741|Oricorio|Electric|Flying|7.5|3.4|form=Pom-Pom Style|formimg=-Pom-Pom}}
+{{weight/entry|0741|Oricorio|Psychic|Flying|7.5|3.4|form=Pa'u Style|formimg=-Pa'u}}
+{{weight/entry|0741|Oricorio|Ghost|Flying|7.5|3.4|form=Sensu Style|formimg=-Sensu}}
+{{weight/entry|0856|Hatenna|Psychic|Psychic|7.5|3.4}}
+{{weight/entry|0019|Rattata|Normal|Normal|7.7|3.5}}
+{{weight/entry|0677|Espurr|Psychic|Psychic|7.7|3.5}}
+{{weight/entry|0684|Swirlix|Fairy|Fairy|7.7|3.5}}
+{{weight/entry|0686|Inkay|Dark|Psychic|7.7|3.5}}
+{{weight/entry|0710|Pumpkaboo|Ghost|Grass|7.7|3.5|form=Small Size}}
+{{weight/entry|0954|Rabsca|Bug|Psychic|7.7|3.5}}
+{{weight/entry|0265|Wurmple|Bug|Bug|7.9|3.6}}
+{{weight/entry|0284|Masquerain|Bug|Flying|7.9|3.6}}
+{{weight/entry|0940|Wattrel|Electric|Flying|7.9|3.6}}
+{{weight/entry|0019|Rattata|name=Alolan Rattata|Dark|Normal|8.4|3.8|formimg=-Alola}}
+{{weight/entry|0872|Snom|Ice|Bug|8.4|3.8}}
+{{weight/entry|0211|Qwilfish|Water|Poison|8.6|3.9}}
+{{weight/entry|0211|Qwilfish|name=Hisuian Qwilfish|Dark|Poison|8.6|3.9|formimg=-Hisui}}
+{{weight/entry|0417|Pachirisu|Electric|Electric|8.6|3.9}}
+{{weight/entry|0431|Glameow|Normal|Normal|8.6|3.9}}
+{{weight/entry|0069|Bellsprout|Grass|Poison|8.8|4.0}}
+{{weight/entry|0090|Shellder|Water|Water|8.8|4.0}}
+{{weight/entry|0132|Ditto|Normal|Normal|8.8|4.0}}
+{{weight/entry|0151|Mew|Psychic|Psychic|8.8|4.0}}
+{{weight/entry|0273|Seedot|Grass|Grass|8.8|4.0}}
+{{weight/entry|0494|Victini|Psychic|Fire|8.8|4.0}}
+{{weight/entry|0751|Dewpider|Water|Bug|8.8|4.0}}
+{{weight/entry|0816|Sobble|Water|Water|8.8|4.0}}
+{{weight/entry|0852|Clobbopus|Fighting|Fighting|8.8|4.0}}
+{{weight/entry|0917|Tarountula|Bug|Bug|8.8|4.0}}
+{{weight/entry|0987|Flutter Mane|Ghost|Fairy|8.8|4.0}}
+{{weight/entry|0506|Lillipup|Normal|Normal|9.0|4.1}}
+{{weight/entry|0906|Sprigatito|Grass|Grass|9.0|4.1}}
+{{weight/entry|0052|Meowth|Normal|Normal|9.3|4.2}}
+{{weight/entry|0052|Meowth|name=Alolan Meowth|Dark|Dark|9.3|4.2|formimg=-Alola}}
+{{weight/entry|0311|Plusle|Electric|Electric|9.3|4.2}}
+{{weight/entry|0312|Minun|Electric|Electric|9.3|4.2}}
+{{weight/entry|0725|Litten|Fire|Fire|9.5|4.3}}
+{{weight/entry|0429|Mismagius|Ghost|Ghost|9.7|4.4}}
+{{weight/entry|0736|Grubbin|Bug|Bug|9.7|4.4}}
+{{weight/entry|1011|Dipplin|Grass|Dragon|9.7|4.4}}
+{{weight/entry|0285|Shroomish|Grass|Grass|9.9|4.5}}
+{{weight/entry|0535|Tympole|Water|Water|9.9|4.5}}
+{{weight/entry|0680|Doublade|Steel|Ghost|9.9|4.5}}
+{{weight/entry|0813|Scorbunny|Fire|Fire|9.9|4.5}}
+{{weight/entry|0757|Salandit|Poison|Fire|10.6|4.8}}
+{{weight/entry|0857|Hattrem|Psychic|Psychic|10.6|4.8}}
+{{weight/entry|1004|Chi-Yu|Dark|Fire|10.8|4.9}}
+{{weight/entry|0201|Unown|Psychic|Psychic|11.0|5.0}}
+{{weight/entry|0222|Corsola|Water|Rock|11.0|5.0}}
+{{weight/entry|0251|Celebi|Psychic|Grass|11.0|5.0}}
+{{weight/entry|0252|Treecko|Grass|Grass|11.0|5.0}}
+{{weight/entry|0327|Spinda|Normal|Normal|11.0|5.0}}
+{{weight/entry|0587|Emolga|Electric|Flying|11.0|5.0}}
+{{weight/entry|0659|Bunnelby|Normal|Normal|11.0|5.0}}
+{{weight/entry|0685|Slurpuff|Fairy|Fairy|11.0|5.0}}
+{{weight/entry|0710|Pumpkaboo|Ghost|Grass|11.0|5.0|form=Average Size}}
+{{weight/entry|0810|Grookey|Grass|Grass|11.0|5.0}}
+{{weight/entry|0999|Gimmighoul|Ghost|Ghost|11.0|5.0|form=Chest Form}}
+{{weight/entry|0858|Hatterene|Psychic|Fairy|11.2|5.1}}
+{{weight/entry|0393|Piplup|Water|Water|11.5|5.2}}
+{{weight/entry|0492|Shaymin|Grass|Flying|11.5|5.2|form=Sky Forme|formimg=-Sky}}
+{{weight/entry|0543|Venipede|Bug|Poison|11.7|5.3}}
+{{weight/entry|0043|Oddish|Grass|Poison|11.9|5.4}}
+{{weight/entry|0046|Paras|Bug|Grass|11.9|5.4}}
+{{weight/entry|0961|Wugtrio|Water|Water|11.9|5.4}}
+{{weight/entry|0039|Jigglypuff|Normal|Fairy|12.1|5.5}}
+{{weight/entry|0290|Nincada|Bug|Ground|12.1|5.5}}
+{{weight/entry|0415|Combee|Bug|Flying|12.1|5.5}}
+{{weight/entry|0427|Buneary|Normal|Normal|12.1|5.5}}
+{{weight/entry|0580|Ducklett|Water|Flying|12.1|5.5}}
+{{weight/entry|0859|Impidimp|Dark|Fairy|12.1|5.5}}
+{{weight/entry|0582|Vanillite|Ice|Ice|12.6|5.7}}
+{{weight/entry|0703|Carbink|Rock|Fairy|12.6|5.7}}
+{{weight/entry|0182|Bellossom|Grass|Grass|12.8|5.8}}
+{{weight/entry|0572|Minccino|Normal|Normal|12.8|5.8}}
+{{weight/entry|0574|Gothita|Psychic|Psychic|12.8|5.8}}
+{{weight/entry|0501|Oshawott|Water|Water|13.0|5.9}}
+{{weight/entry|0588|Karrablast|Bug|Bug|13.0|5.9}}
+{{weight/entry|0025|Pikachu|Electric|Electric|13.2|6.0}}
+{{weight/entry|0081|Magnemite|Electric|Steel|13.2|6.0}}
+{{weight/entry|0161|Sentret|Normal|Normal|13.2|6.0}}
+{{weight/entry|0238|Smoochum|Ice|Psychic|13.2|6.0}}
+{{weight/entry|0694|Helioptile|Electric|Normal|13.2|6.0}}
+{{weight/entry|0734|Yungoos|Normal|Normal|13.2|6.0}}
+{{weight/entry|0820|Greedent|Normal|Normal|13.2|6.0}}
+{{weight/entry|0831|Wooloo|Normal|Normal|13.2|6.0}}
+{{weight/entry|0947|Brambleghast|Grass|Ghost|13.2|6.0}}
+{{weight/entry|0912|Quaxly|Water|Water|13.4|6.1}}
+{{weight/entry|0390|Chimchar|Fire|Fire|13.7|6.2}}
+{{weight/entry|0422|Shellos|Water|Water|13.9|6.3}}
+{{weight/entry|0070|Weepinbell|Grass|Poison|14.1|6.4}}
+{{weight/entry|0152|Chikorita|Grass|Grass|14.1|6.4}}
+{{weight/entry|0098|Krabby|Water|Water|14.3|6.5}}
+{{weight/entry|0104|Cubone|Ground|Ground|14.3|6.5}}
+{{weight/entry|0133|Eevee|Normal|Normal|14.3|6.5}}
+{{weight/entry|0220|Swinub|Ice|Ground|14.3|6.5}}
+{{weight/entry|0413|Wormadam|Bug|Grass|14.3|6.5|form=Plant Cloak|formimg=-Plant}}
+{{weight/entry|0413|Wormadam|Bug|Ground|14.3|6.5|form=Sandy Cloak|formimg=-Sandy}}
+{{weight/entry|0413|Wormadam|Bug|Steel|14.3|6.5|form=Trash Cloak|formimg=-Trash}}
+{{weight/entry|0648|Meloetta|Normal|Psychic|14.3|6.5|form=Aria Forme}}
+{{weight/entry|0648|Meloetta|Normal|Fighting|14.3|6.5|form=Pirouette Forme|formimg=-Pirouette}}
+{{weight/entry|0922|Pawmo|Electric|Fighting|14.3|6.5}}
+{{weight/entry|0928|Smoliv|Grass|Normal|14.3|6.5}}
+{{weight/entry|0280|Ralts|Psychic|Fairy|14.6|6.6}}
+{{weight/entry|0547|Whimsicott|Grass|Fairy|14.6|6.6}}
+{{weight/entry|0548|Petilil|Grass|Grass|14.6|6.6}}
+{{weight/entry|0759|Stufful|Normal|Fighting|15.0|6.8}}
+{{weight/entry|0001|Bulbasaur|Grass|Poison|15.2|6.9}}
+{{weight/entry|0023|Ekans|Poison|Poison|15.2|6.9}}
+{{weight/entry|0029|Nidoran♀|Poison|Poison|15.4|7.0}}
+{{weight/entry|0456|Finneon|Water|Water|15.4|7.0}}
+{{weight/entry|0656|Froakie|Water|Water|15.4|7.0}}
+{{weight/entry|0708|Phantump|Ghost|Grass|15.4|7.0}}
+{{weight/entry|0739|Crabrawler|Fighting|Fighting|15.4|7.0}}
+{{weight/entry|0204|Pineco|Bug|Bug|15.9|7.2}}
+{{weight/entry|0541|Swadloon|Bug|Grass|16.1|7.3}}
+{{weight/entry|0690|Skrelp|Poison|Water|16.1|7.3}}
+{{weight/entry|0349|Feebas|Water|Water|16.3|7.4}}
+{{weight/entry|0035|Clefairy|Fairy|Fairy|16.5|7.5}}
+{{weight/entry|0041|Zubat|Poison|Flying|16.5|7.5}}
+{{weight/entry|0052|Meowth|name=Galarian Meowth|Steel|Steel|16.5|7.5|formimg=-Galar}}
+{{weight/entry|0138|Omanyte|Rock|Water|16.5|7.5}}
+{{weight/entry|0573|Cinccino|Normal|Normal|16.5|7.5}}
+{{weight/entry|0710|Pumpkaboo|Ghost|Grass|16.5|7.5|form=Large Size}}
+{{weight/entry|0728|Popplio|Water|Water|16.5|7.5}}
+{{weight/entry|0258|Mudkip|Water|Water|16.8|7.6}}
+{{weight/entry|0843|Silicobra|Ground|Ground|16.8|7.6}}
+{{weight/entry|0616|Shelmet|Bug|Bug|17.0|7.7}}
+{{weight/entry|0898|Calyrex|Psychic|Grass|17.0|7.7}}
+{{weight/entry|0179|Mareep|Electric|Electric|17.2|7.8}}
+{{weight/entry|0209|Snubbull|Fairy|Fairy|17.2|7.8}}
+{{weight/entry|0155|Cyndaquil|Fire|Fire|17.4|7.9}}
+{{weight/entry|0116|Horsea|Water|Water|17.6|8.0}}
+{{weight/entry|0578|Duosion|Psychic|Psychic|17.6|8.0}}
+{{weight/entry|0674|Pancham|Fighting|Fighting|17.6|8.0}}
+{{weight/entry|0714|Noibat|Flying|Dragon|17.6|8.0}}
+{{weight/entry|0747|Mareanie|Poison|Water|17.6|8.0}}
+{{weight/entry|0808|Meltan|Steel|Steel|17.6|8.0}}
+{{weight/entry|0824|Blipbug|Bug|Bug|17.6|8.0}}
+{{weight/entry|0969|Glimmet|Rock|Poison|17.6|8.0}}
+{{weight/entry|0978|Tatsugiri|Dragon|Water|17.6|8.0}}
+{{weight/entry|0985|Scream Tail|Fairy|Psychic|17.6|8.0}}
+{{weight/entry|0495|Snivy|Grass|Grass|17.9|8.1}}
+{{weight/entry|0762|Steenee|Grass|Grass|18.1|8.2}}
+{{weight/entry|0692|Clauncher|Water|Water|18.3|8.3}}
+{{weight/entry|0665|Spewpa|Bug|Bug|18.5|8.4}}
+{{weight/entry|0004|Charmander|Fire|Fire|18.7|8.5}}
+{{weight/entry|0167|Spinarak|Bug|Poison|18.7|8.5}}
+{{weight/entry|0183|Marill|Water|Fairy|18.7|8.5}}
+{{weight/entry|0192|Sunflora|Grass|Grass|18.7|8.5}}
+{{weight/entry|0194|Wooper|Water|Ground|18.7|8.5}}
+{{weight/entry|0529|Drilbur|Ground|Ground|18.7|8.5}}
+{{weight/entry|0613|Cubchoo|Ice|Ice|18.7|8.5}}
+{{weight/entry|0678|Meowstic|Psychic|Psychic|18.7|8.5}}
+{{weight/entry|0833|Chewtle|Water|Water|18.7|8.5}}
+{{weight/entry|0044|Gloom|Grass|Poison|19.0|8.6}}
+{{weight/entry|0370|Luvdisc|Water|Water|19.2|8.7}}
+{{weight/entry|0216|Teddiursa|Normal|Normal|19.4|8.8}}
+{{weight/entry|0719|Diancie|Rock|Fairy|19.4|8.8}}
+{{weight/entry|0827|Nickit|Dark|Dark|19.6|8.9}}
+{{weight/entry|0957|Tinkatink|Fairy|Steel|19.6|8.9}}
+{{weight/entry|0007|Squirtle|Water|Water|19.8|9.0}}
+{{weight/entry|0032|Nidoran♂|Poison|Poison|19.8|9.0}}
+{{weight/entry|0605|Elgyem|Psychic|Psychic|19.8|9.0}}
+{{weight/entry|0629|Vullaby|Dark|Flying|19.8|9.0}}
+{{weight/entry|0650|Chespin|Grass|Grass|19.8|9.0}}
+{{weight/entry|0720|Hoopa|name=Hoopa Confined|Psychic|Ghost|19.8|9.0}}
+{{weight/entry|0814|Raboot|Fire|Fire|19.8|9.0}}
+{{weight/entry|0744|Rockruff|Rock|Rock|20.3|9.2}}
+{{weight/entry|0421|Cherrim|Grass|Grass|20.5|9.3}}
+{{weight/entry|0653|Fennekin|Fire|Fire|20.7|9.4}}
+{{weight/entry|0110|Weezing|Poison|Poison|20.9|9.5}}
+{{weight/entry|0158|Totodile|Water|Water|20.9|9.5}}
+{{weight/entry|0278|Wingull|Water|Flying|20.9|9.5}}
+{{weight/entry|0403|Shinx|Electric|Electric|20.9|9.5}}
+{{weight/entry|0566|Archen|Rock|Flying|20.9|9.5}}
+{{weight/entry|0711|Gourgeist|Ghost|Grass|20.9|9.5|form=Small Size}}
+{{weight/entry|0909|Fuecoco|Fire|Fire|21.6|9.8}}
+{{weight/entry|0011|Metapod|Bug|Bug|21.8|9.9}}
+{{weight/entry|0037|Vulpix|Fire|Fire|21.8|9.9}}
+{{weight/entry|0037|Vulpix|name=Alolan Vulpix|Ice|Ice|21.8|9.9|formimg=-Alola}}
+{{weight/entry|0498|Tepig|Fire|Fire|21.8|9.9}}
+{{weight/footer}}
+{{weight/header|22.0|10.0|44.1|20.0}}
+{{weight/entry|0014|Kakuna|Bug|Poison|22.0|10.0}}
+{{weight/entry|0129|Magikarp|Water|Water|22.0|10.0}}
+{{weight/entry|0266|Silcoon|Bug|Bug|22.0|10.0}}
+{{weight/entry|0671|Florges|Fairy|Fairy|22.0|10.0}}
+{{weight/entry|0509|Purrloin|Dark|Dark|22.3|10.1}}
+{{weight/entry|0387|Turtwig|Grass|Grass|22.5|10.2}}
+{{weight/entry|0624|Pawniard|Dark|Steel|22.5|10.2}}
+{{weight/entry|0915|Lechonk|Normal|Normal|22.5|10.2}}
+{{weight/entry|0316|Gulpin|Poison|Poison|22.7|10.3}}
+{{weight/entry|0100|Voltorb|Electric|Electric|22.9|10.4}}
+{{weight/entry|0511|Pansage|Grass|Grass|23.1|10.5}}
+{{weight/entry|0528|Swoobat|Psychic|Flying|23.1|10.5}}
+{{weight/entry|0591|Amoonguss|Grass|Poison|23.1|10.5}}
+{{weight/entry|0627|Rufflet|Normal|Flying|23.1|10.5}}
+{{weight/entry|0737|Charjabug|Bug|Electric|23.1|10.5}}
+{{weight/entry|0935|Charcadet|Fire|Fire|23.1|10.5}}
+{{weight/entry|0165|Ledyba|Bug|Flying|23.8|10.8}}
+{{weight/entry|0228|Houndour|Dark|Fire|23.8|10.8}}
+{{weight/entry|0657|Frogadier|Water|Water|24.0|10.9}}
+{{weight/entry|0926|Fidough|Fairy|Fairy|24.0|10.9}}
+{{weight/entry|0194|Wooper|name=Paldean Wooper|Poison|Ground|24.3|11.0|formimg=-Paldea}}
+{{weight/entry|0300|Skitty|Normal|Normal|24.3|11.0}}
+{{weight/entry|0302|Sableye|Dark|Ghost|24.3|11.0}}
+{{weight/entry|0513|Pansear|Fire|Fire|24.3|11.0}}
+{{weight/entry|0618|Stunfisk|Ground|Electric|24.3|11.0}}
+{{weight/entry|0848|Toxel|Electric|Poison|24.3|11.0}}
+{{weight/entry|0886|Drakloak|Dragon|Ghost|24.3|11.0}}
+{{weight/entry|0991|Iron Bundle|Ice|Water|24.3|11.0}}
+{{weight/entry|0307|Meditite|Fighting|Psychic|24.7|11.2}}
+{{weight/entry|0140|Kabuto|Rock|Water|25.4|11.5}}
+{{weight/entry|0190|Aipom|Normal|Normal|25.4|11.5}}
+{{weight/entry|0268|Cascoon|Bug|Bug|25.4|11.5}}
+{{weight/entry|0303|Mawile|Steel|Fairy|25.4|11.5}}
+{{weight/entry|0341|Corphish|Water|Water|25.4|11.5}}
+{{weight/entry|0756|Shiinotic|Grass|Fairy|25.4|11.5}}
+{{weight/entry|0817|Drizzile|Water|Water|25.4|11.5}}
+{{weight/entry|0504|Patrat|Normal|Normal|25.6|11.6}}
+{{weight/entry|0559|Scraggy|Dark|Fighting|26.0|11.8}}
+{{weight/entry|0929|Dolliv|Grass|Normal|26.2|11.9}}
+{{weight/entry|0027|Sandshrew|Ground|Ground|26.5|12.0}}
+{{weight/entry|0040|Wigglytuff|Normal|Fairy|26.5|12.0}}
+{{weight/entry|0170|Chinchou|Water|Electric|26.5|12.0}}
+{{weight/entry|0223|Remoraid|Water|Water|26.5|12.0}}
+{{weight/entry|0291|Ninjask|Bug|Flying|26.5|12.0}}
+{{weight/entry|0451|Skorupi|Poison|Bug|26.5|12.0}}
+{{weight/entry|0767|Wimpod|Bug|Water|26.5|12.0}}
+{{weight/entry|0837|Rolycoly|Rock|Rock|26.5|12.0}}
+{{weight/entry|0891|Kubfu|Fighting|Fighting|26.5|12.0}}
+{{weight/entry|0907|Floragato|Grass|Grass|26.9|12.2}}
+{{weight/entry|1015|Munkidori|Poison|Psychic|26.9|12.2}}
+{{weight/entry|0060|Poliwag|Water|Water|27.3|12.4}}
+{{weight/entry|0049|Venomoth|Bug|Poison|27.6|12.5}}
+{{weight/entry|0347|Anorith|Rock|Bug|27.6|12.5}}
+{{weight/entry|0354|Banette|Ghost|Ghost|27.6|12.5}}
+{{weight/entry|0532|Timburr|Fighting|Fighting|27.6|12.5}}
+{{weight/entry|0570|Zorua|Dark|Dark|27.6|12.5}}
+{{weight/entry|0570|Zorua|name=Hisuian Zorua|Normal|Ghost|27.6|12.5|formimg=-Hisui}}
+{{weight/entry|0711|Gourgeist|Ghost|Grass|27.6|12.5|form=Average Size}}
+{{weight/entry|0860|Morgrem|Dark|Fairy|27.6|12.5}}
+{{weight/entry|0002|Ivysaur|Grass|Poison|28.7|13.0}}
+{{weight/entry|0100|Voltorb|name=Hisuian Voltorb|Electric|Grass|28.7|13.0|formimg=-Hisui}}
+{{weight/entry|0354|Banette|name=Mega Banette|Ghost|Ghost|28.7|13.0|formimg=-Mega}}
+{{weight/entry|0439|Mime Jr.|Psychic|Fairy|28.7|13.0}}
+{{weight/entry|0608|Lampent|Ghost|Fire|28.7|13.0}}
+{{weight/entry|0777|Togedemaru|Electric|Steel|28.7|13.0|form=Totem-sized}}
+{{weight/entry|0806|Blacephalon|Fire|Ghost|28.7|13.0}}
+{{weight/entry|0842|Appletun|Grass|Dragon|28.7|13.0}}
+{{weight/entry|0180|Flaaffy|Electric|Electric|29.3|13.3}}
+{{weight/entry|0515|Panpour|Water|Water|29.8|13.5}}
+{{weight/entry|0667|Litleo|Fire|Normal|29.8|13.5}}
+{{weight/entry|0835|Yamper|Electric|Electric|29.8|13.5}}
+{{weight/entry|0261|Poochyena|Dark|Dark|30.0|13.6}}
+{{weight/entry|0206|Dunsparce|Normal|Normal|30.9|14.0}}
+{{weight/entry|0360|Wynaut|Psychic|Psychic|30.9|14.0}}
+{{weight/entry|0561|Sigilyph|Psychic|Flying|30.9|14.0}}
+{{weight/entry|0711|Gourgeist|Ghost|Grass|30.9|14.0|form=Large Size}}
+{{weight/entry|0811|Thwackey|Grass|Grass|30.9|14.0}}
+{{weight/entry|0735|Gumshoos|Normal|Normal|31.3|14.2}}
+{{weight/entry|0596|Galvantula|Bug|Electric|31.5|14.3}}
+{{weight/entry|0407|Roserade|Grass|Poison|32.0|14.5}}
+{{weight/entry|0557|Dwebble|Bug|Rock|32.0|14.5}}
+{{weight/entry|0654|Braixen|Fire|Fire|32.0|14.5}}
+{{weight/entry|0748|Toxapex|Poison|Water|32.0|14.5}}
+{{weight/entry|0507|Herdier|Normal|Normal|32.4|14.7}}
+{{weight/entry|0732|Trumbeak|Normal|Flying|32.6|14.8}}
+{{weight/entry|0927|Dachsbun|Fairy|Fairy|32.8|14.9}}
+{{weight/entry|0083|Farfetch'd|Normal|Flying|33.1|15.0}}
+{{weight/entry|0118|Goldeen|Water|Water|33.1|15.0}}
+{{weight/entry|0178|Xatu|Psychic|Flying|33.1|15.0}}
+{{weight/entry|0328|Trapinch|Ground|Ground|33.1|15.0}}
+{{weight/entry|0355|Duskull|Ghost|Ghost|33.1|15.0}}
+{{weight/entry|0426|Drifblim|Ghost|Flying|33.1|15.0}}
+{{weight/entry|0438|Bonsly|Rock|Rock|33.1|15.0}}
+{{weight/entry|0520|Tranquill|Normal|Flying|33.1|15.0}}
+{{weight/entry|0710|Pumpkaboo|Ghost|Grass|33.1|15.0|form=Super Size}}
+{{weight/entry|0952|Scovillain|Grass|Fire|33.1|15.0}}
+{{weight/entry|0972|Houndstone|Ghost|Ghost|33.1|15.0}}
+{{weight/entry|0309|Electrike|Electric|Electric|33.5|15.2}}
+{{weight/entry|0551|Sandile|Ground|Dark|33.5|15.2}}
+{{weight/entry|0329|Vibrava|Ground|Dragon|33.7|15.3}}
+{{weight/entry|0071|Victreebel|Grass|Poison|34.2|15.5}}
+{{weight/entry|0397|Staravia|Normal|Flying|34.2|15.5}}
+{{weight/entry|0683|Aromatisse|Fairy|Fairy|34.2|15.5}}
+{{weight/entry|0153|Bayleef|Grass|Grass|34.8|15.8}}
+{{weight/entry|0110|Weezing|name=Galarian Weezing|Poison|Fairy|35.3|16.0|formimg=-Galar}}
+{{weight/entry|0225|Delibird|Ice|Flying|35.3|16.0}}
+{{weight/entry|0496|Servine|Grass|Grass|35.3|16.0}}
+{{weight/entry|0662|Fletchinder|Fire|Flying|35.3|16.0}}
+{{weight/entry|0723|Dartrix|Grass|Flying|35.3|16.0}}
+{{weight/entry|0822|Corvisquire|Flying|Flying|35.3|16.0}}
+{{weight/entry|0932|Nacli|Rock|Rock|35.3|16.0}}
+{{weight/entry|0942|Maschiff|Dark|Dark|35.3|16.0}}
+{{weight/entry|0293|Whismur|Normal|Normal|35.9|16.3}}
+{{weight/entry|0549|Lilligant|Grass|Grass|35.9|16.3}}
+{{weight/entry|0148|Dragonair|Dragon|Dragon|36.4|16.5}}
+{{weight/entry|0564|Tirtouga|Water|Rock|36.4|16.5}}
+{{weight/entry|0918|Spidops|Bug|Bug|36.4|16.5}}
+{{weight/entry|0361|Snorunt|Ice|Ice|37.0|16.8}}
+{{weight/entry|0536|Palpitoad|Water|Ground|37.5|17.0}}
+{{weight/entry|0666|Vivillon|Bug|Flying|37.5|17.0}}
+{{weight/entry|0996|Frigibax|Dragon|Ice|37.5|17.0}}
+{{weight/entry|0633|Deino|Dark|Dragon|38.1|17.3}}
+{{weight/entry|0263|Zigzagoon|Normal|Normal|38.6|17.5}}
+{{weight/entry|0263|Zigzagoon|name=Galarian Zigzagoon|Dark|Normal|38.6|17.5|formimg=-Galar}}
+{{weight/entry|0705|Sliggoo|Dragon|Dragon|38.6|17.5}}
+{{weight/entry|0729|Brionne|Water|Water|38.6|17.5}}
+{{weight/entry|0920|Lokix|Bug|Dark|38.6|17.5}}
+{{weight/entry|0313|Volbeat|Bug|Bug|39.0|17.7}}
+{{weight/entry|0314|Illumise|Bug|Bug|39.0|17.7}}
+{{weight/entry|0524|Roggenrola|Rock|Rock|39.7|18.0}}
+{{weight/entry|0550|Basculin|Water|Water|39.7|18.0}}
+{{weight/entry|0575|Gothorita|Psychic|Psychic|39.7|18.0}}
+{{weight/entry|0610|Axew|Dragon|Dragon|39.7|18.0}}
+{{weight/entry|0845|Cramorant|Flying|Water|39.7|18.0}}
+{{weight/entry|0020|Raticate|Normal|Normal|40.8|18.5}}
+{{weight/entry|0754|Lurantis|Grass|Grass|40.8|18.5}}
+{{weight/entry|0045|Vileplume|Grass|Poison|41.0|18.6}}
+{{weight/entry|0786|Tapu Lele|Psychic|Fairy|41.0|18.6}}
+{{weight/entry|0597|Ferroseed|Grass|Steel|41.4|18.8}}
+{{weight/entry|0005|Charmeleon|Fire|Fire|41.9|19.0}}
+{{weight/entry|0058|Growlithe|Fire|Fire|41.9|19.0}}
+{{weight/entry|0156|Quilava|Fire|Fire|41.9|19.0}}
+{{weight/entry|0779|Bruxish|Water|Psychic|41.9|19.0}}
+{{weight/entry|0434|Stunky|Poison|Dark|42.3|19.2}}
+{{weight/entry|0549|Lilligant|name=Hisuian Lilligant|Grass|Fighting|42.3|19.2|formimg=-Hisui}}
+{{weight/entry|0033|Nidorino|Poison|Poison|43.0|19.5}}
+{{weight/entry|0063|Abra|Psychic|Psychic|43.0|19.5}}
+{{weight/entry|0066|Machop|Fighting|Fighting|43.0|19.5}}
+{{weight/entry|0256|Combusken|Fire|Fighting|43.0|19.5}}
+{{weight/entry|0585|Deerling|Normal|Grass|43.0|19.5}}
+{{weight/entry|0825|Dottler|Bug|Psychic|43.0|19.5}}
+{{weight/entry|0054|Psyduck|Water|Water|43.2|19.6}}
+{{weight/entry|0277|Swellow|Normal|Flying|43.7|19.8}}
+{{weight/entry|0038|Ninetales|Fire|Fire|43.9|19.9}}
+{{weight/entry|0038|Ninetales|name=Alolan Ninetales|Ice|Fairy|43.9|19.9|formimg=-Alola}}
+{{weight/entry|0775|Komala|Normal|Normal|43.9|19.9}}
+{{weight/entry|0828|Thievul|Dark|Dark|43.9|19.9}}
+{{weight/entry|0030|Nidorina|Poison|Poison|44.1|20.0}}
+{{weight/entry|0061|Poliwhirl|Water|Water|44.1|20.0}}
+{{weight/entry|0074|Geodude|Rock|Ground|44.1|20.0}}
+{{weight/entry|0399|Bidoof|Normal|Normal|44.1|20.0}}
+{{weight/entry|0619|Mienfoo|Fighting|Fighting|44.1|20.0}}
+{{weight/footer}}
+{{weight/header|44.3|20.1|54.9|24.9}}
+{{weight/entry|0579|Reuniclus|Psychic|Psychic|44.3|20.1}}
+{{weight/entry|0281|Kirlia|Psychic|Fairy|44.5|20.2}}
+{{weight/entry|0447|Riolu|Fighting|Fighting|44.5|20.2}}
+{{weight/entry|0074|Geodude|name=Alolan Geodude|Rock|Electric|44.8|20.3|formimg=-Alola}}
+{{weight/entry|0424|Ambipom|Normal|Normal|44.8|20.3}}
+{{weight/entry|0213|Shuckle|Bug|Rock|45.2|20.5}}
+{{weight/entry|0443|Gible|Dragon|Ground|45.2|20.5}}
+{{weight/entry|0542|Leavanny|Bug|Grass|45.2|20.5}}
+{{weight/entry|0785|Tapu Koko|Electric|Fairy|45.2|20.5}}
+{{weight/entry|0618|Stunfisk|name=Galarian Stunfisk|Ground|Steel|45.2|20.5|formimg=-Galar}}
+{{weight/entry|0334|Altaria|Dragon|Flying|45.4|20.6}}
+{{weight/entry|0334|Altaria|Dragon|Fairy|name=Mega Altaria|45.4|20.6|formimg=-Mega}}
+{{weight/entry|0318|Carvanha|Water|Dark|45.9|20.8}}
+{{weight/entry|0026|Raichu|name=Alolan Raichu|Electric|Psychic|46.3|21.0|formimg=-Alola}}
+{{weight/entry|0236|Tyrogue|Fighting|Fighting|46.3|21.0}}
+{{weight/entry|0599|Klink|Steel|Steel|46.3|21.0}}
+{{weight/entry|0695|Heliolisk|Electric|Normal|46.3|21.0}}
+{{weight/entry|0986|Brute Bonnet|Grass|Dark|46.3|21.0}}
+{{weight/entry|0163|Hoothoot|Normal|Flying|46.7|21.2}}
+{{weight/entry|0788|Tapu Fini|Water|Fairy|46.7|21.2}}
+{{weight/entry|0240|Magby|Fire|Fire|47.2|21.4}}
+{{weight/entry|0763|Tsareena|Grass|Grass|47.2|21.4}}
+{{weight/entry|0343|Baltoy|Ground|Psychic|47.4|21.5}}
+{{weight/entry|0701|Hawlucha|Fighting|Flying|47.4|21.5}}
+{{weight/entry|0913|Quaxwell|Water|Water|47.4|21.5}}
+{{weight/entry|0253|Grovyle|Grass|Grass|47.6|21.6}}
+{{weight/entry|0352|Kecleon|Normal|Normal|48.5|22.0}}
+{{weight/entry|0391|Monferno|Fire|Fighting|48.5|22.0}}
+{{weight/entry|0603|Eelektrik|Electric|Electric|48.5|22.0}}
+{{weight/entry|0758|Salazzle|Poison|Fire|48.9|22.2}}
+{{weight/entry|0802|Marshadow|Fighting|Ghost|48.9|22.2}}
+{{weight/entry|0008|Wartortle|Water|Water|49.6|22.5}}
+{{weight/entry|0171|Lanturn|Water|Electric|49.6|22.5}}
+{{weight/entry|0368|Gorebyss|Water|Water|49.8|22.6}}
+{{weight/entry|0058|Growlithe|name=Hisuian Growlithe|Fire|Rock|50.0|22.7|formimg=-Hisui}}
+{{weight/entry|0394|Prinplup|Water|Water|50.7|23.0}}
+{{weight/entry|0453|Croagunk|Poison|Fighting|50.7|23.0}}
+{{weight/entry|0414|Mothim|Bug|Flying|51.4|23.3}}
+{{weight/entry|0517|Munna|Psychic|Psychic|51.4|23.3}}
+{{weight/entry|0369|Relicanth|Water|Rock|51.6|23.4}}
+{{weight/entry|0239|Elekid|Electric|Electric|51.8|23.5}}
+{{weight/entry|0303|Mawile|name=Mega Mawile|Steel|Fairy|51.8|23.5|formimg=-Mega}}
+{{weight/entry|0700|Sylveon|Fairy|Fairy|51.8|23.5}}
+{{weight/entry|0340|Whiscash|Water|Ground|52.0|23.6}}
+{{weight/entry|0345|Lileep|Rock|Grass|52.5|23.8}}
+{{weight/entry|0077|Ponyta|name=Galarian Ponyta|Psychic|Psychic|52.9|24.0|formimg=-Galar}}
+{{weight/entry|0287|Slakoth|Normal|Normal|52.9|24.0}}
+{{weight/entry|0322|Numel|Fire|Ground|52.9|24.0}}
+{{weight/entry|0457|Lumineon|Water|Water|52.9|24.0}}
+{{weight/entry|0581|Swanna|Water|Flying|53.4|24.2}}
+{{weight/entry|0440|Happiny|Normal|Normal|53.8|24.4}}
+{{weight/entry|0135|Jolteon|Electric|Electric|54.0|24.5}}
+{{weight/entry|0502|Dewott|Water|Water|54.0|24.5}}
+{{weight/entry|0663|Talonflame|Fire|Flying|54.0|24.5}}
+{{weight/entry|0398|Staraptor|Normal|Flying|54.9|24.9}}
+{{weight/footer}}
+{{weight/header|55.1|25.0|110.0|49.9}}
+{{weight/entry|0117|Seadra|Water|Water|55.1|25.0}}
+{{weight/entry|0136|Flareon|Fire|Fire|55.1|25.0}}
+{{weight/entry|0159|Croconaw|Water|Water|55.1|25.0}}
+{{weight/entry|0726|Torracat|Fire|Fire|55.1|25.0}}
+{{weight/entry|0745|Lycanroc|Rock|Rock|55.1|25.0|form=Midday Form}}
+{{weight/entry|0745|Lycanroc|Rock|Rock|55.1|25.0|form=Midnight Form|formimg=-Midnight}}
+{{weight/entry|0745|Lycanroc|Rock|Rock|55.1|25.0|form=Dusk Form|formimg=-Dusk}}
+{{weight/entry|0795|Pheromosa|Bug|Fighting|55.1|25.0}}
+{{weight/entry|0698|Amaura|Rock|Ice|55.6|25.2}}
+{{weight/entry|0617|Accelgor|Bug|Bug|55.8|25.3}}
+{{weight/entry|0402|Kricketune|Bug|Bug|56.2|25.5}}
+{{weight/entry|0470|Leafeon|Grass|Grass|56.2|25.5}}
+{{weight/entry|0020|Raticate|name=Alolan Raticate|Dark|Normal|56.2|25.5|formimg=-Alola}}
+{{weight/entry|0471|Glaceon|Ice|Ice|57.1|25.9}}
+{{weight/entry|0696|Tyrunt|Rock|Dragon|57.3|26.0}}
+{{weight/entry|0733|Toucannon|Normal|Flying|57.3|26.0}}
+{{weight/entry|0196|Espeon|Psychic|Psychic|58.4|26.5}}
+{{weight/entry|0478|Froslass|Ice|Ghost|58.6|26.6}}
+{{weight/entry|0197|Umbreon|Dark|Dark|59.5|27.0}}
+{{weight/entry|0215|Sneasel|name=Hisuian Sneasel|Fighting|Poison|59.5|27.0|formimg=-Hisui}}
+{{weight/entry|0367|Huntail|Water|Water|59.5|27.0}}
+{{weight/entry|0455|Carnivine|Grass|Grass|59.5|27.0}}
+{{weight/entry|0505|Watchog|Normal|Normal|59.5|27.0}}
+{{weight/entry|0945|Grafaiai|Poison|Normal|60.0|27.2}}
+{{weight/entry|0430|Honchkrow|Dark|Flying|60.2|27.3}}
+{{weight/entry|0719|Diancie|name=Mega Diancie|Rock|Fairy|61.3|27.8|formimg=-Mega}}
+{{weight/entry|0056|Mankey|Fighting|Fighting|61.7|28.0}}
+{{weight/entry|0215|Sneasel|Dark|Ice|61.7|28.0}}
+{{weight/entry|0259|Marshtomp|Water|Ground|61.7|28.0}}
+{{weight/entry|0274|Nuzleaf|Grass|Dark|61.7|28.0}}
+{{weight/entry|0279|Pelipper|Water|Flying|61.7|28.0}}
+{{weight/entry|0514|Simisear|Fire|Fire|61.7|28.0}}
+{{weight/entry|0556|Maractus|Grass|Grass|61.7|28.0}}
+{{weight/entry|0676|Furfrou|Normal|Normal|61.7|28.0}}
+{{weight/entry|0863|Perrserker|Steel|Steel|61.7|28.0}}
+{{weight/entry|0876|Indeedee|Psychic|Normal|61.7|28.0}}
+{{weight/entry|0428|Lopunny|name=Mega Lopunny|Normal|Fighting|62.4|28.3|formimg=-Mega}}
+{{weight/entry|0267|Beautifly|Bug|Flying|62.6|28.4}}
+{{weight/entry|0184|Azumarill|Water|Fairy|62.8|28.5}}
+{{weight/entry|0202|Wobbuffet|Psychic|Psychic|62.8|28.5}}
+{{weight/entry|0224|Octillery|Water|Water|62.8|28.5}}
+{{weight/entry|0636|Larvesta|Bug|Fire|63.5|28.8}}
+{{weight/entry|0134|Vaporeon|Water|Water|63.9|29.0}}
+{{weight/entry|0516|Simipour|Water|Water|63.9|29.0}}
+{{weight/entry|0521|Unfezant|Normal|Flying|63.9|29.0}}
+{{weight/entry|0651|Quilladin|Grass|Grass|63.9|29.0}}
+{{weight/entry|0015|Beedrill|Bug|Poison|65.0|29.5}}
+{{weight/entry|0028|Sandslash|Ground|Ground|65.0|29.5}}
+{{weight/entry|0047|Parasect|Bug|Grass|65.0|29.5}}
+{{weight/entry|0418|Buizel|Water|Water|65.0|29.5}}
+{{weight/entry|0782|Jangmo-o|Dragon|Dragon|65.5|29.7}}
+{{weight/entry|0522|Blitzle|Electric|Electric|65.7|29.8}}
+{{weight/entry|0423|Gastrodon|Water|Ground|65.9|29.9}}
+{{weight/entry|0017|Pidgeotto|Normal|Flying|66.1|30.0}}
+{{weight/entry|0026|Raichu|Electric|Electric|66.1|30.0}}
+{{weight/entry|0048|Venonat|Bug|Poison|66.1|30.0}}
+{{weight/entry|0077|Ponyta|Fire|Fire|66.1|30.0}}
+{{weight/entry|0088|Grimer|Poison|Poison|66.1|30.0}}
+{{weight/entry|0089|Muk|Poison|Poison|66.1|30.0}}
+{{weight/entry|0125|Electabuzz|Electric|Electric|66.1|30.0}}
+{{weight/entry|0560|Scrafty|Dark|Fighting|66.1|30.0}}
+{{weight/entry|0847|Barraskewda|Water|Water|66.1|30.0}}
+{{weight/entry|0997|Arctibax|Dragon|Ice|66.1|30.0}}
+{{weight/entry|1000|Gholdengo|Steel|Ghost|66.1|30.0}}
+{{weight/entry|1016|Fezandipiti|Poison|Fairy|66.4|30.1}}
+{{weight/entry|0404|Luxio|Electric|Electric|67.2|30.5}}
+{{weight/entry|0512|Simisage|Grass|Grass|67.2|30.5}}
+{{weight/entry|0325|Spoink|Psychic|Psychic|67.5|30.6}}
+{{weight/entry|0356|Dusclops|Ghost|Ghost|67.5|30.6}}
+{{weight/entry|0910|Crocalor|Fire|Fire|67.7|30.7}}
+{{weight/entry|0531|Audino|Normal|Normal|68.3|31.0}}
+{{weight/entry|0568|Trubbish|Poison|Poison|68.3|31.0}}
+{{weight/entry|0672|Skiddo|Grass|Grass|68.3|31.0}}
+{{weight/entry|0688|Binacle|Rock|Water|68.3|31.0}}
+{{weight/entry|0908|Meowscarada|Grass|Dark|68.8|31.2}}
+{{weight/entry|0308|Medicham|Fighting|Psychic|69.4|31.5}}
+{{weight/entry|0400|Bibarel|Normal|Water|69.4|31.5}}
+{{weight/entry|0408|Cranidos|Rock|Rock|69.4|31.5}}
+{{weight/entry|0269|Dustox|Bug|Poison|69.7|31.6}}
+{{weight/entry|0594|Alomomola|Water|Water|69.7|31.6}}
+{{weight/entry|0012|Butterfree|Bug|Flying|70.5|32.0}}
+{{weight/entry|0053|Persian|Normal|Normal|70.5|32.0}}
+{{weight/entry|0057|Primeape|Fighting|Fighting|70.5|32.0}}
+{{weight/entry|0531|Audino|name=Mega Audino|Normal|Fairy|70.5|32.0|formimg=-Mega}}
+{{weight/entry|0567|Archeops|Rock|Flying|70.5|32.0}}
+{{weight/entry|0096|Drowzee|Psychic|Psychic|71.4|32.4}}
+{{weight/entry|0162|Furret|Normal|Normal|71.7|32.5}}
+{{weight/entry|0233|Porygon2|Normal|Normal|71.7|32.5}}
+{{weight/entry|0264|Linoone|Normal|Normal|71.7|32.5}}
+{{weight/entry|0264|Linoone|name=Galarian Linoone|Dark|Normal|71.7|32.5|formimg=-Galar}}
+{{weight/entry|0271|Lombre|Water|Grass|71.7|32.5}}
+{{weight/entry|0301|Delcatty|Normal|Normal|71.9|32.6}}
+{{weight/entry|0342|Crawdaunt|Water|Dark|72.3|32.8}}
+{{weight/entry|0053|Persian|name=Alolan Persian|Dark|Dark|72.8|33.0|formimg=-Alola}}
+{{weight/entry|0150|Mewtwo|name=Mega Mewtwo Y|Psychic|Psychic|72.8|33.0|formimg=-Mega Y}}
+{{weight/entry|0589|Escavalier|Bug|Steel|72.8|33.0}}
+{{weight/entry|0592|Frillish|Water|Ghost|72.8|33.0}}
+{{weight/entry|0632|Durant|Bug|Steel|72.8|33.0}}
+{{weight/entry|0815|Cinderace|Fire|Fire|72.8|33.0}}
+{{weight/entry|0948|Toedscool|Ground|Grass|72.8|33.0}}
+{{weight/entry|0051|Dugtrio|Ground|Ground|73.4|33.3}}
+{{weight/entry|0428|Lopunny|Normal|Normal|73.4|33.3}}
+{{weight/entry|0552|Krokorok|Ground|Dark|73.6|33.4}}
+{{weight/entry|0168|Ariados|Bug|Poison|73.9|33.5}}
+{{weight/entry|0231|Phanpy|Ground|Ground|73.9|33.5}}
+{{weight/entry|0419|Floatzel|Water|Water|73.9|33.5}}
+{{weight/entry|0718|Zygarde|Dragon|Ground|73.9|33.5|form=10% Forme|formimg=-10Percent}}
+{{weight/entry|0186|Politoed|Water|Water|74.7|33.9}}
+{{weight/entry|0105|Marowak|name=Alolan Marowak|Fire|Ghost|75.0|34.0|formimg=-Alola}}
+{{weight/entry|0461|Weavile|Dark|Ice|75.0|34.0}}
+{{weight/entry|0474|Porygon-Z|Normal|Normal|75.0|34.0}}
+{{weight/entry|0836|Boltund|Electric|Electric|75.0|34.0}}
+{{weight/entry|0609|Chandelure|Ghost|Fire|75.6|34.3}}
+{{weight/entry|0120|Staryu|Water|Water|76.1|34.5}}
+{{weight/entry|0606|Beheeyem|Psychic|Psychic|76.1|34.5}}
+{{weight/entry|0113|Chansey|Normal|Normal|76.3|34.6}}
+{{weight/entry|0114|Tangela|Grass|Grass|77.2|35.0}}
+{{weight/entry|0139|Omastar|Rock|Water|77.2|35.0}}
+{{weight/entry|0218|Slugma|Fire|Fire|77.2|35.0}}
+{{weight/entry|0229|Houndoom|Dark|Fire|77.2|35.0}}
+{{weight/entry|0965|Varoom|Steel|Poison|77.2|35.0}}
+{{weight/entry|0971|Greavard|Ghost|Ghost|77.2|35.0}}
+{{weight/entry|1006|Iron Valiant|Fairy|Fighting|77.2|35.0}}
+{{weight/entry|0693|Clawitzer|Water|Water|77.8|35.3}}
+{{weight/entry|0620|Mienshao|Fighting|Fighting|78.3|35.5}}
+{{weight/entry|0166|Ledian|Bug|Flying|78.5|35.6}}
+{{weight/entry|0079|Slowpoke|Water|Psychic|79.4|36.0}}
+{{weight/entry|0079|Slowpoke|name=Galarian Slowpoke|Psychic|Psychic|79.4|36.0|formimg=-Galar}}
+{{weight/entry|0611|Fraxure|Dragon|Dragon|79.4|36.0}}
+{{weight/entry|0994|Iron Moth|Fire|Poison|79.4|36.0}}
+{{weight/entry|0137|Porygon|Normal|Normal|80.5|36.5}}
+{{weight/entry|0724|Decidueye|Grass|Ghost|80.7|36.6}}
+{{weight/entry|0262|Mightyena|Dark|Dark|81.6|37.0}}
+{{weight/entry|0724|Decidueye|name=Hisuian Decidueye|Grass|Fighting|81.6|37.0|formimg=-Hisui}}
+{{weight/entry|0973|Flamigo|Flying|Fighting|81.6|37.0}}
+{{weight/entry|0510|Liepard|Dark|Dark|82.7|37.5}}
+{{weight/entry|0554|Darumaka|Fire|Fire|82.7|37.5}}
+{{weight/entry|0022|Fearow|Normal|Flying|83.8|38.0}}
+{{weight/entry|0185|Sudowoodo|Rock|Rock|83.8|38.0}}
+{{weight/entry|0193|Yanma|Bug|Flying|83.8|38.0}}
+{{weight/entry|0435|Skuntank|Poison|Dark|83.8|38.0}}
+{{weight/entry|0468|Togekiss|Fairy|Flying|83.8|38.0}}
+{{weight/entry|0416|Vespiquen|Bug|Flying|84.9|38.5}}
+{{weight/entry|0941|Kilowattrel|Electric|Flying|85.1|38.6}}
+{{weight/entry|0119|Seaking|Water|Water|86.0|39.0}}
+{{weight/entry|0655|Delphox|Fire|Psychic|86.0|39.0}}
+{{weight/entry|0711|Gourgeist|Ghost|Grass|86.0|39.0|form=Super Size}}
+{{weight/entry|0853|Grapploct|Fighting|Fighting|86.0|39.0}}
+{{weight/entry|0084|Doduo|Normal|Flying|86.4|39.2}}
+{{weight/entry|0286|Breloom|Grass|Fighting|86.4|39.2}}
+{{weight/entry|0982|Dudunsparce|Normal|Normal|86.4|39.2|form=Two-Segment Form}}
+{{weight/entry|0018|Pidgeot|Normal|Flying|87.1|39.5}}
+{{weight/entry|0363|Spheal|Ice|Water|87.1|39.5}}
+{{weight/entry|0630|Mandibuzz|Dark|Flying|87.1|39.5}}
+{{weight/entry|1017|Ogerpon|Grass|Grass|87.7|39.8|form=Teal Mask}}
+{{weight/entry|1017|Ogerpon|Grass|Water|87.7|39.8|form=Wellspring Mask|formimg=-Wellspring}}
+{{weight/entry|1017|Ogerpon|Grass|Fire|87.7|39.8|form=Hearthflame Mask|formimg=-Hearthflame}}
+{{weight/entry|1017|Ogerpon|Grass|Rock|87.7|39.8|form=Cornerstone Mask|formimg=-Cornerstone}}
+{{weight/entry|0027|Sandshrew|name=Alolan Sandshrew|Ice|Steel|88.2|40.0|formimg=-Alola}}
+{{weight/entry|0036|Clefable|Fairy|Fairy|88.2|40.0}}
+{{weight/entry|0380|Latias|Dragon|Psychic|88.2|40.0}}
+{{weight/entry|0533|Gurdurr|Fighting|Fighting|88.2|40.0}}
+{{weight/entry|0554|Darumaka|name=Galarian Darumaka|Ice|Ice|88.2|40.0|formimg=-Galar}}
+{{weight/entry|0658|Greninja|Water|Dark|88.2|40.0}}
+{{weight/entry|0658|Greninja|name=Ash-Greninja|Water|Dark|88.2|40.0|formimg=-Ash}}
+{{weight/entry|0774|Minior|Rock|Flying|88.2|40.0|form=Meteor Form}}
+{{weight/entry|0849|Toxtricity|Electric|Poison|88.2|40.0}}
+{{weight/entry|0884|Duraludon|Steel|Dragon|88.2|40.0}}
+{{weight/entry|0310|Manectric|Electric|Electric|88.6|40.2}}
+{{weight/entry|0335|Zangoose|Normal|Normal|88.8|40.3}}
+{{weight/entry|0530|Excadrill|Ground|Steel|89.1|40.4}}
+{{weight/entry|0015|Beedrill|name=Mega Beedrill|Bug|Poison|89.3|40.5|formimg=-Mega}}
+{{weight/entry|0094|Gengar|Ghost|Poison|89.3|40.5}}
+{{weight/entry|0141|Kabutops|Rock|Water|89.3|40.5}}
+{{weight/entry|0294|Loudred|Normal|Normal|89.3|40.5}}
+{{weight/entry|0124|Jynx|Ice|Psychic|89.5|40.6}}
+{{weight/entry|0164|Noctowl|Normal|Flying|89.9|40.8}}
+{{weight/entry|0826|Orbeetle|Bug|Psychic|89.9|40.8}}
+{{weight/entry|0583|Vanillish|Ice|Ice|90.4|41.0}}
+{{weight/entry|0628|Braviary|Normal|Flying|90.4|41.0}}
+{{weight/entry|0923|Pawmot|Electric|Fighting|90.4|41.0}}
+{{weight/entry|0203|Girafarig|Normal|Psychic|91.5|41.5}}
+{{weight/entry|0083|Farfetch'd|name=Galarian Farfetch'd|Fighting|Fighting|92.6|42.0|formimg=-Galar}}
+{{weight/entry|0088|Grimer|name=Alolan Grimer|Poison|Dark|92.6|42.0|formimg=-Alola}}
+{{weight/entry|0405|Luxray|Electric|Electric|92.6|42.0}}
+{{weight/entry|0873|Frosmoth|Ice|Bug|92.6|42.0}}
+{{weight/entry|0371|Bagon|Dragon|Dragon|92.8|42.1}}
+{{weight/entry|0660|Diggersby|Normal|Ground|93.5|42.4}}
+{{weight/entry|0472|Gliscor|Ground|Flying|93.7|42.5}}
+{{weight/entry|0962|Bombirdier|Flying|Dark|94.6|42.9}}
+{{weight/entry|0832|Dubwool|Normal|Normal|94.8|43.0}}
+{{weight/entry|0903|Sneasler|Fighting|Poison|94.8|43.0}}
+{{weight/entry|0628|Braviary|name=Hisuian Braviary|Psychic|Flying|95.7|43.4|formimg=-Hisui}}
+{{weight/entry|0432|Purugly|Normal|Normal|96.6|43.8}}
+{{weight/entry|0310|Manectric|name=Mega Manectric|Electric|Electric|97.0|44.0|formimg=-Mega}}
+{{weight/entry|0576|Gothitelle|Psychic|Psychic|97.0|44.0}}
+{{weight/entry|0730|Primarina|Water|Fairy|97.0|44.0}}
+{{weight/entry|0454|Toxicroak|Poison|Fighting|97.9|44.4}}
+{{weight/entry|0126|Magmar|Fire|Fire|98.1|44.5}}
+{{weight/entry|0807|Zeraora|Electric|Electric|98.1|44.5}}
+{{weight/entry|0897|Spectrier|Ghost|Ghost|98.1|44.5}}
+{{weight/entry|0105|Marowak|Ground|Ground|99.2|45.0}}
+{{weight/entry|0738|Vikavolt|Bug|Electric|99.2|45.0}}
+{{weight/entry|0970|Glimmora|Rock|Poison|99.2|45.0}}
+{{weight/entry|0974|Cetoddle|Ice|Ice|99.2|45.0}}
+{{weight/entry|0818|Inteleon|Water|Water|99.6|45.2}}
+{{weight/entry|0072|Tentacool|Water|Poison|100.3|45.5}}
+{{weight/entry|0787|Tapu Bulu|Grass|Fairy|100.3|45.5}}
+{{weight/entry|0637|Volcarona|Bug|Fire|101.4|46.0}}
+{{weight/entry|0862|Obstagoon|Dark|Normal|101.4|46.0}}
+{{weight/entry|0288|Vigoroth|Normal|Normal|102.5|46.5}}
+{{weight/entry|0242|Blissey|Normal|Normal|103.2|46.8}}
+{{weight/entry|0359|Absol|Dark|Dark|103.6|47.0}}
+{{weight/entry|0687|Malamar|Dark|Psychic|103.6|47.0}}
+{{weight/entry|0783|Hakamo-o|Dragon|Fighting|103.6|47.0}}
+{{weight/entry|0982|Dudunsparce|Normal|Normal|104.5|47.4|form=Three-Segment Form}}
+{{weight/entry|0065|Alakazam|Psychic|Psychic|105.8|48.0}}
+{{weight/entry|0237|Hitmontop|Fighting|Fighting|105.8|48.0}}
+{{weight/entry|0905|Enamorus|Fairy|Flying|105.8|48.0}}
+{{weight/entry|0930|Arboliva|Grass|Normal|106.3|48.2}}
+{{weight/entry|0282|Gardevoir|Psychic|Fairy|106.7|48.4}}
+{{weight/entry|0647|Keldeo|Water|Fighting|106.9|48.5}}
+{{weight/entry|0210|Granbull|Fairy|Fairy|107.4|48.7}}
+{{weight/entry|0359|Absol|name=Mega Absol|Dark|Dark|108.0|49.0|formimg=-Mega}}
+{{weight/entry|0229|Houndoom|name=Mega Houndoom|Dark|Fire|109.1|49.5|formimg=-Mega}}
+{{weight/entry|0449|Hippopotas|Ground|Ground|109.1|49.5}}
+{{weight/entry|0106|Hitmonlee|Fighting|Fighting|109.8|49.8}}
+{{weight/footer}}
+{{weight/header|110.2|50.0|132.1|59.9}}
+{{weight/entry|0634|Zweilous|Dark|Dragon|110.2|50.0}}
+{{weight/entry|0887|Dragapult|Dragon|Ghost|110.2|50.0}}
+{{weight/entry|0107|Hitmonchan|Fighting|Fighting|110.7|50.2}}
+{{weight/entry|0018|Pidgeot|name=Mega Pidgeot|Normal|Flying|111.3|50.5|formimg=-Mega}}
+{{weight/entry|0227|Skarmory|Steel|Flying|111.3|50.5}}
+{{weight/entry|0459|Snover|Grass|Ice|111.3|50.5}}
+{{weight/entry|0491|Darkrai|Dark|Dark|111.3|50.5}}
+{{weight/entry|0144|Articuno|name=Galarian Articuno|Psychic|Flying|112.2|50.9|formimg=-Galar}}
+{{weight/entry|0539|Sawk|Fighting|Fighting|112.4|51.0}}
+{{weight/entry|0600|Klang|Steel|Steel|112.4|51.0}}
+{{weight/entry|0331|Cacnea|Grass|Grass|113.1|51.3}}
+{{weight/entry|0469|Yanmega|Bug|Flying|113.5|51.5}}
+{{weight/entry|0089|Muk|name=Alolan Muk|Poison|Dark|114.6|52.0|formimg=-Alola}}
+{{weight/entry|0257|Blaziken|Fire|Fighting|114.6|52.0}}
+{{weight/entry|0380|Latias|name=Mega Latias|Dragon|Psychic|114.6|52.0|formimg=-Mega}}
+{{weight/entry|0475|Gallade|Psychic|Fighting|114.6|52.0}}
+{{weight/entry|0254|Sceptile|Grass|Grass|115.1|52.2}}
+{{weight/entry|0336|Seviper|Poison|Poison|115.7|52.5}}
+{{weight/entry|0366|Clamperl|Water|Water|115.7|52.5}}
+{{weight/entry|0145|Zapdos|Electric|Flying|116.0|52.6}}
+{{weight/entry|0681|Aegislash|Steel|Ghost|116.8|53.0}}
+{{weight/entry|0898|Calyrex|name=Shadow Rider Calyrex|Psychic|Ghost|118.2|53.6|formimg=-Shadow Rider}}
+{{weight/entry|0062|Poliwrath|Water|Fighting|119.0|54.0}}
+{{weight/entry|0214|Heracross|Bug|Fighting|119.0|54.0}}
+{{weight/entry|0448|Lucario|Fighting|Steel|119.0|54.0}}
+{{weight/entry|0122|Mr. Mime|Psychic|Fairy|120.2|54.5}}
+{{weight/entry|0028|Sandslash|name=Alolan Sandslash|Ice|Steel|121.3|55.0|formimg=-Alola}}
+{{weight/entry|0042|Golbat|Poison|Flying|121.3|55.0}}
+{{weight/entry|0073|Tentacruel|Water|Poison|121.3|55.0}}
+{{weight/entry|0127|Pinsir|Bug|Bug|121.3|55.0}}
+{{weight/entry|0219|Magcargo|Fire|Rock|121.3|55.0}}
+{{weight/entry|0272|Ludicolo|Water|Grass|121.3|55.0}}
+{{weight/entry|0392|Infernape|Fire|Fighting|121.3|55.0}}
+{{weight/entry|0254|Sceptile|name=Mega Sceptile|Grass|Dragon|121.7|55.2|formimg=-Mega}}
+{{weight/entry|0144|Articuno|Ice|Flying|122.1|55.4}}
+{{weight/entry|0499|Pignite|Fire|Fighting|122.4|55.5}}
+{{weight/entry|0538|Throh|Fighting|Fighting|122.4|55.5}}
+{{weight/entry|0793|Nihilego|Rock|Poison|122.4|55.5}}
+{{weight/entry|0221|Piloswine|Ice|Ground|123.0|55.8}}
+{{weight/entry|0123|Scyther|Bug|Flying|123.5|56.0}}
+{{weight/entry|0444|Gabite|Dragon|Ground|123.5|56.0}}
+{{weight/entry|0979|Annihilape|Fighting|Ghost|123.5|56.0}}
+{{weight/entry|0475|Gallade|name=Mega Gallade|Psychic|Fighting|124.3|56.4|formimg=-Mega}}
+{{weight/entry|0064|Kadabra|Psychic|Psychic|124.6|56.5}}
+{{weight/entry|0122|Mr. Mime|name=Galarian Mr. Mime|Ice|Psychic|125.2|56.8|formimg=-Galar}}
+{{weight/entry|0410|Shieldon|Rock|Steel|125.7|57.0}}
+{{weight/entry|0448|Lucario|name=Mega Lucario|Fighting|Steel|126.8|57.5|formimg=-Mega}}
+{{weight/entry|0584|Vanilluxe|Ice|Ice|126.8|57.5}}
+{{weight/entry|0235|Smeargle|Normal|Normal|127.9|58.0}}
+{{weight/entry|0631|Heatmor|Fire|Fire|127.9|58.0}}
+{{weight/entry|0754|Lurantis|Grass|Grass|127.9|58.0|form=Totem-sized}}
+{{weight/entry|0949|Toedscruel|Ground|Grass|127.9|58.0}}
+{{weight/entry|0145|Zapdos|name=Galarian Zapdos|Fighting|Flying|128.3|58.2|formimg=-Galar}}
+{{weight/entry|0503|Samurott|name=Hisuian Samurott|Water|Dark|128.3|58.2|formimg=-Hisui}}
+{{weight/entry|0866|Mr. Rime|Ice|Psychic|128.3|58.2}}
+{{weight/entry|0544|Whirlipede|Bug|Poison|129.0|58.5}}
+{{weight/entry|0127|Pinsir|name=Mega Pinsir|Bug|Flying|130.1|59.0|formimg=-Mega}}
+{{weight/entry|0142|Aerodactyl|Rock|Flying|130.1|59.0}}
+{{weight/entry|0958|Tinkatuff|Fairy|Steel|130.3|59.1}}
+{{weight/entry|0275|Shiftry|Grass|Dark|131.4|59.6}}
+{{weight/footer}}
+{{weight/header|132.3|60.0|218.0|98.9}}
+{{weight/entry|0031|Nidoqueen|Poison|Ground|132.3|60.0}}
+{{weight/entry|0082|Magneton|Electric|Steel|132.3|60.0}}
+{{weight/entry|0099|Kingler|Water|Water|132.3|60.0}}
+{{weight/entry|0146|Moltres|Fire|Flying|132.3|60.0}}
+{{weight/entry|0304|Aron|Steel|Rock|132.3|60.0}}
+{{weight/entry|0381|Latios|Dragon|Psychic|132.3|60.0}}
+{{weight/entry|0735|Gumshoos|Normal|Normal|132.3|60.0|form=Totem-sized}}
+{{weight/entry|0989|Sandy Shocks|Electric|Ground|132.3|60.0}}
+{{weight/entry||Archaludon|Steel|Dragon|132.3|60.0}}
+{{weight/entry|0963|Finizen|Water|Water|132.7|60.2}}
+{{weight/entry|0964|Palafin|Water|Water|132.7|60.2|form=Zero Form}}
+{{weight/entry|0346|Cradily|Rock|Grass|133.2|60.4}}
+{{weight/entry|0436|Bronzor|Steel|Psychic|133.4|60.5}}
+{{weight/entry|0518|Musharna|Psychic|Psychic|133.4|60.5}}
+{{weight/entry|0904|Overqwil|Dark|Poison|133.4|60.5}}
+{{weight/entry|0386|Deoxys|Psychic|Psychic|134.0|60.8|form=Normal Forme}}
+{{weight/entry|0386|Deoxys|Psychic|Psychic|134.0|60.8|form=Attack Forme|formimg=-Attack}}
+{{weight/entry|0386|Deoxys|Psychic|Psychic|134.0|60.8|form=Defense Forme|formimg=-Defense}}
+{{weight/entry|0386|Deoxys|Psychic|Psychic|134.0|60.8|form=Speed Forme|formimg=-Speed}}
+{{weight/entry|0508|Stoutland|Normal|Normal|134.5|61.0}}
+{{weight/entry|0642|Thundurus|Electric|Flying|134.5|61.0}}
+{{weight/entry|0861|Grimmsnarl|Dark|Fairy|134.5|61.0}}
+{{weight/entry|0943|Mabosstiff|Dark|Dark|134.5|61.0}}
+{{weight/entry|0181|Ampharos|Electric|Electric|135.6|61.5}}
+{{weight/entry|0452|Drapion|Poison|Dark|135.6|61.5}}
+{{weight/entry|0914|Quaquaval|Water|Fighting|136.5|61.9}}
+{{weight/entry|0034|Nidoking|Poison|Ground|136.7|62.0}}
+{{weight/entry|0537|Seismitoad|Water|Ground|136.7|62.0}}
+{{weight/entry|0870|Falinks|Fighting|Fighting|136.7|62.0}}
+{{weight/entry|0937|Ceruledge|Fire|Ghost|136.7|62.0}}
+{{weight/entry|0214|Heracross|name=Mega Heracross|Bug|Fighting|137.8|62.5|formimg=-Mega}}
+{{weight/entry|0497|Serperior|Grass|Grass|138.9|63.0}}
+{{weight/entry|0641|Tornadus|Flying|Flying|138.9|63.0}}
+{{weight/entry|0967|Cyclizar|Dragon|Normal|138.9|63.0}}
+{{weight/entry|0207|Gligar|Ground|Flying|142.9|64.8}}
+{{weight/entry|0024|Arbok|Poison|Poison|143.3|65.0}}
+{{weight/entry|0458|Mantyke|Water|Flying|143.3|65.0}}
+{{weight/entry|0108|Lickitung|Normal|Normal|144.4|65.5}}
+{{weight/entry|0844|Sandaconda|Ground|Ground|144.4|65.5}}
+{{weight/entry|0146|Moltres|name=Galarian Moltres|Dark|Flying|145.5|66.0|formimg=-Galar}}
+{{weight/entry|0101|Electrode|Electric|Electric|146.8|66.6}}
+{{weight/entry|0867|Runerigus|Ground|Ghost|146.8|66.6}}
+{{weight/entry|0051|Dugtrio|name=Alolan Dugtrio|Ground|Steel|146.8|66.6|formimg=-Alola}}
+{{weight/entry|0467|Magmortar|Fire|Fire|149.9|68.0}}
+{{weight/entry|0645|Landorus|Ground|Flying|149.9|68.0}}
+{{weight/entry|0348|Armaldo|Rock|Bug|150.4|68.2}}
+{{weight/entry|0705|Sliggoo|name=Hisuian Sliggoo|Steel|Dragon|151.0|68.5|formimg=-Hisui}}
+{{weight/entry|0157|Typhlosion|name=Hisuian Typhlosion|Fire|Ghost|153.9|69.8|formimg=-Hisui}}
+{{weight/entry|0381|Latios|name=Mega Latios|Dragon|Psychic|154.3|70.0|formimg=-Mega}}
+{{weight/entry|0625|Bisharp|Dark|Steel|154.3|70.0}}
+{{weight/entry|0769|Sandygast|Ghost|Ground|154.3|70.0}}
+{{weight/entry|0893|Zarude|Dark|Grass|154.3|70.0}}
+{{weight/entry|0067|Machoke|Fighting|Fighting|155.4|70.5}}
+{{weight/entry|0080|Slowbro|name=Galarian Slowbro|Poison|Psychic|155.4|70.5|formimg=-Galar}}
+{{weight/entry|0101|Electrode|name=Hisuian Electrode|Electric|Grass|156.5|71.0|formimg=-Hisui}}
+{{weight/entry|0709|Trevenant|Ghost|Grass|156.5|71.0}}
+{{weight/entry|0234|Stantler|Normal|Normal|157.0|71.2}}
+{{weight/entry|0326|Grumpig|Psychic|Psychic|157.6|71.5}}
+{{weight/entry|0246|Larvitar|Rock|Ground|158.7|72.0}}
+{{weight/entry|0571|Zoroark|name=Hisuian Zoroark|Normal|Ghost|160.9|73.0|formimg=-Hisui}}
+{{weight/entry|1001|Wo-Chien|Dark|Grass|163.6|74.2}}
+{{weight/entry|0169|Crobat|Poison|Flying|165.3|75.0}}
+{{weight/entry|0195|Quagsire|Water|Ground|165.3|75.0}}
+{{weight/entry|0823|Corviknight|Flying|Steel|165.3|75.0}}
+{{weight/entry|0241|Miltank|Normal|Normal|166.4|75.5}}
+{{weight/entry|0097|Hypno|Psychic|Psychic|166.7|75.6}}
+{{weight/entry|0765|Oranguru|Normal|Psychic|167.6|76.0}}
+{{weight/entry|0563|Cofagrigus|Ghost|Ghost|168.7|76.5}}
+{{weight/entry|0055|Golduck|Water|Water|168.9|76.6}}
+{{weight/entry|0332|Cacturne|Grass|Dark|170.6|77.4}}
+{{weight/entry|0838|Carkol|Rock|Fire|172.0|78.0}}
+{{weight/entry|0784|Kommo-o|Dragon|Fighting|172.4|78.2}}
+{{weight/entry|0080|Slowbro|Water|Psychic|173.1|78.5}}
+{{weight/entry|0746|Wishiwashi|Water|Water|173.3|78.6|form=School Form|formimg=-School}}
+{{weight/entry|0142|Aerodactyl|name=Mega Aerodactyl|Rock|Flying|174.2|79.0|formimg=-Mega}}
+{{weight/entry|0950|Klawf|Rock|Rock|174.2|79.0}}
+{{weight/entry|0157|Typhlosion|Fire|Fire|175.3|79.5}}
+{{weight/entry|0199|Slowking|Water|Psychic|175.3|79.5}}
+{{weight/entry|0199|Slowking|name=Galarian Slowking|Poison|Psychic|175.3|79.5|formimg=-Galar}}
+{{weight/entry|0523|Zebstrika|Electric|Electric|175.3|79.5}}
+{{weight/entry|0115|Kangaskhan|Normal|Normal|176.4|80.0}}
+{{weight/entry|0121|Starmie|Water|Psychic|176.4|80.0}}
+{{weight/entry|0317|Swalot|Poison|Poison|176.4|80.0}}
+{{weight/entry|0078|Rapidash|name=Galarian Rapidash|Psychic|Fairy|176.4|80.0|formimg=-Galar}}
+{{weight/entry|0324|Torkoal|Fire|Fire|177.3|80.4}}
+{{weight/entry|0604|Eelektross|Electric|Electric|177.5|80.5}}
+{{weight/entry|0801|Magearna|Steel|Fairy|177.5|80.5}}
+{{weight/entry|0565|Carracosta|Water|Rock|178.6|81.0}}
+{{weight/entry|0601|Klinklang|Steel|Steel|178.6|81.0}}
+{{weight/entry|0571|Zoroark|Dark|Dark|178.8|81.1}}
+{{weight/entry|0758|Salazzle|Poison|Fire|178.6|81.0|form=Totem-sized}}
+{{weight/entry|0668|Pyroar|Fire|Normal|179.7|81.5}}
+{{weight/entry|0691|Dragalge|Poison|Dragon|179.7|81.5}}
+{{weight/entry|0260|Swampert|Water|Ground|180.6|81.9}}
+{{weight/entry|0330|Flygon|Ground|Dragon|180.8|82.0}}
+{{weight/entry|0752|Araquanid|Water|Bug|180.8|82.0}}
+{{weight/entry|0649|Genesect|Bug|Steel|181.9|82.5}}
+{{weight/entry|0766|Passimian|Fighting|Fighting|182.5|82.8}}
+{{weight/entry|0727|Incineroar|Fire|Dark|183.0|83.0}}
+{{weight/entry|0295|Exploud|Normal|Normal|185.2|84.0}}
+{{weight/entry|0395|Empoleon|Water|Steel|186.3|84.5}}
+{{weight/entry|0128|Tauros|name=Paldean Tauros|Fighting|Fire|187.4|85.0|form=Blaze Breed|formimg=-Paldea Blaze}}
+{{weight/entry|0715|Noivern|Flying|Dragon|187.4|85.0}}
+{{weight/entry|0936|Armarouge|Fire|Psychic|187.4|85.0}}
+{{weight/entry|0085|Dodrio|Normal|Flying|187.8|85.2}}
+{{weight/entry|0009|Blastoise|Water|Water|188.5|85.5}}
+{{weight/entry|0488|Cresselia|Psychic|Psychic|188.7|85.6}}
+{{weight/entry|0296|Makuhita|Fighting|Fighting|190.5|86.4}}
+{{weight/entry|0534|Conkeldurr|Fighting|Fighting|191.8|87.0}}
+{{weight/entry|0364|Sealeo|Ice|Water|193.1|87.6}}
+{{weight/entry|0128|Tauros|Normal|Normal|194.9|88.4}}
+{{weight/entry|0160|Feraligatr|Water|Water|195.8|88.8}}
+{{weight/entry|0319|Sharpedo|Water|Dark|195.8|88.8}}
+{{weight/entry|0875|Eiscue|Ice|Ice|196.2|89.0}}
+{{weight/entry|0900|Kleavor|Bug|Rock|196.2|89.0}}
+{{weight/entry|0086|Seel|Water|Water|198.4|90.0}}
+{{weight/entry|0652|Chesnaught|Grass|Fighting|198.4|90.0}}
+{{weight/entry|0812|Rillaboom|Grass|Grass|198.4|90.0}}
+{{weight/entry|0956|Espathra|Psychic|Psychic|198.4|90.0}}
+{{weight/entry|0976|Veluza|Water|Psychic|198.4|90.0}}
+{{weight/entry|0006|Charizard|Fire|Flying|199.5|90.5}}
+{{weight/entry|0673|Gogoat|Grass|Grass|200.6|91.0}}
+{{weight/entry|0622|Golett|Ground|Ghost|202.8|92.0}}
+{{weight/entry|0988|Slither Wing|Bug|Fighting|202.8|92.0}}
+{{weight/entry|1014|Okidogi|Poison|Fighting|203.3|92.2}}
+{{weight/entry|0586|Sawsbuck|Normal|Grass|203.9|92.5}}
+{{weight/entry|0555|Darmanitan|Fire|Fire|204.8|92.9}}
+{{weight/entry|0626|Bouffalant|Normal|Normal|208.6|94.6}}
+{{weight/entry|0503|Samurott|Water|Water|208.6|94.6}}
+{{weight/entry|0078|Rapidash|Fire|Fire|209.4|95.0}}
+{{weight/entry|0445|Garchomp|Dragon|Ground|209.4|95.0}}
+{{weight/entry|0899|Wyrdeer|Normal|Psychic|209.7|95.1}}
+{{weight/entry|0374|Beldum|Steel|Psychic|209.9|95.2}}
+{{weight/entry|0689|Barbaracle|Rock|Water|211.6|96.0}}
+{{weight/entry|0553|Krookodile|Ground|Dark|212.3|96.3}}
+{{weight/entry|0299|Nosepass|Rock|Rock|213.8|97.0}}
+{{weight/entry|0388|Grotle|Grass|Grass|213.8|97.0}}
+{{weight/entry|0964|Palafin|Water|Water|214.7|97.4|form=Hero Form|formimg=-Hero}}
+{{weight/entry|0105|Marowak|name=Alolan Marowak|Fire|Ghost|216.1|98.0|form=Totem-sized|formimg=-Alola}}
+{{weight/footer}}
+{{weight/header|218.3|99.0|220.2|99.9}}
+{{weight/entry|0712|Bergmite|Ice|Ice|219.4|99.5}}
+{{weight/footer}}
+{{weight/header|220.5|100.0|225.5|102.3}}
+{{weight/entry|0003|Venusaur|Grass|Poison|220.5|100.0}}
+{{weight/entry|0115|Kangaskhan|name=Mega Kangaskhan|Normal|Normal|220.5|100.0|formimg=-Mega}}
+{{weight/entry|0357|Tropius|Grass|Flying|220.5|100.0}}
+{{weight/entry|0796|Xurkitree|Electric|Electric|220.5|100.0}}
+{{weight/entry|0878|Cufant|Steel|Steel|220.5|100.0}}
+{{weight/entry|0006|Charizard|name=Mega Charizard Y|Fire|Flying|221.6|100.5|formimg=-Mega Y}}
+{{weight/entry|0154|Meganium|Grass|Grass|221.6|100.5}}
+{{weight/entry|0773|Silvally|Normal|Normal|221.6|100.5}}
+{{weight/entry|0009|Blastoise|name=Mega Blastoise|Water|Water|222.9|101.1|formimg=-Mega}}
+{{weight/entry|0260|Swampert|name=Mega Swampert|Water|Ground|224.9|102.0|formimg=-Mega}}
+{{weight/entry|0525|Boldore|Rock|Rock|224.9|102.0}}
+{{weight/footer}}
+{{weight/header|225.8|102.4|330.5|149.9}}
+{{weight/entry|0409|Rampardos|Rock|Rock|226.0|102.5}}
+{{weight/entry|0373|Salamence|Dragon|Flying|226.2|102.6}}
+{{weight/entry|0075|Graveler|Rock|Ground|231.5|105.0}}
+{{weight/entry|0446|Munchlax|Normal|Normal|231.5|105.0}}
+{{weight/entry|0020|Raticate|name=Alolan Raticate|Dark|Normal|231.5|105.0|form=Totem-sized|formimg=-Alola}}
+{{weight/entry|0892|Urshifu|Fighting|Dark|231.5|105.0|form=Single Strike Style|formimg=-Single Strike}}
+{{weight/entry|0892|Urshifu|Fighting|Water|231.5|105.0|form=Rapid Strike Style|formimg=-Rapid Strike}}
+{{weight/entry|0933|Naclstack|Rock|Rock|231.5|105.0}}
+{{weight/entry|0612|Haxorus|Dragon|Dragon|232.6|105.5}}
+{{weight/entry|0477|Dusknoir|Ghost|Ghost|235.0|106.6}}
+{{weight/entry|0569|Garbodor|Poison|Poison|236.6|107.3}}
+{{weight/entry|0344|Claydol|Ground|Psychic|238.1|108.0}}
+{{weight/entry|0442|Spiritomb|Ghost|Dark|238.1|108.0}}
+{{weight/entry|0768|Golisopod|Bug|Water|238.1|108.0}}
+{{weight/entry|0075|Graveler|name=Alolan Graveler|Rock|Electric|242.5|110.0|formimg=-Alola}}
+{{weight/entry|0128|Tauros|name=Paldean Tauros|Fighting|Water|242.5|110.0|form=Aqua Breed|formimg=-Paldea Aqua}}
+{{weight/entry|0598|Ferrothorn|Grass|Steel|242.5|110.0}}
+{{weight/entry|0749|Mudbray|Ground|Ground|242.5|110.0}}
+{{weight/entry|0888|Zacian|Fairy|Fairy|242.5|110.0|form=Hero of Many Battles|formimg=-Hero}}
+{{weight/entry|0902|Basculegion|Water|Ghost|242.5|110.0}}
+{{weight/entry|0006|Charizard|name=Mega Charizard X|Fire|Dragon|243.6|110.5|formimg=-Mega X}}
+{{weight/entry|0372|Shelgon|Dragon|Dragon|243.6|110.5}}
+{{weight/entry|0993|Iron Jugulis|Dark|Flying|244.7|111.0}}
+{{weight/entry|0373|Salamence|name=Mega Salamence|Dragon|Flying|248.2|112.6|formimg=-Mega}}
+{{weight/entry|0959|Tinkaton|Fairy|Steel|248.7|112.8}}
+{{weight/entry|0939|Bellibolt|Electric|Electric|249.1|113.0}}
+{{weight/entry|0111|Rhyhorn|Ground|Rock|253.5|115.0}}
+{{weight/entry|0128|Tauros|name=Paldean Tauros|Fighting|Fighting|253.5|115.0|form=Combat Breed|formimg=-Paldea Combat}}
+{{weight/entry|0834|Drednaw|Water|Rock|254.6|115.5}}
+{{weight/entry|0865|Sirfetch'd|Fighting|Fighting|257.9|117.0}}
+{{weight/entry|0212|Scizor|Bug|Steel|260.1|118.0}}
+{{weight/entry|0087|Dewgong|Water|Ice|264.6|120.0}}
+{{weight/entry|0080|Slowbro|name=Mega Slowbro|Water|Psychic|264.6|120.0|formimg=-Mega}}
+{{weight/entry|0103|Exeggutor|Grass|Psychic|264.6|120.0}}
+{{weight/entry|0112|Rhydon|Ground|Rock|264.6|120.0}}
+{{weight/entry|0232|Donphan|Ground|Ground|264.6|120.0}}
+{{weight/entry|0305|Lairon|Steel|Rock|264.6|120.0}}
+{{weight/entry|0792|Lunala|Psychic|Ghost|264.6|120.0}}
+{{weight/entry|0851|Centiskorch|Fire|Bug|264.6|120.0}}
+{{weight/entry|0555|Darmanitan|name=Galarian Darmanitan|Ice|Ice|264.6|120.0|formimg=-Galar}}
+{{weight/entry|0916|Oinkologne|Normal|Normal|264.6|120.0}}
+{{weight/entry|0966|Revavroom|Steel|Poison|264.6|120.0}}
+{{weight/entry|0983|Kingambit|Dark|Steel|264.6|120.0}}
+{{weight/entry|0772|Type: Null|Normal|Normal|265.7|120.5}}
+{{weight/entry|0150|Mewtwo|Psychic|Psychic|269.0|122.0}}
+{{weight/entry|0212|Scizor|name=Mega Scizor|Bug|Steel|275.6|125.0|formimg=-Mega}}
+{{weight/entry|1010|Iron Leaves|Grass|Psychic|275.6|125.0}}
+{{weight/entry|0205|Forretress|Bug|Steel|277.3|125.8}}
+{{weight/entry|0217|Ursaring|Normal|Normal|277.3|125.8}}
+{{weight/entry|0150|Mewtwo|name=Mega Mewtwo X|Psychic|Fighting|280.0|127.0|formimg=-Mega X}}
+{{weight/entry|0465|Tangrowth|Grass|Grass|283.5|128.6}}
+{{weight/entry|0068|Machamp|Fighting|Fighting|286.6|130.0}}
+{{weight/entry|0320|Wailmer|Water|Water|286.6|130.0}}
+{{weight/entry|0319|Sharpedo|name=Mega Sharpedo|Water|Dark|287.3|130.3|formimg=-Mega}}
+{{weight/entry|0289|Slaking|Normal|Normal|287.7|130.5}}
+{{weight/entry|0091|Cloyster|Water|Ice|292.1|132.5}}
+{{weight/entry|0593|Jellicent|Water|Ghost|297.6|135.0}}
+{{weight/entry|0760|Bewear|Normal|Fighting|297.6|135.0}}
+{{weight/entry|0460|Abomasnow|Grass|Ice|298.7|135.5}}
+{{weight/entry|0675|Pangoro|Fighting|Dark|299.8|136.0}}
+{{weight/entry|0466|Electivire|Electric|Electric|305.6|138.6}}
+{{weight/entry|0621|Druddigon|Dragon|Dragon|306.4|139.0}}
+{{weight/entry|0463|Lickilicky|Normal|Normal|308.6|140.0}}
+{{weight/entry|0894|Regieleki|Electric|Electric|319.7|145.0}}
+{{weight/entry|0738|Vikavolt|Bug|Electric|325.2|147.5|form=Totem-sized}}
+{{weight/entry|0615|Cryogonal|Ice|Ice|326.3|148.0}}
+{{weight/entry|0411|Bastiodon|Rock|Steel|329.6|149.5}}
+{{weight/footer}}
+{{weight/header|330.7|150.0|440.7|199.9}}
+{{weight/entry|0500|Emboar|Fire|Fighting|330.7|150.0}}
+{{weight/entry|0804|Naganadel|Poison|Dragon|330.7|150.0}}
+{{weight/entry|0881|Arctozolt|Electric|Ice|330.7|150.0}}
+{{weight/entry|0706|Goodra|Dragon|Dragon|331.8|150.5}}
+{{weight/entry|0365|Walrein|Ice|Water|332.0|150.6}}
+{{weight/entry|0230|Kingdra|Water|Dragon|335.1|152.0}}
+{{weight/entry|0247|Pupitar|Rock|Ground|335.1|152.0}}
+{{weight/entry|1002|Chien-Pao|Dark|Ice|335.5|152.2}}
+{{weight/entry|0338|Solrock|Rock|Psychic|339.5|154.0}}
+{{weight/entry|0059|Arcanine|Fire|Fire|341.7|155.0}}
+{{weight/entry|0003|Venusaur|name=Mega Venusaur|Grass|Poison|342.8|155.5|formimg=-Mega}}
+{{weight/entry||Iron Crown|Steel|Psychic|343.9|156.0}}
+{{weight/entry|0635|Hydreigon|Dark|Dragon|352.7|160.0}}
+{{weight/entry|0981|Farigiraf|Normal|Psychic|352.7|160.0}}
+{{weight/entry|0302|Sableye|name=Mega Sableye|Dark|Ghost|354.9|161.0|formimg=-Mega}}
+{{weight/entry|0350|Milotic|Water|Water|357.1|162.0}}
+{{weight/entry|0059|Arcanine|name=Hisuian Arcanine|Fire|Rock|370.4|168.0|formimg=-Hisui}}
+{{weight/entry|0337|Lunatone|Rock|Psychic|370.4|168.0}}
+{{weight/entry|0378|Regice|Ice|Ice|385.8|175.0}}
+{{weight/entry|0883|Arctovish|Water|Ice|385.8|175.0}}
+{{weight/entry|0243|Raikou|Electric|Electric|392.4|178.0}}
+{{weight/entry|0462|Magnezone|Electric|Steel|396.8|180.0}}
+{{weight/entry|0740|Crabominable|Fighting|Ice|396.8|180.0}}
+{{weight/entry|0460|Abomasnow|name=Mega Abomasnow|Grass|Ice|407.9|185.0|formimg=-Mega}}
+{{weight/entry|0780|Drampa|Normal|Dragon|407.9|185.0}}
+{{weight/entry|0245|Suicune|Water|Water|412.3|187.0}}
+{{weight/entry|0437|Bronzong|Steel|Psychic|412.3|187.0}}
+{{weight/entry|0880|Dracozolt|Electric|Dragon|418.9|190.0}}
+{{weight/entry|0721|Volcanion|Fire|Water|429.9|195.0}}
+{{weight/entry|0244|Entei|Fire|Fire|436.5|198.0}}
+{{weight/entry|0250|Ho-Oh|Fire|Flying|438.7|199.0}}
+{{weight/footer}}
+{{weight/header|440.9|200.0|451.3|204.7}}
+{{weight/entry|0558|Crustle|Bug|Rock|440.9|200.0}}
+{{weight/entry|0640|Virizion|Grass|Fighting|440.9|200.0}}
+{{weight/entry|0895|Regidrago|Dragon|Dragon|440.9|200.0}}
+{{weight/entry|0545|Scolipede|Bug|Poison|442.0|200.5}}
+{{weight/entry|0248|Tyranitar|Rock|Dark|445.3|202.0}}
+{{weight/entry|0375|Metang|Steel|Psychic|446.4|202.5}}
+{{weight/entry|0717|Yveltal|Dark|Flying|447.5|203.0}}
+{{weight/footer}}
+{{weight/header|451.5|204.8|661.2|299.9}}
+{{weight/entry|0379|Registeel|Steel|Steel|451.9|205.0}}
+{{weight/entry|0384|Rayquaza|Dragon|Flying|455.3|206.5}}
+{{weight/entry|0784|Kommo-o|Dragon|Fighting|457.5|207.5|form=Totem-sized}}
+{{weight/entry|0095|Onix|Rock|Ground|463.0|210.0}}
+{{weight/entry|0149|Dragonite|Dragon|Flying|463.0|210.0}}
+{{weight/entry|0781|Dhelmise|Ghost|Grass|463.0|210.0}}
+{{weight/entry|0889|Zamazenta|Fighting|Fighting|463.0|210.0|form=Hero of Many Battles|formimg=-Hero}}
+{{weight/entry|0998|Baxcalibur|Dragon|Ice|463.0|210.0}}
+{{weight/entry|0776|Turtonator|Fire|Dragon|467.4|212.0}}
+{{weight/entry|0716|Xerneas|Fairy|Fairy|474.0|215.0}}
+{{weight/entry|0882|Dracovish|Water|Dragon|474.0|215.0}}
+{{weight/entry|0249|Lugia|Psychic|Flying|476.2|216.0}}
+{{weight/entry|0752|Araquanid|Water|Bug|479.5|217.5|form=Totem-sized}}
+{{weight/entry|0131|Lapras|Water|Ice|485.0|220.0}}
+{{weight/entry|0226|Mantine|Water|Flying|485.0|220.0}}
+{{weight/entry|0323|Camerupt|Fire|Ground|485.0|220.0}}
+{{weight/entry|0977|Dondozo|Water|Water|485.0|220.0}}
+{{weight/entry|0980|Clodsire|Poison|Ground|491.6|223.0}}
+{{weight/entry|0699|Aurorus|Rock|Ice|496.0|225.0}}
+{{weight/entry|0377|Regirock|Rock|Rock|507.1|230.0}}
+{{weight/entry|0791|Solgaleo|Psychic|Steel|507.1|230.0}}
+{{weight/entry|0800|Necrozma|Psychic|Psychic|507.1|230.0}}
+{{weight/entry|0800|Necrozma|name=Ultra Necrozma|Psychic|Dragon|507.1|230.0|formimg=-Ultra}}
+{{weight/entry|0130|Gyarados|Water|Flying|518.1|235.0}}
+{{weight/entry|0934|Garganacl|Rock|Rock|529.1|240.0}}
+{{weight/entry|0990|Iron Treads|Ground|Steel|529.1|240.0}}
+{{weight/entry|1008|Miraidon|Electric|Dragon|529.1|240.0}}
+{{weight/entry|0638|Cobalion|Steel|Fighting|551.2|250.0}}
+{{weight/entry|0770|Palossand|Ghost|Ground|551.2|250.0}}
+{{weight/entry|0297|Hariyama|Fighting|Fighting|559.5|253.8}}
+{{weight/entry|0248|Tyranitar|name=Mega Tyranitar|Rock|Dark|562.2|255.0|formimg=-Mega}}
+{{weight/entry|0362|Glalie|Ice|Ice|565.5|256.5}}
+{{weight/entry|0526|Gigalith|Rock|Rock|573.2|260.0}}
+{{weight/entry|0614|Beartic|Ice|Ice|573.2|260.0}}
+{{weight/entry|0639|Terrakion|Rock|Fighting|573.2|260.0}}
+{{weight/entry|0713|Avalugg|name=Hisuian Avalugg|Ice|Rock|578.5|262.4|formimg=-Hisui}}
+{{weight/entry|0697|Tyrantrum|Rock|Dragon|595.2|270.0}}
+{{weight/entry|1009|Walking Wake|Water|Dragon|617.3|280.0}}
+{{weight/entry|0464|Rhyperior|Ground|Rock|623.5|282.8}}
+{{weight/entry|0901|Ursaluna|Ground|Normal|639.3|290.0}}
+{{weight/entry|0473|Mamoswine|Ice|Ground|641.5|291.0}}
+{{weight/footer}}
+{{weight/header|661.4|300.0|677.0|307.1}}
+{{weight/entry|0076|Golem|Rock|Ground|661.4|300.0}}
+{{weight/entry|0450|Hippowdon|Ground|Ground|661.4|300.0}}
+{{weight/entry|0995|Iron Thorns|Rock|Electric|668.0|303.0}}
+{{weight/entry|1007|Koraidon|Fighting|Dragon|668.0|303.0}}
+{{weight/entry|0130|Gyarados|name=Mega Gyarados|Water|Dark|672.4|305.0|formimg=-Mega}}
+{{weight/entry|0718|Zygarde|Dragon|Ground|672.4|305.0|form=50% Forme}}
+{{weight/footer}}
+{{weight/header|677.3|307.2|793.4|359.9}}
+{{weight/entry|0389|Torterra|Grass|Ground|683.4|310.0}}
+{{weight/entry|0968|Orthworm|Steel|Steel|683.4|310.0}}
+{{weight/entry|0839|Coalossal|Rock|Fire|684.5|310.5}}
+{{weight/entry|0076|Golem|name=Alolan Golem|Rock|Electric|696.7|316.0|formimg=-Alola}}
+{{weight/entry|0493|Arceus|Normal|Normal|705.5|320.0}}
+{{weight/entry|0984|Great Tusk|Ground|Fighting|705.5|320.0}}
+{{weight/entry|0323|Camerupt|name=Mega Camerupt|Fire|Ground|706.6|320.5|formimg=-Mega}}
+{{weight/entry|0646|Kyurem|Dragon|Ice|716.5|325.0}}
+{{weight/entry|0911|Skeledirge|Fire|Ghost|719.8|326.5}}
+{{weight/entry|0623|Golurk|Ground|Ghost|727.5|330.0}}
+{{weight/entry|0643|Reshiram|Dragon|Fire|727.5|330.0}}
+{{weight/entry|901|Ursaluna|form=Bloodmoon|Ground|Normal|727.5|330.0|formimg=-Bloodmoon}}
+{{weight/entry|0794|Buzzwole|Bug|Fighting|735.5|333.6}}
+{{weight/entry|0706|Goodra|name=Hisuian Goodra|Steel|Dragon|736.6|334.1|formimg=-Hisui}}
+{{weight/entry|0484|Palkia|Water|Dragon|740.8|336.0}}
+{{weight/entry|0476|Probopass|Rock|Steel|749.6|340.0}}
+{{weight/entry|0644|Zekrom|Dragon|Electric|760.6|345.0}}
+{{weight/entry|0800|Necrozma|Psychic|Ghost|771.6|350.0|form=Dawn Wings|formimg=-Dawn Wings}}
+{{weight/entry|0362|Glalie|name=Mega Glalie|Ice|Ice|772.1|350.2|formimg=-Mega}}
+{{weight/entry|0382|Kyogre|Water|Water|776.0|352.0}}
+{{weight/entry|0888|Zacian|Fairy|Steel|782.6|355.0|form=Crowned Sword}}
+{{weight/footer}}
+{{weight/header|793.7|360.0|902.8|409.5}}
+{{weight/entry|0306|Aggron|Steel|Rock|793.7|360.0}}
+{{weight/entry|1005|Roaring Moon|Dragon|Dark|837.8|380.0}}
+{{weight/entry|0992|Iron Hands|Fighting|Electric|839.3|380.7}}
+{{weight/entry|0384|Rayquaza|name=Mega Rayquaza|Dragon|Flying|864.2|392.0|formimg=-Mega}}
+{{weight/entry|0306|Aggron|name=Mega Aggron|Steel|Steel|870.8|395.0|formimg=-Mega}}
+{{weight/entry|0321|Wailord|Water|Water|877.4|398.0}}
+{{weight/entry|0208|Steelix|Steel|Ground|881.8|400.0}}
+{{weight/footer}}
+{{weight/header|903.0|409.6|2204.4|999.9}}
+{{weight/entry|0103|Exeggutor|name=Alolan Exeggutor|Grass|Dragon|916.2|415.6|formimg=-Alola}}
+{{weight/entry|0486|Regigigas|Normal|Normal|925.9|420.0}}
+{{weight/entry|0382|Kyogre|name=Primal Kyogre|Water|Water|948.0|430.0|formimg=-Primal}}
+{{weight/entry|0485|Heatran|Fire|Steel|948.0|430.0}}
+{{weight/entry|0143|Snorlax|Normal|Normal|1014.1|460.0}}
+{{weight/entry|0800|Necrozma|Psychic|Steel|1014.1|460.0|form=Dusk Mane|formimg=-Dusk Mane}}
+{{weight/entry||Raging Bolt|Electric|Dragon|1058.2|480.0}}
+{{weight/entry|0720|Hoopa|name=Hoopa Unbound|Psychic|Dark|1080.3|490.0|formimg=-Unbound}}
+{{weight/entry|0713|Avalugg|Ice|Ice|1113.3|505.0}}
+{{weight/entry|0874|Stonjourner|Rock|Rock|1146.4|520.0}}
+{{weight/entry|0376|Metagross|Steel|Psychic|1212.5|550.0}}
+{{weight/entry|0718|Zygarde|Dragon|Ground|1344.8|610.0|form=Complete Forme|formimg=-Complete}}
+{{weight/entry|0487|Giratina|Ghost|Dragon|1433.0|650.0|form=Origin Forme|formimg=-Origin}}
+{{weight/entry|0879|Copperajah|Steel|Steel|1433.0|650.0}}
+{{weight/entry|0484|Palkia|Water|Dragon|1452.8|659.0|form=Origin Forme|formimg=-Origin}}
+{{weight/entry|0483|Dialga|Steel|Dragon|1505.8|683.0}}
+{{weight/entry|1003|Ting-Lu|Dark|Ground|1542.6|699.7}}
+{{weight/entry|0975|Cetitan|Ice|Ice|1543.2|700.0}}
+{{weight/entry|0208|Steelix|name=Mega Steelix|Steel|Ground|1631.4|740.0|formimg=-Mega}}
+{{weight/entry|0487|Giratina|Ghost|Dragon|1653.5|750.0|form=Altered Forme}}
+{{weight/entry|0889|Zamazenta|Fighting|Steel|1730.6|785.0|form=Crowned Shield}}
+{{weight/entry|0809|Melmetal|Steel|Steel|1763.7|800.0}}
+{{weight/entry|0896|Glastrier|Ice|Ice|1763.7|800.0}}
+{{weight/entry|0898|Calyrex|name=Ice Rider Calyrex|Psychic|Ice|1783.8|809.1|formimg=-Ice Rider}}
+{{weight/entry|0805|Stakataka|Rock|Steel|1807.8|820.0}}
+{{weight/entry|0483|Dialga|Steel|Dragon|1871.0|848.7|form=Origin Forme|formimg=-Origin}}
+{{weight/entry|0799|Guzzlord|Dark|Dragon|1957.7|888.0}}
+{{weight/entry|0750|Mudsdale|Ground|Ground|2028.3|920.0}}
+{{weight/entry|0376|Metagross|name=Mega Metagross|Steel|Psychic|2078.7|942.9|formimg=-Mega}}
+{{weight/entry|0383|Groudon|Ground|Ground|2094.4|950.0}}
+{{weight/entry|0890|Eternatus|Poison|Dragon|2094.4|950.0}}
+{{weight/entry|0383|Groudon|name=Primal Groudon|Ground|Fire|2204.0|999.7|formimg=-Primal}}
+{{weight/entry|0790|Cosmoem|Psychic|Psychic|2204.4|999.9}}
+{{weight/entry|0797|Celesteela|Steel|Flying|2204.4|999.9}}
+{{weight/footer}}
