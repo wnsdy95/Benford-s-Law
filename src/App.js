@@ -51,7 +51,7 @@ function App() {
       <Histogram className="his" data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
       <p className="bagging">
-        Established by Team, HIRE ME: Junhaeng Lee, Junyong Min, Oshu Kwon
+        Established by Team, HIRE ME: Junhaeng Lee, Junyong Min, Ohsu Kwon
       </p>
     </div>
   );
