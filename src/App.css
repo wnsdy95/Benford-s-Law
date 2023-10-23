@@ -59,4 +59,15 @@
   color: #64CCC5;
   font-family: 'Sometype Mono', monospace;
   font-weight: lighter;
+  margin-bottom: 8px;
+}
+.link {
+  color: #64CCC5;
+  font-family: 'Sometype Mono', monospace;
+  font-weight: lighter;
+  margin-left: 140px;
+}
+.bagging {
+  color: #64CCC5;
+  font-family: 'Sometype Mono', monospace;
 }

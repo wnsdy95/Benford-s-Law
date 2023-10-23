@@ -20,21 +20,25 @@ function App() {
       .filter((num) => !isNaN(num));
     setData(numbers);
   };
-
+  const navigateToURL = () => {
+    window.location.href = "https://en.wikipedia.org/wiki/Benford%27s_law";
+  }
   return (
 
     <div className="App">
         <div className="Title-Wrap">
             <h1 className='title'>Benford's Law</h1>
-            <h2 className="sub-title">Test your data.</h2>
+            <h2 className="sub-title">Test your data</h2>
+            <p className='link' onClick={navigateToURL}> About Benford's Law...</p>
         </div>
       <textarea
-        style={{ width: "100px", height: "200px" }}
+        style={{ marginRight: "40%",marginTop:"5%",width: "100px", height: "400px", borderRadius:5}}
         value={textBoxContent}
         onChange={handleTextBoxChange}
       />
       <Histogram data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
+        <p className="bagging">Established by Team, Hire Me: Junhaeng Lee, Junyong Min, Oshu Kwon</p>
     </div>
   );
 }

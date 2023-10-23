@@ -18,10 +18,11 @@
     align-items: center;
     justify-content: center;
     border-width: 3px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border-style: solid;
     border-color: lightcoral;
     background-color: #f8fafc;
+    margin-top: 5%;
 }
 .upload-button-text {
     line-height: 70%;
