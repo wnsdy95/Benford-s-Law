@@ -34,7 +34,7 @@ function App() {
         onChange={handleTextBoxChange}
       />
       <Histogram data={data} />
-      <DragDropFile setData={setData} />
+      <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
     </div>
   );
 }

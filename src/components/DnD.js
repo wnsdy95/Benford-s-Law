@@ -3,7 +3,7 @@ import handleFileUpload from "../App";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
 // drag drop file component
-function DragDropFile({ setData }) {
+function DragDropFile({ setData, setTextBoxContent }) {
   // drag state
   const [dragActive, setDragActive] = React.useState(false);
   // ref
@@ -48,6 +48,7 @@ function DragDropFile({ setData }) {
       const rawData = await readExcelData(file);
       const numericData = extractNumericData(rawData);
       setData(numericData);
+      setTextBoxContent(numericData.join("\n"));
     }
   };
 
