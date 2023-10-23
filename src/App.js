@@ -31,12 +31,15 @@ function App() {
             <h2 className="sub-title">Test your data</h2>
             <p className='link' onClick={navigateToURL}> About Benford's Law...</p>
         </div>
-      <textarea
-        style={{ marginRight: "40%",marginTop:"5%",width: "100px", height: "400px", borderRadius:5}}
-        value={textBoxContent}
-        onChange={handleTextBoxChange}
-      />
-      <Histogram data={data} />
+        <div>
+            <textarea
+                style={{position:"absolute", left:"50px",marginTop:"5%",width: "100px", height: "400px", borderRadius:5}}
+                value={textBoxContent}
+                onChange={handleTextBoxChange}
+            />
+        </div>
+
+      <Histogram className="his" data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
         <p className="bagging">Established by Team, Hire Me: Junhaeng Lee, Junyong Min, Oshu Kwon</p>
     </div>
