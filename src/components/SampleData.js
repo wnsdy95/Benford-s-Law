@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
 
 const SampleData = ({ setData, setTextBoxContent }) => {
+  const [isHovered, setIsHovered] = useState(false);
   const handleSampleData = async () => {
     const response = await fetch("/assets/sampleData.xlsx");
     const file = await response.blob();
@@ -45,8 +46,17 @@ const SampleData = ({ setData, setTextBoxContent }) => {
   }
 
   return (
-    <div>
-      <button onClick={handleSampleData}>sample</button>
+    <div style={{ position: "absolute", top: "30px", right: "30px" }}>
+      <img
+        src={
+          isHovered ? "/assets/snorlax-logo2.png" : "/assets/snorlax-logo1.png"
+        }
+        alt={"snorlax"}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onClick={handleSampleData}
+        style={{ cursor: "pointer", height: "50px", weight: "50px" }}
+      />
     </div>
   );
 };

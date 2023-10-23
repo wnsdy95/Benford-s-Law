@@ -33,6 +33,7 @@ function App() {
           {" "}
           About Benford's Law...
         </p>
+        <SampleData setData={setData} setTextBoxContent={setTextBoxContent} />
       </div>
       <div>
         <textarea
@@ -47,7 +48,6 @@ function App() {
           onChange={handleTextBoxChange}
         />
       </div>
-      <SampleData setData={setData} setTextBoxContent={setTextBoxContent} />
       <Histogram className="his" data={data} />
       <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
       <p className="bagging">
