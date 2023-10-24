@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { readExcelData, readTextData } from "../utilities/readingFile";
 // drag drop file component
-function DragDropFile({ setData, setTextBoxContent }) {
+function DragDropFile({ setData, setTextBoxContent, setFileName }) {
   // drag state
   const [dragActive, setDragActive] = React.useState(false);
   // ref
@@ -53,6 +53,7 @@ function DragDropFile({ setData, setTextBoxContent }) {
       }
       setData(numericData);
       setTextBoxContent(numericData.join("\n"));
+      setFileName(file.name);
     }
   };
 

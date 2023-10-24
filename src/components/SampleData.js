@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { readExcelData, readTextData } from "../utilities/readingFile";
 
-const SampleData = ({ setData, setTextBoxContent }) => {
+const SampleData = ({ setData, setTextBoxContent, setFileName }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   // const filePath = "/assets/sampleData.xlsx";
-  const filePath = "/assets/poke_weight.txt";
+  const filePath = "/assets/pokemon_weight.txt";
 
   const handleSampleData = async () => {
     const response = await fetch(filePath); // use filePath here
@@ -20,6 +20,7 @@ const SampleData = ({ setData, setTextBoxContent }) => {
       }
       setData(numericData);
       setTextBoxContent(numericData.join("\n"));
+      setFileName(filePath.split("/")[2]);
     }
   };
 
