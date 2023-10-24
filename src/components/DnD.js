@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import handleFileUpload from "../App";
-import * as XLSX from "xlsx";
-import Papa from "papaparse";
+import { readExcelData, readTextData } from "../utilities/readingFile";
 // drag drop file component
 function DragDropFile({ setData, setTextBoxContent }) {
   // drag state
@@ -43,49 +41,20 @@ function DragDropFile({ setData, setTextBoxContent }) {
   };
 
   const handleFileUpload = async (event) => {
+    console.log(event);
     const file = event.target.files[0];
     if (file) {
-      const rawData = await readExcelData(file);
-      const numericData = extractNumericData(rawData);
+      let numericData;
+      const fileExtension = file.name.split(".").pop();
+      if (fileExtension === "xlsx") {
+        numericData = await readExcelData(file);
+      } else if (fileExtension === "txt") {
+        numericData = await readTextData(file);
+      }
       setData(numericData);
       setTextBoxContent(numericData.join("\n"));
     }
   };
-
-  function readExcelData(file) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        const data = event.target.result;
-        const workbook = XLSX.read(data, { type: "binary" });
-        const firstSheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[firstSheetName];
-        const csvData = XLSX.utils.sheet_to_csv(worksheet);
-
-        Papa.parse(csvData, {
-          complete: (results) => resolve(results.data),
-          error: (error) => reject(error),
-        });
-      };
-      reader.onerror = (error) => reject(error);
-      reader.readAsBinaryString(file);
-    });
-  }
-
-  function extractNumericData(rawData) {
-    // Filter rows that have numeric data.
-    const numericRows = rawData.slice(4, 19); // Based on the given data, adjust if necessary
-
-    let numbers = [];
-
-    for (const row of numericRows) {
-      // For each row, filter only the numeric values
-      const numericValues = row.filter((cell) => !isNaN(cell) && cell !== "");
-      numbers = numbers.concat(numericValues.map((val) => parseFloat(val)));
-    }
-
-    return numbers;
-  }
 
   return (
     <form
@@ -111,7 +80,7 @@ function DragDropFile({ setData, setTextBoxContent }) {
           <button className="upload-button" onClick={onButtonClick}>
             Upload a file
           </button>
-          <p className="upload-button-text">.XLSX</p>
+          <p className="upload-button-text">.XLSX or .TXT</p>
         </div>
       </label>
       {dragActive && (

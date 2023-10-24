@@ -8,7 +8,7 @@ const Histogram = ({ data }) => {
 
   const width = 600;
   const height = 400;
-  const margin = { top: 20, right: 60, bottom: 30, left: 40 };
+  const margin = { top: 20, right: 150, bottom: 30, left: 40 };
 
   const colorScale = d3
     .scaleLinear()
@@ -41,16 +41,14 @@ const Histogram = ({ data }) => {
       } else if (numf > 0 && 1 > numf) {
         var i;
 
-        for (i = 1; ;i++) {
-
+        for (i = 1; ; i++) {
           numf = numf * 10 ** i;
           if (numf >= 1) {
-            distribution[ parseInt(String(numf)[0]) - 1] += 1;
+            distribution[parseInt(String(numf)[0]) - 1] += 1;
             break;
           }
         }
       }
-
     });
 
     return distribution.map((count) => count / totalCount);
