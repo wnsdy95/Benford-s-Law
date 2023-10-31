@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-<<<<<<< HEAD
 import handleFileUpload from "../App";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
@@ -7,9 +6,6 @@ import UploadFileIcon from '@mui/icons-material/UploadFile';
 import { styled } from "@mui/system";
 
 
-=======
-import { readExcelData, readTextData } from "../utilities/readingFile";
->>>>>>> origin
 // drag drop file component
 function DragDropFile({ setData, setTextBoxContent, setFileName }) {
   // drag state
@@ -106,11 +102,7 @@ function DragDropFile({ setData, setTextBoxContent, setFileName }) {
 
             Drag and drop to upload a file (.XLSX)
           </button>
-<<<<<<< HEAD
           {/* <p className="upload-button-text"></p> */}
-=======
-          <p className="upload-button-text">.XLSX or .TXT</p>
->>>>>>> origin
         </div>
        
       </label>
