@@ -2,12 +2,25 @@ import React, { useState, useEffect, useRef } from "react";
 import handleFileUpload from "../App";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
+import UploadFileIcon from '@mui/icons-material/UploadFile';
+import { styled } from "@mui/system";
+
+
 // drag drop file component
 function DragDropFile({ setData, setTextBoxContent }) {
   // drag state
   const [dragActive, setDragActive] = React.useState(false);
   // ref
   const inputRef = React.useRef(null);
+  
+  // upload icon hovering
+  const StyledUploadIcon = styled(UploadFileIcon, {
+    name: "StyledUploadIcon",
+    slot: "Wrapper"
+  })({
+    color: "goldenrod",
+    "&:hover": { color: "rgb(227, 150, 62)" }
+  });
 
   // handle drag events
   const handleDrag = function (e) {
@@ -105,14 +118,21 @@ function DragDropFile({ setData, setTextBoxContent }) {
         htmlFor="input-file-upload"
         className={dragActive ? "drag-active" : ""}
       >
-        <div>
-          <p className="upload-button-text">Drag and drop your file here or</p>
-          <i className="gg-software-upload"></i>
+        <div className="upload-div">
+            <StyledUploadIcon sx={{ fontSize: 80, color: "#ffffff"}} />
+            </div>
+      
+          
+
+          <div>
+          {/* <p className="upload-button-text"></p> */}
           <button className="upload-button" onClick={onButtonClick}>
-            Upload a file
+
+            Drag and drop to upload a file (.XLSX)
           </button>
-          <p className="upload-button-text">.XLSX</p>
+          {/* <p className="upload-button-text"></p> */}
         </div>
+       
       </label>
       {dragActive && (
         <div
