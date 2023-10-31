@@ -11,3 +11,12 @@
   fill: #f2f7a1;
   font-family: "Sometype Mono", monospace;
 }
+
+rect {
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+rect:hover {
+  fill: #fefdde; /* a different color on hover */
+  transform: scaleX(1.01);
+}
