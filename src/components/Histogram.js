@@ -8,12 +8,12 @@ const Histogram = ({ data }) => {
 
   const width = 600;
   const height = 400;
-  const margin = { top: 20, right: 60, bottom: 30, left: 40 };
+  const margin = { top: 20, right: 150, bottom: 30, left: 40 };
 
   const colorScale = d3
     .scaleLinear()
     .domain([1, 9]) // Assuming you have 9 categories
-    .range(["#ff0000", "#0000ff"]);
+    .range(["#e4e057", "#e4e057"]); // 히스토그램 바 1-9 까지 컬러스케일 (같은 색으로 넣어주면 모든 바 가 같은색)
 
   const y = d3
     .scaleBand()
@@ -41,16 +41,14 @@ const Histogram = ({ data }) => {
       } else if (numf > 0 && 1 > numf) {
         var i;
 
-        for (i = 1; ;i++) {
-
+        for (i = 1; ; i++) {
           numf = numf * 10 ** i;
           if (numf >= 1) {
-            distribution[ parseInt(String(numf)[0]) - 1] += 1;
+            distribution[parseInt(String(numf)[0]) - 1] += 1;
             break;
           }
         }
       }
-
     });
 
     return distribution.map((count) => count / totalCount);
@@ -105,7 +103,7 @@ const Histogram = ({ data }) => {
           .attr("offset", "0%")
           .style("stop-color", colorScale(i + 1));
 
-        grad.append("stop").attr("offset", "100%").style("stop-color", "black"); // Use a light color as the end of the gradient
+        // grad.append("stop").attr("offset", "100%").style("stop-color", "black"); // Use a light color as the end of the gradient
       });
       // Add dots to Benford's Law line
       svg

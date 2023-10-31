@@ -10,6 +10,7 @@ import SampleData from "./components/SampleData";
 
 function App() {
   const [data, setData] = useState([]);
+  const [fileName, setFileName] = useState("");
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
 
   const handleTextBoxChange = (e) => {
@@ -33,7 +34,11 @@ function App() {
           {" "}
           About Benford's Law...
         </p>
-        <SampleData setData={setData} setTextBoxContent={setTextBoxContent} />
+        <SampleData
+          setData={setData}
+          setTextBoxContent={setTextBoxContent}
+          setFileName={setFileName}
+        />
       </div>
       <div>
         <textarea
@@ -48,8 +53,13 @@ function App() {
           onChange={handleTextBoxChange}
         />
       </div>
+      {fileName !== "" ? <div>File: {fileName}</div> : <></>}
       <Histogram className="his" data={data} />
-      <DragDropFile setData={setData} setTextBoxContent={setTextBoxContent} />
+      <DragDropFile
+        setData={setData}
+        setTextBoxContent={setTextBoxContent}
+        setFileName={setFileName}
+      />
       <p className="bagging">
         Established by Team, HIRE ME: Junhaeng Lee, Junyong Min, Ohsu Kwon
       </p>
