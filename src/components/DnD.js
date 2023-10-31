@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import handleFileUpload from "../App";
+import { readExcelData, readTextData } from "../utilities/readingFile";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
 import UploadFileIcon from '@mui/icons-material/UploadFile';
