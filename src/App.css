@@ -1,7 +1,6 @@
-
 .App {
+  display: flex;
   text-align: center;
-
 }
 
 .App-logo {
@@ -37,18 +36,18 @@
     transform: rotate(360deg);
   }
 }
-.Title-Wrap{
-  display:flex;
+.Title-Wrap {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.title{
+.title {
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-  color: #64CCC5;
+  color: #64ccc5;
   font-size: xxx-large;
-  font-family: 'Sometype Mono', monospace;
+  font-family: "Sometype Mono", monospace;
   font-weight: lighter;
 }
 .sub-title {
@@ -56,23 +55,35 @@
   margin-left: 90px;
   font-size: xx-large;
   white-space: pre-line;
-  color: #64CCC5;
-  font-family: 'Sometype Mono', monospace;
+  color: #64ccc5;
+  font-family: "Sometype Mono", monospace;
   font-weight: lighter;
   margin-bottom: 8px;
 }
 .link {
-  color: #64CCC5;
-  font-family: 'Sometype Mono', monospace;
+  color: #64ccc5;
+  font-family: "Sometype Mono", monospace;
   font-weight: lighter;
   margin-left: 140px;
   margin-bottom: 50px;
 }
 .bagging {
-  color: #64CCC5;
-  font-family: 'Sometype Mono', monospace;
+  color: #64ccc5;
+  font-family: "Sometype Mono", monospace;
 }
 .his {
   position: center;
   margin-left: 100px;
+}
+
+.data_textBox {
+  left: 50px;
+  width: 100px;
+  height: 400px;
+  border-radius: 5;
+  justify-items: center;
+}
+
+.main_content {
+  display: flex;
 }

@@ -27,39 +27,42 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="Title-Wrap">
-        <h1 className="title">Benford's Law</h1>
-        <h2 className="sub-title">Test your data</h2>
-        <p className="link" onClick={navigateToURL}>
-          {" "}
-          About Benford's Law...
-        </p>
-        <SampleData
+      <div className="left_part">
+        <div className="Title-Wrap">
+          <h1 className="title">Benford's Law</h1>
+          <h2 className="sub-title">Test your data</h2>
+          <p className="link" onClick={navigateToURL}>
+            About Benford's Law...
+          </p>
+          <SampleData
+            setData={setData}
+            setTextBoxContent={setTextBoxContent}
+            setFileName={setFileName}
+          />
+        </div>
+        <DragDropFile
           setData={setData}
           setTextBoxContent={setTextBoxContent}
           setFileName={setFileName}
         />
       </div>
-      <div>
-        <textarea
-          style={{
-            position: "absolute",
-            left: "50px",
-            width: "100px",
-            height: "400px",
-            borderRadius: 5,
-          }}
-          value={textBoxContent}
-          onChange={handleTextBoxChange}
-        />
+
+      <div className="right_part">
+        <h2 className="sub-title">Pokemon Weight</h2>
+        <div className="main_content">
+          <textarea
+            className="data_textBox"
+            value={textBoxContent}
+            onChange={handleTextBoxChange}
+          />
+          <div className="histogram">
+            {fileName !== "" ? <div>File: {fileName}</div> : <></>}
+            <Histogram className="his" data={data} />
+          </div>
+          <div></div>
+        </div>
       </div>
-      {fileName !== "" ? <div>File: {fileName}</div> : <></>}
-      <Histogram className="his" data={data} />
-      <DragDropFile
-        setData={setData}
-        setTextBoxContent={setTextBoxContent}
-        setFileName={setFileName}
-      />
+
       <p className="bagging">
         Established by Team, HIRE ME: Junhaeng Lee, Junyong Min, Ohsu Kwon
       </p>
