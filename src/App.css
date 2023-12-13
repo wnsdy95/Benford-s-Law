@@ -1,5 +1,4 @@
 .App {
-  display: flex;
   text-align: center;
 }
 
@@ -35,6 +34,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Main {
+  display: flex;
 }
 .Title-Wrap {
   display: flex;
