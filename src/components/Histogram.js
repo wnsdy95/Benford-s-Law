@@ -5,6 +5,7 @@ import "./Histogram.css";
 const Histogram = ({ data }) => {
   const [distribution, setDistribution] = useState([]);
   const svgRef = useRef(null);
+  const tooltipRef = useRef(null);
 
   const width = 600;
   const height = 400;
@@ -13,7 +14,7 @@ const Histogram = ({ data }) => {
   const colorScale = d3
     .scaleLinear()
     .domain([1, 9]) // Assuming you have 9 categories
-    .range(["#e4e057", "#e4e057"]); // 히스토그램 바 1-9 까지 컬러스케일 (같은 색으로 넣어주면 모든 바 가 같은색)
+    .range(["#2BE19F", "#2BE19F"]); // 히스토그램 바 1-9 까지 컬러스케일 (같은 색으로 넣어주면 모든 바 가 같은색)
 
   const y = d3
     .scaleBand()
@@ -26,6 +27,9 @@ const Histogram = ({ data }) => {
     .domain([0, d3.max(distribution)])
     .nice()
     .rangeRound([margin.left, width - margin.right]);
+
+  const counts = Array(9).fill(0);
+  const percentages = Array(9).fill(0);
 
   function computeBenfordDistribution(data) {
     const totalCount = data.length;
@@ -50,6 +54,9 @@ const Histogram = ({ data }) => {
         }
       }
     });
+    for (let i = 0; i < counts.length; i++) {
+      percentages[i] = counts[i] / totalCount;
+    }
 
     return distribution.map((count) => count / totalCount);
   }
@@ -73,7 +80,22 @@ const Histogram = ({ data }) => {
 
       svg.attr("width", width).attr("height", height);
 
+      const tooltipDiv = d3.select(tooltipRef.current);
+
       // Bars with animation
+      // svg
+      //   .selectAll(".tooltip")
+      //   .data(distribution)
+      //   .enter()
+      //   .append("text")
+      //   .attr("class", "tooltip")
+      //   .attr("x", (d) => x(d) + 5)
+      //   .attr("y", (d, i) => y(i + 1) + y.bandwidth() / 2)
+      //   .attr("dy", "0.35em")
+      //   .style("text-anchor", "start")
+      //   .style("visibility", "hidden") // Make tooltip invisible by default
+      //   .text((d) => `${d3.format(".1%")(d)}`);
+
       svg
         .selectAll("rect")
         .data(distribution)
@@ -87,6 +109,46 @@ const Histogram = ({ data }) => {
         .transition() // Apply animation to bars
         .duration(1000) // Duration of the animation (in milliseconds)
         .attr("width", (d) => x(d) - margin.left);
+
+      svg
+        .selectAll("rect")
+        .on("mouseover", function (event, d) {
+          const i = distribution.indexOf(d);
+          tooltipDiv
+            .html(
+              `
+      <div class="tooltip-content">
+        <div><strong>Digit: ${i + 1}</strong></div>
+        <div>Number of data: ${distribution[i] * data.length}</div>
+        <div>Data Distribution: ${d3.format(".1%")(d)}</div>
+        <div>Standard Benford's Distribution: ${d3.format(".1%")(
+          idealBenfordDistribution()[i]
+        )}</div>
+      </div>
+    `
+            )
+            .style("left", event.pageX + "px")
+            .style("top", event.pageY - 28 + "px")
+            .style("opacity", 1); // Make sure the tooltip is visible
+        })
+        .on("mouseout", function (d) {
+          tooltipDiv.style("opacity", 0);
+        });
+
+      const benfordLine = d3
+        .line()
+        .x((d, i) => x(i + 1)) // Assuming the idealBenfordDistribution is 1-indexed
+        .y((d) => y(d))
+        .curve(d3.curveLinear); // Choose an appropriate curve
+
+      svg
+        .append("path")
+        .datum(idealBenfordDistribution()) // Bind ideal distribution data
+        .attr("fill", "none")
+        .attr("stroke", "white")
+        .attr("stroke-width", 2)
+        .attr("stroke-dasharray", "5,5") // This creates the dotted effect
+        .attr("d", benfordLine);
 
       distribution.forEach((_, i) => {
         const grad = svg
@@ -166,7 +228,12 @@ const Histogram = ({ data }) => {
     //   .call(d3.axisLeft(x).tickSize(0));
   }, []);
 
-  return <svg className="graph" ref={svgRef}></svg>;
+  return (
+    <>
+      <svg className="graph" ref={svgRef}></svg>
+      <div className="tooltip" ref={tooltipRef}></div>
+    </>
+  );
 };
 
 export default Histogram;
