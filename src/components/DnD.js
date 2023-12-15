@@ -92,7 +92,7 @@ function DragDropFile({ setData, setTextBoxContent, setFileName }) {
         className={dragActive ? "drag-active" : ""}
       >
         <div className="upload-div">
-            <StyledUploadIcon sx={{ fontSize: 80, color: "#ffffff"}} />
+            <StyledUploadIcon sx={{ fontSize: 70, color: "#ffffff"}} />
             </div>
       
           

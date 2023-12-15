@@ -29,27 +29,34 @@ function App() {
     <div className="App">
       <div className="Main">
         <div className="left_part">
-          <div className="Title-Wrap">
-            <h1 className="title">Benford's Law</h1>
-            <h2 className="sub-title">Test your data</h2>
-            <p className="link" onClick={navigateToURL}>
-              About Benford's Law...
-            </p>
-            <SampleData
-              setData={setData}
-              setTextBoxContent={setTextBoxContent}
-              setFileName={setFileName}
-            />
-          </div>
+            <h1 className="title">BENFORD'S LAW</h1>
+            <div className="description-contents">
+
+              <p className="description">
+                Benford's law, or the Newcomb–Benford law,
+                observes that in real-life numerical data,
+                smaller digits often appear as the first digit.
+                For example, the number 1 occurs as the first digit
+                30% of the time, whereas 9 appears only 5% of the time.
+                If digits were uniformly distributed, each would occur
+                11.1% of the time. The law also applies to the
+                distribution of second, third digits, digit combinations, and so on.
+              </p>
+              <SampleData
+                setData={setData}
+                setTextBoxContent={setTextBoxContent}
+                setFileName={setFileName}
+              />
+
           <DragDropFile
             setData={setData}
             setTextBoxContent={setTextBoxContent}
             setFileName={setFileName}
           />
+            </div>
         </div>
 
         <div className="right_part">
-          <h2 className="sub-title">Pokemon Weight</h2>
           <div className="main_content">
             <textarea
               className="data_textBox"
@@ -57,10 +64,10 @@ function App() {
               onChange={handleTextBoxChange}
             />
             <div className="histogram">
-              {fileName !== "" ? <div>File: {fileName}</div> : <></>}
+              {fileName !== "" ? <h1 className={"File_name"}>{fileName}</h1> : <></>}
               <Histogram className="his" data={data} />
             </div>
-            <div></div>
+
           </div>
         </div>
       </div>

@@ -22,7 +22,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.description-contents{
+  justify-content: center;
+}
+.description {
+  font-family: 'Kiwi Maru', serif;
+  color: white;
+  text-align: justify;
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -44,13 +54,19 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.File_name {
+  margin-left: -300px;
+  color: #64ccc5;
+  font-size: xxx-large;
+  font-family: 'Kiwi Maru', serif;
+}
 .title {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 00px;
   margin-bottom: 10px;
   color: #64ccc5;
   font-size: xxx-large;
-  font-family: "Sometype Mono", monospace;
+  font-family: 'Kiwi Maru', serif;
   font-weight: lighter;
 }
 .sub-title {
@@ -73,6 +89,9 @@
 .bagging {
   color: #64ccc5;
   font-family: "Sometype Mono", monospace;
+  position: absolute;
+  bottom: 10px;
+  left: 380px;
 }
 .his {
   position: center;
@@ -80,13 +99,31 @@
 }
 
 .data_textBox {
+  margin-top: 150px;
   left: 50px;
   width: 100px;
   height: 400px;
-  border-radius: 5;
+  border-radius: 5px;
+  border-color: transparent;
   justify-items: center;
-}
+  color: white;
+  background-color: #330033;
+  border-style: groove;
+  text-decoration-color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-image: repeating-linear-gradient(-51deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(39deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(129deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(219deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px);
+  background-size: 3px calc(100% + 79.45px), calc(100% + 79.45px) 3px, 3px calc(100% + 79.45px) , calc(100% + 79.45px) 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  animation: borderAnimation2 0.9s infinite linear;
 
+}
+@keyframes borderAnimation2 {
+  from { background-position: 0 0, -79.45px 0, 100% -79.45px, 0 100%; }
+  to { background-position: 0 -79.45px, 0 0, 100% 0, -79.45px 100%; }
+}
 .main_content {
+  margin-top: 20px;
   display: flex;
 }

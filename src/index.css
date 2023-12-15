@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1E0707;
+  /*background: #1E0707;*/
+  background-color: #330033;
+  background-image: url('../public/assets/endless-constellation.svg');
 }
 
 code {
