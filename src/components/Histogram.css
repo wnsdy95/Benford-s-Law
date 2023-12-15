@@ -18,7 +18,21 @@ rect {
 
 rect:hover {
   fill: #fefdde; /* a different color on hover */
-  transform: scaleX(1.01);
+  cursor: pointer; /* Change cursor to indicate interactive element */
+  animation: float 0.4s ease-in-out forwards;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateX(0); /* Start and end at the original position */
+  }
+  25% {
+    transform: translateX(-3px); /* Move left by 10 pixels */
+  }
+  75% {
+    transform: translateX(3px); /* Move right by 10 pixels */
+  }
 }
 
 .tooltip {

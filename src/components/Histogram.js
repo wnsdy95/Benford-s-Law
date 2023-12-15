@@ -102,8 +102,6 @@ const Histogram = ({ data }) => {
         .attr("width", (d) => 0) // Initial width set to 0 for animation
         .attr("height", y.bandwidth() - 10)
         .attr("fill", (_, i) => `url(#grad${i})`)
-        .transition() // Apply animation to bars
-        .duration(1000) // Duration of the animation (in milliseconds)
         .attr("width", (d) => x(d) - margin.left);
 
       // Draw the Benford's Law line
