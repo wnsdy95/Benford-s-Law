@@ -8,7 +8,7 @@ const Histogram = ({ data }) => {
   const tooltipRef = useRef(null);
 
   const width = 600;
-  const height = 400;
+  const height = 450;
   const margin = { top: 20, right: 150, bottom: 30, left: 40 };
 
   const colorScale = d3
@@ -82,19 +82,15 @@ const Histogram = ({ data }) => {
 
       const tooltipDiv = d3.select(tooltipRef.current);
 
-      // Bars with animation
-      // svg
-      //   .selectAll(".tooltip")
-      //   .data(distribution)
-      //   .enter()
-      //   .append("text")
-      //   .attr("class", "tooltip")
-      //   .attr("x", (d) => x(d) + 5)
-      //   .attr("y", (d, i) => y(i + 1) + y.bandwidth() / 2)
-      //   .attr("dy", "0.35em")
-      //   .style("text-anchor", "start")
-      //   .style("visibility", "hidden") // Make tooltip invisible by default
-      //   .text((d) => `${d3.format(".1%")(d)}`);
+      // Compute the Benford values in terms of the scale
+      const benfordValues = idealBenfordDistribution().map((val) => x(val));
+
+      // Create a line generator
+      const lineGenerator = d3
+        .line()
+        .x((d) => d) // d is already scaled
+        .y((_, i) => y(i + 1) + y.bandwidth() / 2) // Center the line in the middle of each band
+        .curve(d3.curveMonotoneX);
 
       svg
         .selectAll("rect")
@@ -102,16 +98,26 @@ const Histogram = ({ data }) => {
         .enter()
         .append("rect")
         .attr("x", margin.left)
-        .attr("y", (d, i) => y(i + 1))
+        .attr("y", (d, i) => y(i + 1) + 5)
         .attr("width", (d) => 0) // Initial width set to 0 for animation
-        .attr("height", y.bandwidth())
+        .attr("height", y.bandwidth() - 10)
         .attr("fill", (_, i) => `url(#grad${i})`)
         .transition() // Apply animation to bars
         .duration(1000) // Duration of the animation (in milliseconds)
         .attr("width", (d) => x(d) - margin.left);
 
+      // Draw the Benford's Law line
       svg
-        .selectAll("rect")
+        .append("path")
+        .datum(benfordValues)
+        .attr("fill", "none")
+        .attr("stroke", "white")
+        .attr("stroke-width", 2)
+        .attr("stroke-dasharray", "5,5") // This creates the dotted effect
+        .attr("d", lineGenerator);
+
+      svg
+        .selectAll("rect, circle")
         .on("mouseover", function (event, d) {
           const i = distribution.indexOf(d);
           tooltipDiv
@@ -120,10 +126,12 @@ const Histogram = ({ data }) => {
       <div class="tooltip-content">
         <div><strong>Digit: ${i + 1}</strong></div>
         <div>Number of data: ${distribution[i] * data.length}</div>
-        <div>Data Distribution: ${d3.format(".1%")(d)}</div>
-        <div>Standard Benford's Distribution: ${d3.format(".1%")(
-          idealBenfordDistribution()[i]
+        <div style="color: #2BE19F;">Data Distribution: ${d3.format(".1%")(
+          d
         )}</div>
+        <div style="color: #E3E06D;">Standard Benford's Distribution: ${d3.format(
+          ".1%"
+        )(idealBenfordDistribution()[i])}</div>
       </div>
     `
             )
@@ -134,21 +142,6 @@ const Histogram = ({ data }) => {
         .on("mouseout", function (d) {
           tooltipDiv.style("opacity", 0);
         });
-
-      const benfordLine = d3
-        .line()
-        .x((d, i) => x(i + 1)) // Assuming the idealBenfordDistribution is 1-indexed
-        .y((d) => y(d))
-        .curve(d3.curveLinear); // Choose an appropriate curve
-
-      svg
-        .append("path")
-        .datum(idealBenfordDistribution()) // Bind ideal distribution data
-        .attr("fill", "none")
-        .attr("stroke", "white")
-        .attr("stroke-width", 2)
-        .attr("stroke-dasharray", "5,5") // This creates the dotted effect
-        .attr("d", benfordLine);
 
       distribution.forEach((_, i) => {
         const grad = svg
@@ -177,7 +170,7 @@ const Histogram = ({ data }) => {
         .attr("cx", (d) => x(d))
         .attr("cy", (d, i) => y(i + 1) + y.bandwidth() / 2)
         .attr("r", 3)
-        .attr("fill", "orange");
+        .attr("fill", "#E3E06D");
       // Add percentages to the right of each bar
       svg
         .selectAll(".percentage-label")
