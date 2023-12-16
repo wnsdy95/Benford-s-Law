@@ -12,11 +12,11 @@ import Dropdown from "./components/Dropdown";
 function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
   const handleApplyClick = () => {
-    setIsLoading(true);
+    // setIsLoading(true);
     const text = textBoxContent;
     const numbers = text
       .split("\n")
@@ -26,7 +26,7 @@ function App() {
     setData(numbers);
   };
   const handleClearClick = () => {
-    setIsLoading(true);
+    // setIsLoading(true);
     setData([]); // Clear the data array
     setFileName("Cleared"); // Reset the file name
     setTextBoxContent(""); // Clear the text box content
@@ -66,13 +66,13 @@ function App() {
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
-              setIsLoading={setIsLoading}
+              // setIsLoading={setIsLoading}
             />
             <Dropdown
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
-              setIsLoading={setIsLoading}
+              // setIsLoading={setIsLoading}
             />
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
@@ -102,8 +102,8 @@ function App() {
               <Histogram
                 className="his"
                 data={data}
-                isLoading={isLoading}
-                setIsLoading={setIsLoading}
+                // isLoading={isLoading}
+                // setIsLoading={setIsLoading}
               />
             </div>
           </div>

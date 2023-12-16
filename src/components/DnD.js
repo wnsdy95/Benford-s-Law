@@ -61,7 +61,7 @@ function DragDropFile({
   };
 
   const handleFileUpload = async (event) => {
-    setIsLoading(true);
+    // setIsLoading(true);
     const file = event.target.files[0];
     if (file) {
       let numericData;

@@ -83,7 +83,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   }, [data]);
 
   useEffect(() => {
-    if (distribution.length) {
+    if (distribution.length && !isLoading) {
       const svg = d3.select(svgRef.current);
 
       svg.selectAll("*").remove(); // Clear previous rendering
@@ -217,7 +217,6 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
     }
-    setIsLoading(false);
   }, [distribution]);
 
   useEffect(() => {
@@ -235,9 +234,15 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     //   .call(d3.axisLeft(x).tickSize(0));
   }, []);
 
-  return isLoading ? (
-    <div>Loading...</div>
-  ) : (
+  // return isLoading ? (
+  //   <div>Loading...</div>
+  // ) : (
+  //   <>
+  //     <svg className="graph" ref={svgRef}></svg>
+  //     <div className="tooltip" ref={tooltipRef}></div>
+  //   </>
+  // );
+  return (
     <>
       <svg className="graph" ref={svgRef}></svg>
       <div className="tooltip" ref={tooltipRef}></div>
