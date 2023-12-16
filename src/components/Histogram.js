@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import * as d3 from "d3";
 import "./Histogram.css";
 
-const Histogram = ({ data }) => {
+const Histogram = ({ data, isLoading, setIsLoading }) => {
   const [distribution, setDistribution] = useState([]);
   const svgRef = useRef(null);
   const tooltipRef = useRef(null);
@@ -24,7 +24,7 @@ const Histogram = ({ data }) => {
 
   const x = d3
     .scaleLinear()
-      .domain([0, d3.max(distribution) > 0.3 ? d3.max(distribution) : 0.3])
+    .domain([0, d3.max(distribution) > 0.3 ? d3.max(distribution) : 0.3])
     .nice()
     .rangeRound([margin.left, width - margin.right]);
 
@@ -56,7 +56,7 @@ const Histogram = ({ data }) => {
 
     let totalCount = distribution.reduce((acc, count) => acc + count, 0);
     if (!totalCount) {
-      totalCount = 1
+      totalCount = 1;
     }
     const percentages = distribution.map((count) => count / totalCount);
 
@@ -75,7 +75,6 @@ const Histogram = ({ data }) => {
     if (data.length) {
       const benfordDistribution = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
-
     } else {
       // Data is empty, so set distribution to a default value to allow axis drawing
       setDistribution(Array(9).fill(0));
@@ -118,7 +117,6 @@ const Histogram = ({ data }) => {
         .attr("id", (d, i) => `bar-${i}`)
         .attr("width", (d) => x(d) - margin.left);
 
-
       // Draw the Benford's Law line
       svg
         .append("path")
@@ -132,31 +130,31 @@ const Histogram = ({ data }) => {
       svg
         .selectAll("rect, circle")
         .on("mouseover", function (event) {
-          const id = d3.select(this).attr('id');
-          const index = parseInt(id.split('-')[1]);
+          const id = d3.select(this).attr("id");
+          const index = parseInt(id.split("-")[1]);
           const dataValue = distribution[index];
           tooltipDiv
-              .html(
-                  `
+            .html(
+              `
         <div class="tooltip-content">
           <div><strong>Digit: ${index + 1}</strong></div>
           <div>Number of data: ${dataValue * data.length}</div>
           <div style="color: #2BE19F;">Data Distribution: ${d3.format(".1%")(
-                      dataValue
-                  )}</div>
+            dataValue
+          )}</div>
           <div style="color: #E3E06D;">Standard Benford's Distribution: ${d3.format(
-                      ".1%"
-                  )(idealBenfordDistribution()[index])}</div>
+            ".1%"
+          )(idealBenfordDistribution()[index])}</div>
         </div>
         `
-              )
-              .style("left", event.pageX + "px")
-              .style("top", event.pageY - 28 + "px")
-              .style("opacity", 1); // Make sure the tooltip is visible
+            )
+            .style("left", event.pageX + "px")
+            .style("top", event.pageY - 28 + "px")
+            .style("opacity", 1); // Make sure the tooltip is visible
         })
-          .on("mouseout", function () {
-            tooltipDiv.style("opacity", 0);
-          });
+        .on("mouseout", function () {
+          tooltipDiv.style("opacity", 0);
+        });
 
       distribution.forEach((_, i) => {
         const grad = svg
@@ -219,6 +217,7 @@ const Histogram = ({ data }) => {
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
     }
+    setIsLoading(false);
   }, [distribution]);
 
   useEffect(() => {
@@ -236,7 +235,9 @@ const Histogram = ({ data }) => {
     //   .call(d3.axisLeft(x).tickSize(0));
   }, []);
 
-  return (
+  return isLoading ? (
+    <div>Loading...</div>
+  ) : (
     <>
       <svg className="graph" ref={svgRef}></svg>
       <div className="tooltip" ref={tooltipRef}></div>

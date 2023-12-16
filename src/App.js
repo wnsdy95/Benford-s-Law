@@ -7,15 +7,16 @@ import Papa from "papaparse";
 import Histogram from "./components/Histogram";
 import DragDropFile from "./components/DnD";
 import SampleData from "./components/SampleData";
-import Dropdown from './components/Dropdown'
-
+import Dropdown from "./components/Dropdown";
 
 function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
   const handleApplyClick = () => {
+    setIsLoading(true);
     const text = textBoxContent;
     const numbers = text
       .split("\n")
@@ -25,6 +26,7 @@ function App() {
     setData(numbers);
   };
   const handleClearClick = () => {
+    setIsLoading(true);
     setData([]); // Clear the data array
     setFileName("Cleared"); // Reset the file name
     setTextBoxContent(""); // Clear the text box content
@@ -32,9 +34,8 @@ function App() {
   const handleTextBoxChange = (e) => {
     setTextBoxContent(e.target.value);
   };
-  const options = [
-    'one', 'two', 'three'
-  ];
+
+  const options = ["one", "two", "three"];
   const defaultOption = options[0];
 
   const navigateToURL = () => {
@@ -65,11 +66,13 @@ function App() {
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
+              setIsLoading={setIsLoading}
             />
             <Dropdown
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
+              setIsLoading={setIsLoading}
             />
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
@@ -96,7 +99,12 @@ function App() {
               </button>
             </div>
             <div className="histogram">
-              <Histogram className="his" data={data} />
+              <Histogram
+                className="his"
+                data={data}
+                isLoading={isLoading}
+                setIsLoading={setIsLoading}
+              />
             </div>
           </div>
         </div>

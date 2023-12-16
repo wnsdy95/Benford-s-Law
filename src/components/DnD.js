@@ -3,24 +3,28 @@ import handleFileUpload from "../App";
 import { readExcelData, readTextData } from "../utilities/readingFile";
 import * as XLSX from "xlsx";
 import Papa from "papaparse";
-import UploadFileIcon from '@mui/icons-material/UploadFile';
+import UploadFileIcon from "@mui/icons-material/UploadFile";
 import { styled } from "@mui/system";
 
-
 // drag drop file component
-function DragDropFile({ setData, setTextBoxContent, setFileName }) {
+function DragDropFile({
+  setData,
+  setTextBoxContent,
+  setFileName,
+  setIsLoading,
+}) {
   // drag state
   const [dragActive, setDragActive] = React.useState(false);
   // ref
   const inputRef = React.useRef(null);
-  
+
   // upload icon hovering
   const StyledUploadIcon = styled(UploadFileIcon, {
     name: "StyledUploadIcon",
-    slot: "Wrapper"
+    slot: "Wrapper",
   })({
     color: "goldenrod",
-    "&:hover": { color: "rgb(227, 150, 62)" }
+    "&:hover": { color: "rgb(227, 150, 62)" },
   });
 
   // handle drag events
@@ -57,7 +61,7 @@ function DragDropFile({ setData, setTextBoxContent, setFileName }) {
   };
 
   const handleFileUpload = async (event) => {
-    console.log(event);
+    setIsLoading(true);
     const file = event.target.files[0];
     if (file) {
       let numericData;
@@ -92,20 +96,16 @@ function DragDropFile({ setData, setTextBoxContent, setFileName }) {
         className={dragActive ? "drag-active" : ""}
       >
         <div className="upload-div">
-            <StyledUploadIcon sx={{ fontSize: 70, color: "#ffffff"}} />
-            </div>
-      
-          
+          <StyledUploadIcon sx={{ fontSize: 70, color: "#ffffff" }} />
+        </div>
 
-          <div>
+        <div>
           {/* <p className="upload-button-text"></p> */}
           <button className="upload-button" onClick={onButtonClick}>
-
             Drag and drop to upload a file (.XLSX)
           </button>
           {/* <p className="upload-button-text"></p> */}
         </div>
-       
       </label>
       {dragActive && (
         <div
