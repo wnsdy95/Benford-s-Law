@@ -22,7 +22,7 @@ const Histogram = ({ data }) => {
     .range([margin.top, height - margin.bottom]) // Adjusted the range
     .padding(0.1);
 
-  let x = d3
+  const x = d3
     .scaleLinear()
       .domain([0, d3.max(distribution) > 0.3 ? d3.max(distribution) : 0.3])
     .nice()
@@ -54,8 +54,10 @@ const Histogram = ({ data }) => {
       }
     });
 
-    const totalCount = distribution.reduce((acc, count) => acc + count, 0);
-
+    let totalCount = distribution.reduce((acc, count) => acc + count, 0);
+    if (!totalCount) {
+      totalCount = 1
+    }
     const percentages = distribution.map((count) => count / totalCount);
 
     for (let i = 0; i < counts.length; i++) {
