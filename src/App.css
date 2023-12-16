@@ -68,7 +68,8 @@ body::-webkit-scrollbar-track {
 }
 .File_name {
   /*margin-top: 55px;*/
-  margin-left: -300px;
+  position: absolute;
+  margin-top: 90px;
   color: #5AF2BB;
   font-size: xx-large;
   font-family: 'Kiwi Maru', serif;
@@ -108,7 +109,7 @@ body::-webkit-scrollbar-track {
   transform:translateX(-50%);
 }
 .histogram {
-  margin-top: 50px;
+  margin-top: 120px;
 }
 .his {
   position: center;

@@ -11,6 +11,7 @@ import SampleData from "./components/SampleData";
 function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
+
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
   const handleApplyClick = () => {
     const text = textBoxContent
@@ -66,6 +67,7 @@ function App() {
         </div>
 
         <div className="right_part">
+          {fileName !== "" ? <h1 className={"File_name"}>{fileName}</h1> : <></>}
           <div className="main_content">
             <div className="text-area">
               <textarea
@@ -77,7 +79,7 @@ function App() {
               <button className={"apply"} onClick={handleClearClick}>Clear</button>
             </div>
             <div className="histogram">
-              {fileName !== "" ? <h1 className={"File_name"}>{fileName}</h1> : <></>}
+
               <Histogram className="his" data={data} />
             </div>
 
