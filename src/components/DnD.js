@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, memo } from "react";
 import handleFileUpload from "../App";
 import { readExcelData, readTextData } from "../utilities/readingFile";
 import * as XLSX from "xlsx";
@@ -7,12 +7,12 @@ import UploadFileIcon from "@mui/icons-material/UploadFile";
 import { styled } from "@mui/system";
 
 // drag drop file component
-function DragDropFile({
+const DragDropFile = memo(({
   setData,
   setTextBoxContent,
   setFileName,
   setIsLoading,
-}) {
+}) => {
   // drag state
   const [dragActive, setDragActive] = React.useState(false);
   // ref
@@ -118,5 +118,5 @@ function DragDropFile({
       )}
     </form>
   );
-}
+});
 export default DragDropFile;
