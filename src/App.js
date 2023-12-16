@@ -12,15 +12,24 @@ function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
-
+  const handleApplyClick = () => {
+    const text = textBoxContent
+    const numbers = text
+        .split("\n")
+        .map((line) => parseFloat(line))
+        .filter((num) => !isNaN(num));
+    setFileName("Testing Own Data");
+    setData(numbers);
+  };
+  const handleClearClick = () => {
+    setData([]); // Clear the data array
+    setFileName("Cleared"); // Reset the file name
+    setTextBoxContent(""); // Clear the text box content
+  };
   const handleTextBoxChange = (e) => {
     setTextBoxContent(e.target.value);
-    const text = e.target.value;
-    const numbers = text
-      .split("\n")
-      .map((line) => parseFloat(line))
-      .filter((num) => !isNaN(num));
-    setData(numbers);
+
+
   };
   const navigateToURL = () => {
     window.location.href = "https://en.wikipedia.org/wiki/Benford%27s_law";
@@ -58,11 +67,15 @@ function App() {
 
         <div className="right_part">
           <div className="main_content">
-            <textarea
-              className="data_textBox"
-              value={textBoxContent}
-              onChange={handleTextBoxChange}
-            />
+            <div className="text-area">
+              <textarea
+                className="data_textBox"
+                value={textBoxContent}
+                onChange={handleTextBoxChange}
+              />
+              <button className={"apply"} onClick={handleApplyClick}>Apply</button>
+              <button className={"apply"} onClick={handleClearClick}>Clear</button>
+            </div>
             <div className="histogram">
               {fileName !== "" ? <h1 className={"File_name"}>{fileName}</h1> : <></>}
               <Histogram className="his" data={data} />

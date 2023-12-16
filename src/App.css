@@ -25,6 +25,18 @@
 .description-contents{
   justify-content: center;
 }
+::-webkit-scrollbar{width: 17px;}/*전체의 width값*/
+::-webkit-scrollbar-thumb{
+  background-color: #61dafb;/*막대의 색상 지정*/
+  border-radius: 12px;
+  /*thunb와 track사이의 공간 만들기(padding과 margin은 적용X)*/
+  background-clip: padding-box;
+  border: 3px solid transparent;
+
+}
+body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 1);/*배경 컬러지정*/
+}
 .description {
   font-family: 'Kiwi Maru', serif;
   color: white;
@@ -55,16 +67,17 @@
   align-items: flex-start;
 }
 .File_name {
+  /*margin-top: 55px;*/
   margin-left: -300px;
-  color: #64ccc5;
-  font-size: xxx-large;
+  color: #5AF2BB;
+  font-size: xx-large;
   font-family: 'Kiwi Maru', serif;
 }
 .title {
   margin-top: 50px;
   margin-left: 00px;
   margin-bottom: 10px;
-  color: #64ccc5;
+  color: #5AF2BB;
   font-size: xxx-large;
   font-family: 'Kiwi Maru', serif;
   font-weight: lighter;
@@ -89,12 +102,17 @@
 .bagging {
   color: #64ccc5;
   font-family: "Sometype Mono", monospace;
-  position: absolute;
-  bottom: 10px;
-  left: 380px;
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  transform:translateX(-50%);
+}
+.histogram {
+  margin-top: 50px;
 }
 .his {
   position: center;
+  /*margin-top: 150px;*/
   margin-left: 100px;
 }
 
@@ -126,4 +144,27 @@
 .main_content {
   margin-top: 20px;
   display: flex;
+}
+.text-area{
+  display:grid;
+  align-items:center; /* 방향이 row 기준: 세로 중앙 정렬*/
+  /*background:transparent;*/
+
+}
+.apply {
+  margin-top: 3px;
+  color: white;
+  font-family: "Sometype Mono", monospace;
+  border: transparent;
+  background-color: #330033;
+  padding: 6px;
+  background-image: repeating-linear-gradient(-38deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(52deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(142deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(232deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px);
+  background-size: 2px calc(100% + 54.57px), calc(100% + 54.57px) 2px, 2px calc(100% + 54.57px) , calc(100% + 54.57px) 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  animation: borderAnimation3 1s infinite linear;
+}
+@keyframes borderAnimation3 {
+  from { background-position: 0 0, -54.57px 0, 100% -54.57px, 0 100%; }
+  to { background-position: 0 -54.57px, 0 0, 100% 0, -54.57px 100%; }
 }

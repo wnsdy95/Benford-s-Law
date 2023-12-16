@@ -22,9 +22,9 @@ const Histogram = ({ data }) => {
     .range([margin.top, height - margin.bottom]) // Adjusted the range
     .padding(0.1);
 
-  const x = d3
+  let x = d3
     .scaleLinear()
-    .domain([0, d3.max(distribution)])
+    .domain([0, 0.3])
     .nice()
     .rangeRound([margin.left, width - margin.right]);
 
@@ -69,7 +69,14 @@ const Histogram = ({ data }) => {
     if (data.length) {
       const benfordDistribution = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
+    } else {
+      x = d3
+          .scaleLinear()
+          .domain([0, 1])
+          .nice()
+          .rangeRound([margin.left, width - margin.right]);
     }
+
   }, [data]);
 
   useEffect(() => {
@@ -217,6 +224,7 @@ const Histogram = ({ data }) => {
     //   .attr("transform", `translate(0, ${height - margin.bottom})`)
     //   .call(d3.axisBottom(x).ticks(10, "%"))
     //   .call(d3.axisLeft(x).tickSize(0));
+
   }, []);
 
   return (
