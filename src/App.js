@@ -7,6 +7,8 @@ import Papa from "papaparse";
 import Histogram from "./components/Histogram";
 import DragDropFile from "./components/DnD";
 import SampleData from "./components/SampleData";
+import Dropdown from './components/Dropdown'
+
 
 function App() {
   const [data, setData] = useState([]);
@@ -30,6 +32,11 @@ function App() {
   const handleTextBoxChange = (e) => {
     setTextBoxContent(e.target.value);
   };
+  const options = [
+    'one', 'two', 'three'
+  ];
+  const defaultOption = options[0];
+
   const navigateToURL = () => {
     window.location.href = "https://en.wikipedia.org/wiki/Benford%27s_law";
   };
@@ -59,6 +66,12 @@ function App() {
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
             />
+            <Dropdown
+              setData={setData}
+              setTextBoxContent={setTextBoxContent}
+              setFileName={setFileName}
+            />
+            {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
         </div>
 
