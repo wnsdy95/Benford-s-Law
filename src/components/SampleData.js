@@ -5,7 +5,9 @@ const SampleData = ({ setData, setTextBoxContent, setFileName }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   // const filePath = "/assets/sampleData.xlsx";
-  const filePath = "/assets/pokemon_weight.txt";
+  // const filePath = "/assets/pokemon_weight.txt";
+  // const filePath = "/assets/Electric_Vehicle_Population_Data.xlsx";
+  const filePath = "/assets/weather.xlsx";
 
   const handleSampleData = async () => {
     const response = await fetch(filePath); // use filePath here

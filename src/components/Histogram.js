@@ -32,7 +32,6 @@ const Histogram = ({ data }) => {
   const percentages = Array(9).fill(0);
 
   function computeBenfordDistribution(data) {
-    const totalCount = data.length;
     const distribution = Array(9).fill(0);
 
     data.forEach((value) => {
@@ -54,6 +53,11 @@ const Histogram = ({ data }) => {
         }
       }
     });
+
+    const totalCount = distribution.reduce((acc, count) => acc + count, 0);
+
+    const percentages = distribution.map((count) => count / totalCount);
+
     for (let i = 0; i < counts.length; i++) {
       percentages[i] = counts[i] / totalCount;
     }
@@ -69,6 +73,11 @@ const Histogram = ({ data }) => {
     if (data.length) {
       const benfordDistribution = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
+      x.domain([0, d3.max(benfordDistribution)]);
+    } else {
+      // Data is empty, so set distribution to a default value to allow axis drawing
+      setDistribution(Array(9).fill(0));
+      // Keep the x domain at its default setting
     }
   }, [data]);
 
