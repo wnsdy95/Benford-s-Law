@@ -12,28 +12,27 @@ import Dropdown from "./components/Dropdown";
 function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
-
   const [textBoxContent, setTextBoxContent] = useState(data.join("\n"));
-  const handleApplyClick = () => {
-    setIsLoading(true);
+
+  const handleApplyClick = useCallback(() => {
     const text = textBoxContent;
     const numbers = text
-      .split("\n")
-      .map((line) => parseFloat(line))
-      .filter((num) => !isNaN(num));
+        .split("\n")
+        .map((line) => parseFloat(line))
+        .filter((num) => !isNaN(num));
     setFileName("Testing Own Data");
     setData(numbers);
-  };
-  const handleClearClick = () => {
-    setIsLoading(true);
+  }, [textBoxContent]);
+
+  const handleClearClick = useCallback(() => {
     setData([]); // Clear the data array
     setFileName("Cleared"); // Reset the file name
     setTextBoxContent(""); // Clear the text box content
-  };
-  const handleTextBoxChange = (e) => {
+  }, []);
+
+  const handleTextBoxChange = useCallback((e) => {
     setTextBoxContent(e.target.value);
-  };
+  }, []);
 
   const options = ["one", "two", "three"];
   const defaultOption = options[0];
@@ -60,13 +59,13 @@ function App() {
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
-              setIsLoading={setIsLoading}
+              // setIsLoading={setIsLoading}
             />
             <Dropdown
               setData={setData}
               setTextBoxContent={setTextBoxContent}
               setFileName={setFileName}
-              setIsLoading={setIsLoading}
+              // setIsLoading={setIsLoading}
             />
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
@@ -96,8 +95,8 @@ function App() {
               <Histogram
                 className="his"
                 data={data}
-                isLoading={isLoading}
-                setIsLoading={setIsLoading}
+                // isLoading={isLoading}
+                // setIsLoading={setIsLoading}
               />
             </div>
           </div>

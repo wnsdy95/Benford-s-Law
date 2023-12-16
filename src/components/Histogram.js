@@ -88,7 +88,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   }, [data]);
 
   useEffect(() => {
-    if (distribution.length) {
+    if (distribution.length && !isLoading) {
       const svg = d3.select(svgRef.current);
 
       svg.selectAll("*").remove(); // Clear previous rendering
@@ -222,8 +222,6 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
     }
-    // setIsLoading(false);
-    console.log(1);
   }, [distribution, isLoading]);
 
   useEffect(() => {
