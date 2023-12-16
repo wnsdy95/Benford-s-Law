@@ -7,7 +7,7 @@ const DropdownMenu = ({ setData, setTextBoxContent, setFileName }) => {
 	const options = [
 		{ label: 'Pokemon Weight', filePath: "/assets/pokemon_weight.txt" },
 		{ label: 'Regional Weather', filePath: "/assets/regional_weather.xlsx" },
-		{ label: 'Option 3', filePath: "/assets/option3.txt" }
+		{ label: 'Lottery Powerball', filePath: "/assets/Lottery_Powerball.xlsx"},
 	];
 
 	const handleSelectChange = async (event) => {
