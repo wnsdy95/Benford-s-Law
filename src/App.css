@@ -159,6 +159,18 @@ body::-webkit-scrollbar-track {
   border: transparent;
   background-color: #330033;
   padding: 6px;
+  background-image: repeating-linear-gradient(-24deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(66deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(156deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(246deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px);
+  background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+.apply:hover {
+  margin-top: 3px;
+  color: white;
+  font-family: "Sometype Mono", monospace;
+  border: transparent;
+  background-color: #330033;
+  padding: 6px;
   background-image: repeating-linear-gradient(-38deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(52deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(142deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px), repeating-linear-gradient(232deg, #ffffff, #ffffff 12.75px, transparent 17px, transparent 36.5px, #ffffff 43px);
   background-size: 2px calc(100% + 54.57px), calc(100% + 54.57px) 2px, 2px calc(100% + 54.57px) , calc(100% + 54.57px) 2px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
