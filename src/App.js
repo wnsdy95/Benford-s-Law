@@ -55,12 +55,6 @@ function App() {
               also applies to the distribution of second, third digits, digit
               combinations, and so on.
             </p>
-            <SampleData
-              setData={setData}
-              setTextBoxContent={setTextBoxContent}
-              setFileName={setFileName}
-            />
-
             <DragDropFile
               setData={setData}
               setTextBoxContent={setTextBoxContent}
