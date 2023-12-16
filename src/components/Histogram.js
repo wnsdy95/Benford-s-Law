@@ -84,7 +84,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     }
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 3000);
   }, [data]);
 
   useEffect(() => {
