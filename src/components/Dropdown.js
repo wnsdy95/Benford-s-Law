@@ -20,7 +20,7 @@ const DropdownMenu = ({
     const selected = options.find((option) => option.label === selectedLabel);
     if (selected) {
       setSelectedOption(selectedLabel);
-      // setIsLoading(true);
+      setIsLoading(true);
       await handleSampleData(selected.filePath);
     }
   };
