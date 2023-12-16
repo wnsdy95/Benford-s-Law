@@ -22,23 +22,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.description-contents{
+.description-contents {
   justify-content: center;
 }
-::-webkit-scrollbar{width: 17px;}/*전체의 width값*/
-::-webkit-scrollbar-thumb{
-  background-color: #61dafb;/*막대의 색상 지정*/
+::-webkit-scrollbar {
+  width: 17px;
+} /*전체의 width값*/
+::-webkit-scrollbar-thumb {
+  background-color: #61dafb; /*막대의 색상 지정*/
   border-radius: 12px;
   /*thunb와 track사이의 공간 만들기(padding과 margin은 적용X)*/
   background-clip: padding-box;
   border: 3px solid transparent;
-
 }
 body::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 1);/*배경 컬러지정*/
+  background: rgba(255, 255, 255, 1); /*배경 컬러지정*/
 }
 .description {
-  font-family: 'Kiwi Maru', serif;
+  font-family: "Kiwi Maru", serif;
   color: white;
   text-align: justify;
   width: 400px;
@@ -70,17 +71,17 @@ body::-webkit-scrollbar-track {
   /*margin-top: 55px;*/
   position: absolute;
   margin-top: 90px;
-  color: #5AF2BB;
+  color: #5af2bb;
   font-size: xx-large;
-  font-family: 'Kiwi Maru', serif;
+  font-family: "Kiwi Maru", serif;
 }
 .title {
   margin-top: 50px;
   margin-left: 00px;
   margin-bottom: 10px;
-  color: #5AF2BB;
+  color: #5af2bb;
   font-size: xxx-large;
-  font-family: 'Kiwi Maru', serif;
+  font-family: "Kiwi Maru", serif;
   font-weight: lighter;
 }
 /*.dropdown-menu {*/
@@ -92,7 +93,7 @@ body::-webkit-scrollbar-track {
   color: white;
   background: #330033;
   padding: 10px;
-  font-family: 'Kiwi Maru', serif;
+  font-family: "Kiwi Maru", serif;
 }
 .sub-title {
   margin-top: 0px;
@@ -114,10 +115,10 @@ body::-webkit-scrollbar-track {
 .bagging {
   color: #64ccc5;
   font-family: "Sometype Mono", monospace;
-  position:absolute;
-  bottom:10px;
-  left:50%;
-  transform:translateX(-50%);
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .histogram {
   margin-top: 120px;
@@ -126,6 +127,15 @@ body::-webkit-scrollbar-track {
   position: center;
   /*margin-top: 150px;*/
   margin-left: 100px;
+}
+
+.loading {
+  margin-left: 200px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* You might need to adjust the height */
 }
 
 .data_textBox {
@@ -142,26 +152,60 @@ body::-webkit-scrollbar-track {
   text-decoration-color: white;
   padding-left: 10px;
   padding-top: 5px;
-  background-image: repeating-linear-gradient(-51deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(39deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(129deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px), repeating-linear-gradient(219deg, #ffffff, #ffffff 25.8px, transparent 30px, transparent 47.2px, #ffffff 50px);
-  background-size: 3px calc(100% + 79.45px), calc(100% + 79.45px) 3px, 3px calc(100% + 79.45px) , calc(100% + 79.45px) 3px;
+  background-image: repeating-linear-gradient(
+      -51deg,
+      #ffffff,
+      #ffffff 25.8px,
+      transparent 30px,
+      transparent 47.2px,
+      #ffffff 50px
+    ),
+    repeating-linear-gradient(
+      39deg,
+      #ffffff,
+      #ffffff 25.8px,
+      transparent 30px,
+      transparent 47.2px,
+      #ffffff 50px
+    ),
+    repeating-linear-gradient(
+      129deg,
+      #ffffff,
+      #ffffff 25.8px,
+      transparent 30px,
+      transparent 47.2px,
+      #ffffff 50px
+    ),
+    repeating-linear-gradient(
+      219deg,
+      #ffffff,
+      #ffffff 25.8px,
+      transparent 30px,
+      transparent 47.2px,
+      #ffffff 50px
+    );
+  background-size: 3px calc(100% + 79.45px), calc(100% + 79.45px) 3px,
+    3px calc(100% + 79.45px), calc(100% + 79.45px) 3px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
   animation: borderAnimation2 0.9s infinite linear;
-
 }
 @keyframes borderAnimation2 {
-  from { background-position: 0 0, -79.45px 0, 100% -79.45px, 0 100%; }
-  to { background-position: 0 -79.45px, 0 0, 100% 0, -79.45px 100%; }
+  from {
+    background-position: 0 0, -79.45px 0, 100% -79.45px, 0 100%;
+  }
+  to {
+    background-position: 0 -79.45px, 0 0, 100% 0, -79.45px 100%;
+  }
 }
 .main_content {
   margin-top: 20px;
   display: flex;
 }
-.text-area{
-  display:grid;
-  align-items:center; /* 방향이 row 기준: 세로 중앙 정렬*/
+.text-area {
+  display: grid;
+  align-items: center; /* 방향이 row 기준: 세로 중앙 정렬*/
   /*background:transparent;*/
-
 }
 .apply {
   margin-top: 10px;
@@ -170,8 +214,39 @@ body::-webkit-scrollbar-track {
   border: transparent;
   background-color: #330033;
   padding: 6px;
-  background-image: repeating-linear-gradient(-24deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(66deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(156deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px), repeating-linear-gradient(246deg, #ffffff, #ffffff 16px, transparent 16px, transparent 36px, #ffffff 36px);
-  background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
+  background-image: repeating-linear-gradient(
+      -24deg,
+      #ffffff,
+      #ffffff 16px,
+      transparent 16px,
+      transparent 36px,
+      #ffffff 36px
+    ),
+    repeating-linear-gradient(
+      66deg,
+      #ffffff,
+      #ffffff 16px,
+      transparent 16px,
+      transparent 36px,
+      #ffffff 36px
+    ),
+    repeating-linear-gradient(
+      156deg,
+      #ffffff,
+      #ffffff 16px,
+      transparent 16px,
+      transparent 36px,
+      #ffffff 36px
+    ),
+    repeating-linear-gradient(
+      246deg,
+      #ffffff,
+      #ffffff 16px,
+      transparent 16px,
+      transparent 36px,
+      #ffffff 36px
+    );
+  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
 }
@@ -183,13 +258,49 @@ body::-webkit-scrollbar-track {
   border: transparent;
   background-color: #330033;
   padding: 6px;
-  background-image: repeating-linear-gradient(-34deg, #f08080, #f08080 10.24px, transparent 16px, transparent 28.8px, #f08080 36px), repeating-linear-gradient(56deg, #f08080, #f08080 10.24px, transparent 16px, transparent 28.8px, #f08080 36px), repeating-linear-gradient(146deg, #f08080, #f08080 10.24px, transparent 16px, transparent 28.8px, #f08080 36px), repeating-linear-gradient(236deg, #f08080, #f08080 10.24px, transparent 16px, transparent 28.8px, #f08080 36px);
-  background-size: 2px calc(100% + 43.42px), calc(100% + 43.42px) 2px, 2px calc(100% + 43.42px) , calc(100% + 43.42px) 2px;
+  background-image: repeating-linear-gradient(
+      -34deg,
+      #f08080,
+      #f08080 10.24px,
+      transparent 16px,
+      transparent 28.8px,
+      #f08080 36px
+    ),
+    repeating-linear-gradient(
+      56deg,
+      #f08080,
+      #f08080 10.24px,
+      transparent 16px,
+      transparent 28.8px,
+      #f08080 36px
+    ),
+    repeating-linear-gradient(
+      146deg,
+      #f08080,
+      #f08080 10.24px,
+      transparent 16px,
+      transparent 28.8px,
+      #f08080 36px
+    ),
+    repeating-linear-gradient(
+      236deg,
+      #f08080,
+      #f08080 10.24px,
+      transparent 16px,
+      transparent 28.8px,
+      #f08080 36px
+    );
+  background-size: 2px calc(100% + 43.42px), calc(100% + 43.42px) 2px,
+    2px calc(100% + 43.42px), calc(100% + 43.42px) 2px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
   animation: borderAnimation3 0.9s infinite linear;
 }
 @keyframes borderAnimation3 {
-  from { background-position: 0 0, -43.42px 0, 100% -43.42px, 0 100%; }
-  to { background-position: 0 -43.42px, 0 0, 100% 0, -43.42px 100%; }
+  from {
+    background-position: 0 0, -43.42px 0, 100% -43.42px, 0 100%;
+  }
+  to {
+    background-position: 0 -43.42px, 0 0, 100% 0, -43.42px 100%;
+  }
 }

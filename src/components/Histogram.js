@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import * as d3 from "d3";
 import "./Histogram.css";
+import { CircularProgress } from "@mui/material";
 
 const Histogram = ({ data, isLoading, setIsLoading }) => {
   const [distribution, setDistribution] = useState([]);
@@ -72,6 +73,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   }
 
   useEffect(() => {
+    console.log(3);
     if (data.length) {
       const benfordDistribution = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
@@ -80,6 +82,9 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       setDistribution(Array(9).fill(0));
       // Keep the x domain at its default setting
     }
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 5000);
   }, [data]);
 
   useEffect(() => {
@@ -217,8 +222,9 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
     }
-    setIsLoading(false);
-  }, [distribution]);
+    // setIsLoading(false);
+    console.log(1);
+  }, [distribution, isLoading]);
 
   useEffect(() => {
     const svg = d3.select(svgRef.current);
@@ -233,10 +239,13 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     //   .attr("transform", `translate(0, ${height - margin.bottom})`)
     //   .call(d3.axisBottom(x).ticks(10, "%"))
     //   .call(d3.axisLeft(x).tickSize(0));
+    console.log(2);
   }, []);
 
   return isLoading ? (
-    <div>Loading...</div>
+    <div className="loading">
+      <CircularProgress color="secondary" />
+    </div>
   ) : (
     <>
       <svg className="graph" ref={svgRef}></svg>
