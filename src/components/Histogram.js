@@ -78,7 +78,6 @@ const Histogram = ({ data }) => {
       setDistribution(Array(9).fill(0));
       // Keep the x domain at its default setting
     }
-
   }, [data]);
 
   useEffect(() => {
@@ -111,6 +110,8 @@ const Histogram = ({ data }) => {
         .attr("width", (d) => 0) // Initial width set to 0 for animation
         .attr("height", y.bandwidth() - 10)
         .attr("fill", (_, i) => `url(#grad${i})`)
+        .transition() // Apply animation to bars
+        .duration(1000) // Duration of the animation (in milliseconds)
         .attr("width", (d) => x(d) - margin.left);
 
       // Draw the Benford's Law line
@@ -226,7 +227,6 @@ const Histogram = ({ data }) => {
     //   .attr("transform", `translate(0, ${height - margin.bottom})`)
     //   .call(d3.axisBottom(x).ticks(10, "%"))
     //   .call(d3.axisLeft(x).tickSize(0));
-
   }, []);
 
   return (
