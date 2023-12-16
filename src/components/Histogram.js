@@ -24,7 +24,7 @@ const Histogram = ({ data }) => {
 
   let x = d3
     .scaleLinear()
-    .domain([0, 0.3])
+      .domain([0, d3.max(distribution) > 0.3 ? d3.max(distribution) : 0.3])
     .nice()
     .rangeRound([margin.left, width - margin.right]);
 
@@ -73,6 +73,7 @@ const Histogram = ({ data }) => {
     if (data.length) {
       const benfordDistribution = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
+
     } else {
       // Data is empty, so set distribution to a default value to allow axis drawing
       setDistribution(Array(9).fill(0));
@@ -112,7 +113,9 @@ const Histogram = ({ data }) => {
         .attr("fill", (_, i) => `url(#grad${i})`)
         .transition() // Apply animation to bars
         .duration(1000) // Duration of the animation (in milliseconds)
+        .attr("id", (d, i) => `bar-${i}`)
         .attr("width", (d) => x(d) - margin.left);
+
 
       // Draw the Benford's Law line
       svg
@@ -126,30 +129,32 @@ const Histogram = ({ data }) => {
 
       svg
         .selectAll("rect, circle")
-        .on("mouseover", function (event, d) {
-          const i = distribution.indexOf(d);
+        .on("mouseover", function (event) {
+          const id = d3.select(this).attr('id');
+          const index = parseInt(id.split('-')[1]);
+          const dataValue = distribution[index];
           tooltipDiv
-            .html(
-              `
-      <div class="tooltip-content">
-        <div><strong>Digit: ${i + 1}</strong></div>
-        <div>Number of data: ${distribution[i] * data.length}</div>
-        <div style="color: #2BE19F;">Data Distribution: ${d3.format(".1%")(
-          d
-        )}</div>
-        <div style="color: #E3E06D;">Standard Benford's Distribution: ${d3.format(
-          ".1%"
-        )(idealBenfordDistribution()[i])}</div>
-      </div>
-    `
-            )
-            .style("left", event.pageX + "px")
-            .style("top", event.pageY - 28 + "px")
-            .style("opacity", 1); // Make sure the tooltip is visible
+              .html(
+                  `
+        <div class="tooltip-content">
+          <div><strong>Digit: ${index + 1}</strong></div>
+          <div>Number of data: ${dataValue * data.length}</div>
+          <div style="color: #2BE19F;">Data Distribution: ${d3.format(".1%")(
+                      dataValue
+                  )}</div>
+          <div style="color: #E3E06D;">Standard Benford's Distribution: ${d3.format(
+                      ".1%"
+                  )(idealBenfordDistribution()[index])}</div>
+        </div>
+        `
+              )
+              .style("left", event.pageX + "px")
+              .style("top", event.pageY - 28 + "px")
+              .style("opacity", 1); // Make sure the tooltip is visible
         })
-        .on("mouseout", function (d) {
-          tooltipDiv.style("opacity", 0);
-        });
+          .on("mouseout", function () {
+            tooltipDiv.style("opacity", 0);
+          });
 
       distribution.forEach((_, i) => {
         const grad = svg
