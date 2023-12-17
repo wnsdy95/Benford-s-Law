@@ -41,12 +41,12 @@ rect:hover {
   width: auto; /* Auto width to accommodate content */
   padding: 10px;
   font: 13px sans-serif;
-  background: #330033; /* Dark purple background */
+  background: rgba(10,10,10,0.95); /* Dark purple background */
   color: #ffffff; /* White text color */
-  border: 1px solid white;
-  border-radius: 4px;
+  /*border: 1px solid white;*/
+  border-radius: 10px;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.5;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a slight shadow */
 }
 
