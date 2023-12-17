@@ -34,6 +34,8 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   const counts = Array(9).fill(0);
   const percentages = Array(9).fill(0);
 
+  const deviationSvgRef = useRef(null);
+
   function computeBenfordDistribution(data) {
     const distribution = Array(9).fill(0);
     const localDigitsCount = Array(9).fill(0);
@@ -95,6 +97,85 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       setIsLoading(false);
     }, 3000);
   }, [data]);
+
+
+  const renderDeviationGraph = (distribution) => {
+    const deviations = distribution.map((value, index) => {
+      const idealValue = idealBenfordDistribution()[index];
+      const deviation = ((value / idealValue) - 1) * 100; // Deviation percentage from ideal
+      return deviation;
+    });
+
+    console.log("Deviations:", deviations); // Debugging
+    const compressedHeight = 100;
+    const svg = d3.select(deviationSvgRef.current);
+    svg.selectAll("*").remove();
+    let tooltipDiv = d3.select(".deviation-tooltip");
+    if (tooltipDiv.empty()) {
+      tooltipDiv = d3.select("body").append("div")
+          .attr("class", "deviation-tooltip")
+          .style("position", "absolute")
+          .style("z-index", "10")
+          .style("visibility", "hidden")
+          .style("background", "lightgrey")
+          .style("padding", "5px")
+          .style("border-radius", "5px")
+          .style("color", "black");
+    }
+    svg.attr("width", width).attr("height", compressedHeight);
+
+    const x = d3.scaleBand()
+        .domain(d3.range(1, 10))
+        .range([margin.left, width - margin.right])
+        .padding(0.1);
+
+    const y = d3.scaleLinear()
+        .domain([d3.min(deviations), d3.max(deviations)])
+        .range([compressedHeight - margin.bottom, margin.top]);
+
+    svg.append("line")
+        .attr("x1", margin.left)
+        .attr("x2", width - margin.right)
+        .attr("y1", y(0))
+        .attr("y2", y(0))
+        .attr("stroke", "white") // Or any color you prefer
+        .attr("stroke-width", 1); // Adjust the width as needed
+
+    svg.selectAll(".deviation-dot")
+        .data(deviations)
+        .enter()
+        .append("circle")
+        .attr("class", "deviation-dot")
+        .attr("cx", (d, i) => x(i + 1) + x.bandwidth() / 2)
+        .attr("cy", d => y(d))
+        .attr("r", 3)
+        .attr("fill", d => Math.abs(d) > 20 ? "red" : "green")
+        .on("mouseover", function (event, d) {
+            const digit = deviations.indexOf(d) + 1;
+            tooltipDiv.html(`Digit: ${digit}<br>Deviation: ${d.toFixed(2)}%`)
+                .style("visibility", "visible")
+                .style("top", (event.pageY - 10) + "px")
+                .style("left", (event.pageX + 10) + "px");
+        })
+        .on("mouseout", function () {
+          tooltipDiv.style("visibility", "hidden");
+        });
+
+    // Add Y-axis
+    svg.append("g")
+        .attr("transform", `translate(${margin.left},0)`)
+        .call(d3.axisLeft(y).tickValues([-20, 20]).tickSize(0))
+        .selectAll("text")
+        .attr("fill", "white") // or any color you prefer for text
+        .attr("stroke", "none");
+    // Remove the axis line
+    svg.select(".domain").remove();
+
+
+  };
+
+
+
 
   useEffect(() => {
     if (distribution.length && !isLoading) {
@@ -231,6 +312,8 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .attr("transform", `translate(0, ${height - margin.bottom})`)
         .call(d3.axisBottom(x).ticks(10, "%"))
         .call(d3.axisLeft(x).tickSize(0));
+
+      renderDeviationGraph(distribution);
     }
   }, [distribution, isLoading]);
 
@@ -258,6 +341,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     <>
       <svg className="graph" ref={svgRef}></svg>
       <div className="tooltip" ref={tooltipRef}></div>
+      <svg className="deviation-graph" ref={deviationSvgRef}></svg>
     </>
   );
 };
