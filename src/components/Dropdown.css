@@ -4,13 +4,14 @@
 .drop {
     width: 402px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: white;
     /*background: transparent;*/
     background-color: transparent;
     padding: 10px 0;
     border: 2px solid white;
     font-family: "Kiwi Maru", serif;
+
 }
 select option {
     /*margin: 80px;*/

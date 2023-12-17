@@ -72,7 +72,7 @@ function App() {
             />
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
-          <p className="description">
+          <p className="description2">
             The deviation formula is,<br></br>
             ((DD - ID) / ID) x 100, <br></br>
             where DD: Data Distribution <br></br>

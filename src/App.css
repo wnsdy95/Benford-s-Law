@@ -46,6 +46,16 @@ body::-webkit-scrollbar-track {
   margin-left: 100px;
   margin-right: 100px;
 }
+.description2 {
+  font-family: "Kiwi Maru", serif;
+  color: white;
+  text-align: justify;
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  max-height: 180px;
+  overflow: scroll;
+}
 .App-link {
   color: #61dafb;
 }
@@ -110,7 +120,7 @@ body::-webkit-scrollbar-track {
   color: grey;
   font-family: "Sometype Mono", monospace;
   position: absolute;
-  bottom: 10px;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
 }
