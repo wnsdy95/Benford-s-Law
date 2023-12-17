@@ -40,6 +40,7 @@ body::-webkit-scrollbar-track {
 }
 ::-webkit-scrollbar-corner {
   background-color: transparent;
+  border: none;
 }
 .description {
   font-family: "Kiwi Maru", serif;
@@ -150,6 +151,7 @@ body::-webkit-scrollbar-track {
   left: 50px;
   width: 100px;
   height: 400px;
+  resize: none;
   border-radius: 5px;
   border-color: transparent;
   justify-items: center;
