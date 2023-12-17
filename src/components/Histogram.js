@@ -5,6 +5,8 @@ import { CircularProgress } from "@mui/material";
 
 const Histogram = ({ data, isLoading, setIsLoading }) => {
   const [distribution, setDistribution] = useState([]);
+  const [digitsCount, setDigitsCount] = useState([]);
+
   const svgRef = useRef(null);
   const tooltipRef = useRef(null);
 
@@ -34,6 +36,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
 
   function computeBenfordDistribution(data) {
     const distribution = Array(9).fill(0);
+    const localDigitsCount = Array(9).fill(0);
 
     data.forEach((value) => {
       var numf = parseFloat(value);
@@ -53,6 +56,10 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
           }
         }
       }
+      for (i = 0; i < distribution.length;i++) {
+        localDigitsCount[i] = distribution[i]
+        // console.log(degits_count)
+      }
     });
 
     let totalCount = distribution.reduce((acc, count) => acc + count, 0);
@@ -65,7 +72,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       percentages[i] = counts[i] / totalCount;
     }
 
-    return distribution.map((count) => count / totalCount);
+    return { distribution: distribution.map((count) => count / totalCount), localDigitsCount };
   }
 
   function idealBenfordDistribution() {
@@ -75,11 +82,13 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   useEffect(() => {
     console.log(3);
     if (data.length) {
-      const benfordDistribution = computeBenfordDistribution(data);
+      const { distribution: benfordDistribution, localDigitsCount } = computeBenfordDistribution(data);
       setDistribution(benfordDistribution);
+      setDigitsCount(localDigitsCount);
     } else {
       // Data is empty, so set distribution to a default value to allow axis drawing
       setDistribution(Array(9).fill(0));
+      setDigitsCount(Array(9).fill(0));
       // Keep the x domain at its default setting
     }
     setTimeout(() => {
@@ -137,13 +146,14 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .on("mouseover", function (event) {
           const id = d3.select(this).attr("id");
           const index = parseInt(id.split("-")[1]);
+          console.log(index)
           const dataValue = distribution[index];
           tooltipDiv
             .html(
               `
         <div class="tooltip-content">
           <div><strong>Digit: ${index + 1}</strong></div>
-          <div>Number of data: ${dataValue * data.length}</div>
+          <div>Number of data: ${digitsCount[index]}</div>
           <div style="color: #2BE19F;">Data Distribution: ${d3.format(".1%")(
             dataValue
           )}</div>
