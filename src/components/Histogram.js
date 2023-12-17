@@ -102,12 +102,12 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   const renderDeviationGraph = (distribution) => {
     const deviations = distribution.map((value, index) => {
       const idealValue = idealBenfordDistribution()[index];
-      const deviation = ((value / idealValue) - 1) * 100; // Deviation percentage from ideal
+      const deviation = ((value - idealValue) / idealValue) * 100; // Deviation percentage from ideal
       return deviation;
     });
 
     console.log("Deviations:", deviations); // Debugging
-    const compressedHeight = 100;
+    const compressedHeight = 150;
     const svg = d3.select(deviationSvgRef.current);
     svg.selectAll("*").remove();
     let tooltipDiv = d3.select(".deviation-tooltip");
@@ -151,11 +151,11 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .attr("r", 3)
         .attr("fill", d => Math.abs(d) > 20 ? "red" : "green")
         .on("mouseover", function (event, d) {
-            const digit = deviations.indexOf(d) + 1;
-            tooltipDiv.html(`Digit: ${digit}<br>Deviation: ${d.toFixed(2)}%`)
-                .style("visibility", "visible")
-                .style("top", (event.pageY - 10) + "px")
-                .style("left", (event.pageX + 10) + "px");
+          const digit = deviations.indexOf(d) + 1; // Getting the digit (1-9)
+          tooltipDiv.html(`Digit: ${digit}<br>Deviation: ${d.toFixed(2)}%`)
+              .style("visibility", "visible")
+              .style("top", (event.pageY - 10) + "px")
+              .style("left", (event.pageX + 10) + "px");
         })
         .on("mouseout", function () {
           tooltipDiv.style("visibility", "hidden");
