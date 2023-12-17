@@ -140,6 +140,17 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .attr("y2", y(0))
         .attr("stroke", "white") // Or any color you prefer
         .attr("stroke-width", 1); // Adjust the width as needed
+    const deviationLevels = [20, -20];
+    deviationLevels.forEach(deviationLevel => {
+      svg.append("line")
+          .attr("x1", margin.left)
+          .attr("x2", width - margin.right)
+          .attr("y1", y(deviationLevel))
+          .attr("y2", y(deviationLevel))
+          .attr("stroke", "grey") // Choose a color for the line
+          .attr("stroke-width", 1)
+          .attr("stroke-dasharray", "5,5"); // Dashed line (optional)
+    });
 
     svg.selectAll(".deviation-dot")
         .data(deviations)
@@ -148,8 +159,8 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         .attr("class", "deviation-dot")
         .attr("cx", (d, i) => x(i + 1) + x.bandwidth() / 2)
         .attr("cy", d => y(d))
-        .attr("r", 3)
-        .attr("fill", d => Math.abs(d) > 20 ? "red" : "green")
+        .attr("r", 4)
+        .attr("fill", d => Math.abs(d) > 20 ? "red" : "#2BE19F")
         .on("mouseover", function (event, d) {
           const digit = deviations.indexOf(d) + 1; // Getting the digit (1-9)
           tooltipDiv.html(`Digit: ${digit}<br>Deviation: ${d.toFixed(2)}%`)
