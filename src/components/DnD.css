@@ -24,7 +24,7 @@
     animation: borderAnimation 1s infinite linear;
 
     border-color: #ffffff;
-    background-color: #330033;
+    background-color: transparent;
     margin-top: 5%;
 }
 @keyframes borderAnimation {

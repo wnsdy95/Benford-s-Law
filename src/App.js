@@ -72,6 +72,16 @@ function App() {
             />
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
+          <p className="description">
+            The deviation formula is,<br></br>
+            ((DD - ID) / ID) x 100, <br></br>
+            where DD: Data Distribution <br></br>
+            <span class="tab"></span>   ID: Ideal Distribution <br></br>
+            The deviation shows how far away the data distribution is from the ideal distribution. Typically, if
+            tha data distribution is 20% away (especially if the high value digits, such as 8, 9), then it is regarded as artificial or manipulated data.
+            In the case of the lottery, it does not fit with the Benford's law; since, the number of lottery is more likely
+            to be identifier rather than the number as a mathematical term.
+          </p>
         </div>
 
         <div className="right_part">

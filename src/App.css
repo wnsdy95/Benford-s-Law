@@ -84,17 +84,11 @@ body::-webkit-scrollbar-track {
   font-family: "Kiwi Maru", serif;
   font-weight: lighter;
 }
-/*.dropdown-menu {*/
-/*  width: 1opo;*/
-/*}*/
-.drop {
-  width: 402px;
-  margin-top: 30px;
-  color: white;
-  background: #330033;
-  padding: 10px;
-  font-family: "Kiwi Maru", serif;
+.tab {
+  display: inline-block;
+  margin-left: 3.3em;
 }
+
 .sub-title {
   margin-top: 0px;
   margin-left: 90px;
@@ -113,7 +107,7 @@ body::-webkit-scrollbar-track {
   margin-bottom: 50px;
 }
 .bagging {
-  color: #64ccc5;
+  color: grey;
   font-family: "Sometype Mono", monospace;
   position: absolute;
   bottom: 10px;
@@ -147,7 +141,7 @@ body::-webkit-scrollbar-track {
   border-color: transparent;
   justify-items: center;
   color: white;
-  background-color: #330033;
+  background-color: transparent;
   border-style: groove;
   text-decoration-color: white;
   padding-left: 10px;
@@ -212,7 +206,7 @@ body::-webkit-scrollbar-track {
   color: white;
   font-family: "Sometype Mono", monospace;
   border: transparent;
-  background-color: #330033;
+  background-color: transparent;
   padding: 6px;
   background-image: repeating-linear-gradient(
       -24deg,
@@ -256,7 +250,7 @@ body::-webkit-scrollbar-track {
   font-family: "Sometype Mono", monospace;
   font-size: medium;
   border: transparent;
-  background-color: #330033;
+  background-color: transparent;
   padding: 6px;
   background-image: repeating-linear-gradient(
       -34deg,

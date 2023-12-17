@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { readExcelData, readTextData } from "../utilities/readingFile";
+import "./Dropdown.css";
+
 
 const DropdownMenu = ({
   setData,
@@ -43,20 +45,17 @@ const DropdownMenu = ({
   };
 
   return (
-    <div>
+    <div className={"option"}>
       <select
         className="drop"
         value={selectedOption}
         onChange={handleSelectChange}
       >
-        <option className="down" value="">
-          Select an example data
-        </option>
-        {options.map((option, index) => (
-          <option key={index} value={option.label}>
-            {option.label}
-          </option>
-        ))}
+
+        <option className="down" value="">Select an example data</option>
+        <option value="Pokemon Weight">Pokemon Weight</option>
+        <option value="Regional Weather">Regional Weather</option>
+        <option value="Lottery Powerball">Lottery Powerball</option>
       </select>
     </div>
   );

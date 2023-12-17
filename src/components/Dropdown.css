@@ -1,0 +1,50 @@
+/*.dropdown-menu {*/
+/*  width: 1opo;*/
+/*}*/
+.drop {
+    width: 402px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    /*background: transparent;*/
+    background-color: transparent;
+    padding: 10px 0;
+    border: 2px solid white;
+    font-family: "Kiwi Maru", serif;
+}
+select option {
+    /*margin: 80px;*/
+    background: rgb(31, 31, 31);
+    color: #fff;
+    padding-left: 10px;
+    /*text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);*/
+}
+select option[value=""] {
+    /*background: rgba(100, 100, 100, 0.3);*/
+    padding-top: 30px;
+}
+
+select option[value="Pokemon Weight"] {
+    /*background: rgba(150, 150, 150, 0.3);*/
+
+}
+.drop::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 200px 1em;
+    background: #34495E;
+    pointer-events: none;
+}
+select option[value="Regional Weather"] {
+    /*background: rgba(200, 200, 200, 0.3);*/
+}
+
+select option[value="Lottery Powerball"] {
+    /*background: rgba(250, 250, 250, 0.3);*/
+}
+/*.down {*/
+/*  background: transparent;*/
+/*}*/
