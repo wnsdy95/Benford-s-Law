@@ -8,13 +8,13 @@
 }
 .graph {
   background-color: rgba(56,57,58,0.6);
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   border-radius: 10px;
 }
 .deviation-graph {
   margin-top: 20px;
   background-color: rgba(56,57,58,0.6);
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   border-radius: 10px;
 }
 .percentage-label {

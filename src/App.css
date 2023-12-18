@@ -191,7 +191,7 @@ body::-webkit-scrollbar-track {
   width: 90%;
   /*background-color: rgba(150,90,80,0.2);*/
   /*border-radius: 10px;*/
-  /*margin-left: 30px;*/
+  margin-left: 30px;
 }
 .his {
   position: center;
@@ -211,63 +211,17 @@ body::-webkit-scrollbar-track {
   /* margin-top: 150px; */
   left: 50px;
   width: 100px;
-  height: 400px;
+  height: 436px;
   resize: none;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: transparent;
   justify-items: center;
-  color: white;
-  background-color: transparent;
-  border-style: groove;
-  text-decoration-color: white;
   padding-left: 10px;
-  padding-top: 5px;
-  background-image: repeating-linear-gradient(
-      -51deg,
-      #ffffff,
-      #ffffff 25.8px,
-      transparent 30px,
-      transparent 47.2px,
-      #ffffff 50px
-    ),
-    repeating-linear-gradient(
-      39deg,
-      #ffffff,
-      #ffffff 25.8px,
-      transparent 30px,
-      transparent 47.2px,
-      #ffffff 50px
-    ),
-    repeating-linear-gradient(
-      129deg,
-      #ffffff,
-      #ffffff 25.8px,
-      transparent 30px,
-      transparent 47.2px,
-      #ffffff 50px
-    ),
-    repeating-linear-gradient(
-      219deg,
-      #ffffff,
-      #ffffff 25.8px,
-      transparent 30px,
-      transparent 47.2px,
-      #ffffff 50px
-    );
-  background-size: 1px calc(100% + 79.45px), calc(100% + 79.45px) 1px,
-    1px calc(100% + 79.45px), calc(100% + 79.45px) 1px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
-  animation: borderAnimation2 0.9s infinite linear;
-}
-@keyframes borderAnimation2 {
-  from {
-    background-position: 0 0, -79.45px 0, 100% -79.45px, 0 100%;
-  }
-  to {
-    background-position: 0 -79.45px, 0 0, 100% 0, -79.45px 100%;
-  }
-}
+  padding-top: 10px;
+  color: white;
+  background-color: rgba(56,57,58,0.6);
+  border-style: groove;
+ }
 
 
 .right_part {
