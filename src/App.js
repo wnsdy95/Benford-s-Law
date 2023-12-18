@@ -8,7 +8,6 @@ import Histogram from "./components/Histogram";
 import DragDropFile from "./components/DnD";
 import SampleData from "./components/SampleData";
 import Dropdown from "./components/Dropdown";
-
 function App() {
   const [data, setData] = useState([]);
   const [fileName, setFileName] = useState("");
@@ -97,12 +96,10 @@ function App() {
                 value={textBoxContent}
                 onChange={handleTextBoxChange}
               />
-              <button className={"apply"} onClick={handleApplyClick}>
-                Apply
-              </button>
-              <button className={"apply"} onClick={handleClearClick}>
-                Clear
-              </button>
+
+              <button color={"white"} className="glitch-btn" onClick={handleApplyClick}>Apply</button>
+              <button color={"black"} className="glitch-btn" type="button" name="Hover" onClick={handleClearClick}>Clear</button>
+
             </div>
             <div className="histogram">
               <Histogram

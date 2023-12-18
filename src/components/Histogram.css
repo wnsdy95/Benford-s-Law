@@ -6,9 +6,17 @@
   font-size: 12px; /* Adjust font size as needed */
   fill: #2be19f; /* Color of the numbers */
 }
+
+.graph_container {
+  margin-left: 20px;
+}
+
 .graph {
+
   background-color: rgba(56,57,58,0.6);
   /*margin-left: 30px;*/
+
+
   border-radius: 10px;
 }
 .deviation-graph {
@@ -24,14 +32,12 @@
 
 rect {
   transition: fill 0.3s ease, transform 0.3s ease;
-
 }
 
 rect:hover {
   fill: #fefdde; /* a different color on hover */
   cursor: pointer; /* Change cursor to indicate interactive element */
   animation: float 0.4s ease-in-out forwards;
-
 }
 
 @keyframes float {
@@ -48,7 +54,6 @@ rect:hover {
 }
 
 .tooltip {
-
   position: absolute;
   text-align: left;
   width: auto; /* Auto width to accommodate content */
@@ -67,12 +72,10 @@ rect:hover {
 .tooltip-content {
   display: flex;
   flex-direction: column; /* Stack content vertically */
-
 }
 
 .tooltip-content div {
   margin: 2px 0; /* Spacing between lines */
-
 }
 
 @keyframes spin {
@@ -103,6 +106,14 @@ rect:hover {
   border-radius: 50%;
   background: linear-gradient(0deg, rgba(63, 249, 220, 0.1) 30%, #2be19f 100%);
   animation: spin 0.8s linear 0s infinite;
+}
+
+.circle-core {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/assets/protruding-squares.svg");
+  border-radius: 50%;
+  animation: counter-spin 0.8s linear 0s infinite;
 }
 
 .circle-core {

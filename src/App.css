@@ -16,7 +16,7 @@
   margin-left: 30px;
   margin-right: 50px;
   margin-top: 30px;
-  background: rgba(133,133,148,0.1);
+  background: rgba(133, 133, 148, 0.1);
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
@@ -52,7 +52,6 @@
     box-sizing: border-box; /* Includes padding and border in the width */
     padding-left: 50px;
     padding-right: 50px;
-
   }
 }
 
@@ -87,11 +86,11 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .description {
-  font-family: 'Roboto Mono', monospace;
-  color: #8DA890;
+  font-family: "Roboto Mono", monospace;
+  color: #8da890;
   text-align: justify;
   width: 100%;
-  border: #1B1B1B;
+  border: #1b1b1b;
   border-style: solid;
   border-left: transparent;
   border-right: transparent;
@@ -103,18 +102,18 @@ body::-webkit-scrollbar-track {
   /*border-radius: 10px;*/
 }
 .description2 {
-  font-family: 'Roboto Mono', monospace;
-  color: #8DA890;
+  font-family: "Roboto Mono", monospace;
+  color: #8da890;
   text-align: justify;
   width: 100%;
 
   max-height: 180px;
   overflow: scroll;
-  border-top: #1B1B1B;
+  border-top: #1b1b1b;
   border-style: solid;
   border-left: transparent;
   border-right: transparent;
-  border-bottom:  transparent;
+  border-bottom: transparent;
   padding-top: 4px;
 }
 .App-link {
@@ -141,17 +140,16 @@ body::-webkit-scrollbar-track {
 .File_name {
   margin-top: 55px;
   /* position: absolute; */
-  color: #00C6B2;
+  color: #00c6b2;
   font-size: x-large;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 .empty_file_name {
   min-height: 103.4px;
 }
 .title {
-
   margin-bottom: 10px;
-  color: #00C6B2;
+  color: #00c6b2;
   font-size: 35px;
   font-family: "Kiwi Maru", serif;
   font-weight: lighter;
@@ -223,20 +221,19 @@ body::-webkit-scrollbar-track {
   border-style: groove;
  }
 
-
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-  width: calc(100% - 600px); /* Adjust the width dynamically */
+  width: calc(100% - 520px); /* Adjust the width dynamically */
   max-width: calc(
-    100% - 600px
+    100% - 520px
   ); /* Ensure it does not exceed the calculated width */
   box-sizing: border-box; /* Includes padding and border in the width */
-  background-color: rgba(56,57,58,0.3);
+  background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
   border-radius: 10px;
   padding-left: 30px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .main_content {
@@ -252,102 +249,24 @@ body::-webkit-scrollbar-track {
   align-items: center;
   flex-direction: column;
 }
-.apply {
+
+
+
+.glitch-btn {
+  margin-top: 4px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 13px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: bottom;
+  display: block;
   width: 100%;
-  margin-top: 10px;
-  color: white;
-  font-family: "Sometype Mono", monospace;
-  border: transparent;
-  background-color: transparent;
-  padding: 6px;
-  background-image: repeating-linear-gradient(
-      -24deg,
-      #ffffff,
-      #ffffff 16px,
-      transparent 16px,
-      transparent 36px,
-      #ffffff 36px
-    ),
-    repeating-linear-gradient(
-      66deg,
-      #ffffff,
-      #ffffff 16px,
-      transparent 16px,
-      transparent 36px,
-      #ffffff 36px
-    ),
-    repeating-linear-gradient(
-      156deg,
-      #ffffff,
-      #ffffff 16px,
-      transparent 16px,
-      transparent 36px,
-      #ffffff 36px
-    ),
-    repeating-linear-gradient(
-      246deg,
-      #ffffff,
-      #ffffff 16px,
-      transparent 16px,
-      transparent 36px,
-      #ffffff 36px
-    );
-  background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
-}
-.apply:hover {
-  width: 100%;
-  margin-top: 10px;
-  color: lightcoral;
-  font-family: "Sometype Mono", monospace;
-  font-size: medium;
-  border: transparent;
-  background-color: transparent;
-  padding: 6px;
-  background-image: repeating-linear-gradient(
-      -34deg,
-      #f08080,
-      #f08080 10.24px,
-      transparent 16px,
-      transparent 28.8px,
-      #f08080 36px
-    ),
-    repeating-linear-gradient(
-      56deg,
-      #f08080,
-      #f08080 10.24px,
-      transparent 16px,
-      transparent 28.8px,
-      #f08080 36px
-    ),
-    repeating-linear-gradient(
-      146deg,
-      #f08080,
-      #f08080 10.24px,
-      transparent 16px,
-      transparent 28.8px,
-      #f08080 36px
-    ),
-    repeating-linear-gradient(
-      236deg,
-      #f08080,
-      #f08080 10.24px,
-      transparent 16px,
-      transparent 28.8px,
-      #f08080 36px
-    );
-  background-size: 2px calc(100% + 43.42px), calc(100% + 43.42px) 2px,
-    2px calc(100% + 43.42px), calc(100% + 43.42px) 2px;
-  background-position: 0 0, 0 0, 100% 0, 0 100%;
-  background-repeat: no-repeat;
-  animation: borderAnimation3 0.9s infinite linear;
-}
-@keyframes borderAnimation3 {
-  from {
-    background-position: 0 0, -43.42px 0, 100% -43.42px, 0 100%;
-  }
-  to {
-    background-position: 0 -43.42px, 0 0, 100% 0, -43.42px 100%;
-  }
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
