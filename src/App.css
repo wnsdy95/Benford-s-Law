@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -12,6 +16,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@media (min-width: 975px) {
+  .Main {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%; /* Ensures that the Main container spans the full width */
+    box-sizing: border-box;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 975px) {
+  .Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .Main .right_part {
+    flex-grow: 1; /* Takes up the remaining space */
+    flex-shrink: 1; /* Allows shrinking if necessary */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; /* Includes padding and border in the width */
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -74,7 +107,7 @@ body::-webkit-scrollbar-track {
 }
 
 .Main {
-  display: flex;
+  /* display: flex; */
 }
 .Title-Wrap {
   display: flex;
@@ -83,11 +116,14 @@ body::-webkit-scrollbar-track {
 }
 .File_name {
   /*margin-top: 55px;*/
-  position: absolute;
-  margin-top: 90px;
+  /* position: absolute; */
+  margin-top: 65px;
   color: #5af2bb;
   font-size: xx-large;
   font-family: "Kiwi Maru", serif;
+}
+.empty_file_name {
+  min-height: 103.4px;
 }
 .title {
   margin-top: 50px;
@@ -123,13 +159,14 @@ body::-webkit-scrollbar-track {
 .bagging {
   color: grey;
   font-family: "Sometype Mono", monospace;
-  position: absolute;
-  bottom: 1%;
+  /* position: absolute; */
+  bottom: 10px;
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
 }
 .histogram {
-  margin-top: 120px;
+  /* margin-top: 120px; */
+  width: 90%;
 }
 .his {
   position: center;
@@ -138,8 +175,7 @@ body::-webkit-scrollbar-track {
 }
 
 .loading {
-  margin-left: 200px;
-  margin-top: -50px;
+  width: 100%;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -147,7 +183,7 @@ body::-webkit-scrollbar-track {
 }
 
 .data_textBox {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   left: 50px;
   width: 100px;
   height: 400px;
@@ -207,16 +243,36 @@ body::-webkit-scrollbar-track {
     background-position: 0 -79.45px, 0 0, 100% 0, -79.45px 100%;
   }
 }
+.left_part {
+  width: 600px; /* Fixed width for the left part */
+  flex-shrink: 0;
+}
+
+.right_part {
+  flex-grow: 1; /* Takes up the remaining space */
+  flex-shrink: 1; /* Allows shrinking if necessary */
+  width: calc(100% - 600px); /* Adjust the width dynamically */
+  max-width: calc(
+    100% - 600px
+  ); /* Ensure it does not exceed the calculated width */
+  box-sizing: border-box; /* Includes padding and border in the width */
+}
+
 .main_content {
   margin-top: 20px;
   display: flex;
+  /* overflow-x: auto; */
 }
 .text-area {
-  display: grid;
-  align-items: center; /* 방향이 row 기준: 세로 중앙 정렬*/
+  /* display: grid; */
+  /* align-items: center; 방향이 row 기준: 세로 중앙 정렬 */
   /*background:transparent;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .apply {
+  width: 100%;
   margin-top: 10px;
   color: white;
   font-family: "Sometype Mono", monospace;
@@ -260,7 +316,8 @@ body::-webkit-scrollbar-track {
   background-repeat: no-repeat;
 }
 .apply:hover {
-  margin-top: 8px;
+  width: 100%;
+  margin-top: 10px;
   color: lightcoral;
   font-family: "Sometype Mono", monospace;
   font-size: medium;
