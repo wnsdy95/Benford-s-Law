@@ -72,14 +72,17 @@ function App() {
             {/*<Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;*/}
           </div>
           <p className="description2">
-            The deviation formula is,<br></br>
+            The deviation formula, represented as,<br></br><br></br>
             ((DD - ID) / ID) x 100, <br></br>
-            where DD: Data Distribution <br></br>
-            <span class="tab"></span>   ID: Ideal Distribution <br></br>
-            The deviation shows how far away the data distribution is from the ideal distribution. Typically, if
-            tha data distribution is 20% away (especially if the high value digits, such as 8, 9), then it is regarded as artificial or manipulated data.
-            In the case of the lottery, it does not fit with the Benford's law; since, the number of lottery is more likely
-            to be identifier rather than the number as a mathematical term.
+            where  DD: Data Distribution <br></br>
+            <span class="tab"></span> ID: Ideal Distribution <br></br><br></br>
+            is a mathematical expression used to quantify the difference between the actual data distribution (DD) and the ideal or expected distribution (ID). This formula calculates the percentage deviation of the observed data distribution from the ideal distribution.<br></br><br></br>
+
+            <span className="tab"></span>In this context, "DD" stands for "Data Distribution," which refers to the observed distribution of data in a given dataset. "ID," on the other hand, represents the "Ideal Distribution," which is the theoretical or expected distribution of data based on certain assumptions or models.<br></br><br></br>
+
+            <span className="tab"></span>The resultant value from this formula indicates the extent of deviation of the actual data from the expected norm. A significant deviation, particularly when it exceeds 20%, especially in the higher value digits like 8 or 9, is often considered indicative of artificial or manipulated data. This is because natural datasets typically adhere to certain statistical properties or laws, such as Benford's Law.<br></br><br></br>
+
+            <span className="tab"></span>In the context of lotteries, this formula and its implications can be particularly relevant. Lottery numbers are often expected to conform to specific statistical patterns. However, unlike traditional applications of Benford's Law, which is generally applicable to naturally occurring datasets, lottery numbers are more akin to identifiers rather than naturally occurring mathematical figures. Therefore, the distribution of lottery numbers might not necessarily align with the patterns predicted by Benford's Law, which primarily applies to datasets where numbers are representative of naturally occurring quantities or sizes.
           </p>
         </div>
 
