@@ -78,7 +78,7 @@ function App() {
           {fileName !== "" ? (
             <h1 className={"File_name"}>{fileName}</h1>
           ) : (
-            <></>
+            <div className="empty_file_name"></div>
           )}
           <div className="main_content">
             <div className="text-area">
