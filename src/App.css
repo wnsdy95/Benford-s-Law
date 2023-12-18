@@ -71,6 +71,10 @@
 body::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 1); /*배경 컬러지정*/
 }
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+  border: none;
+}
 .description {
   font-family: "Kiwi Maru", serif;
   color: white;
@@ -78,6 +82,16 @@ body::-webkit-scrollbar-track {
   width: 400px;
   margin-left: 100px;
   margin-right: 100px;
+}
+.description2 {
+  font-family: "Kiwi Maru", serif;
+  color: white;
+  text-align: justify;
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  max-height: 180px;
+  overflow: scroll;
 }
 .App-link {
   color: #61dafb;
@@ -120,17 +134,11 @@ body::-webkit-scrollbar-track {
   font-family: "Kiwi Maru", serif;
   font-weight: lighter;
 }
-/*.dropdown-menu {*/
-/*  width: 1opo;*/
-/*}*/
-.drop {
-  width: 402px;
-  margin-top: 30px;
-  color: white;
-  background: #330033;
-  padding: 10px;
-  font-family: "Kiwi Maru", serif;
+.tab {
+  display: inline-block;
+  margin-left: 3.3em;
 }
+
 .sub-title {
   margin-top: 0px;
   margin-left: 90px;
@@ -149,7 +157,7 @@ body::-webkit-scrollbar-track {
   margin-bottom: 50px;
 }
 .bagging {
-  color: #64ccc5;
+  color: grey;
   font-family: "Sometype Mono", monospace;
   /* position: absolute; */
   bottom: 10px;
@@ -179,11 +187,12 @@ body::-webkit-scrollbar-track {
   left: 50px;
   width: 100px;
   height: 400px;
+  resize: none;
   border-radius: 5px;
   border-color: transparent;
   justify-items: center;
   color: white;
-  background-color: #330033;
+  background-color: transparent;
   border-style: groove;
   text-decoration-color: white;
   padding-left: 10px;
@@ -268,7 +277,7 @@ body::-webkit-scrollbar-track {
   color: white;
   font-family: "Sometype Mono", monospace;
   border: transparent;
-  background-color: #330033;
+  background-color: transparent;
   padding: 6px;
   background-image: repeating-linear-gradient(
       -24deg,
@@ -313,7 +322,7 @@ body::-webkit-scrollbar-track {
   font-family: "Sometype Mono", monospace;
   font-size: medium;
   border: transparent;
-  background-color: #330033;
+  background-color: transparent;
   padding: 6px;
   background-image: repeating-linear-gradient(
       -34deg,

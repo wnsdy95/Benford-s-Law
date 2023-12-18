@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*background: #1E0707;*/
   background-color: #330033;
-  background-image: url('../public/assets/endless-constellation.svg');
+  background-image: url('../public/assets/protruding-squares.svg');
 }
 
 code {
