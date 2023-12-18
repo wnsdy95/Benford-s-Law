@@ -16,7 +16,7 @@
   margin-left: 30px;
   margin-right: 50px;
   margin-top: 30px;
-  background: rgba(133,133,148,0.1);
+  background: rgba(133, 133, 148, 0.1);
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 10px;
@@ -52,7 +52,6 @@
     box-sizing: border-box; /* Includes padding and border in the width */
     padding-left: 50px;
     padding-right: 50px;
-
   }
 }
 
@@ -87,11 +86,11 @@ body::-webkit-scrollbar-track {
   border: none;
 }
 .description {
-  font-family: 'Roboto Mono', monospace;
-  color: #8DA890;
+  font-family: "Roboto Mono", monospace;
+  color: #8da890;
   text-align: justify;
   width: 100%;
-  border: #1B1B1B;
+  border: #1b1b1b;
   border-style: solid;
   border-left: transparent;
   border-right: transparent;
@@ -103,18 +102,18 @@ body::-webkit-scrollbar-track {
   /*border-radius: 10px;*/
 }
 .description2 {
-  font-family: 'Roboto Mono', monospace;
-  color: #8DA890;
+  font-family: "Roboto Mono", monospace;
+  color: #8da890;
   text-align: justify;
   width: 100%;
 
   max-height: 180px;
   overflow: scroll;
-  border-top: #1B1B1B;
+  border-top: #1b1b1b;
   border-style: solid;
   border-left: transparent;
   border-right: transparent;
-  border-bottom:  transparent;
+  border-bottom: transparent;
   padding-top: 4px;
 }
 .App-link {
@@ -141,17 +140,16 @@ body::-webkit-scrollbar-track {
 .File_name {
   margin-top: 55px;
   /* position: absolute; */
-  color: #00C6B2;
+  color: #00c6b2;
   font-size: x-large;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 .empty_file_name {
   min-height: 103.4px;
 }
 .title {
-
   margin-bottom: 10px;
-  color: #00C6B2;
+  color: #00c6b2;
   font-size: 35px;
   font-family: "Kiwi Maru", serif;
   font-weight: lighter;
@@ -269,20 +267,19 @@ body::-webkit-scrollbar-track {
   }
 }
 
-
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-  width: calc(100% - 600px); /* Adjust the width dynamically */
+  width: calc(100% - 520px); /* Adjust the width dynamically */
   max-width: calc(
-    100% - 600px
+    100% - 520px
   ); /* Ensure it does not exceed the calculated width */
   box-sizing: border-box; /* Includes padding and border in the width */
-  background-color: rgba(56,57,58,0.3);
+  background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
   border-radius: 10px;
   padding-left: 30px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .main_content {

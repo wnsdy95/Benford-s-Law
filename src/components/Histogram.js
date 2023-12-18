@@ -360,7 +360,9 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     <div className="loading">
       <div class="spinner-box">
         <div class="circle-border">
-          <div class="circle-core"></div>
+          <div class="circle-core">
+            <div class="circle-core-inside"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -372,7 +374,11 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         style={{ width: "100%", height: "450" }}
       ></svg>
       <div className="tooltip" ref={tooltipRef}></div>
-      <svg className="deviation-graph" ref={deviationSvgRef}></svg>
+      <svg
+        className="deviation-graph"
+        ref={deviationSvgRef}
+        style={{ width: "100%", height: "150" }}
+      ></svg>
       <div className="tooltip" ref={deviationTooltipRef}></div>
     </div>
   );
