@@ -13,6 +13,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   const svgRef = useRef(null);
   const deviationSvgRef = useRef(null);
   const tooltipRef = useRef(null);
+  const deviationTooltipRef = useRef(null);
 
   let width = 400; // Default width
   let height = 450; // Default height
@@ -276,20 +277,8 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     const compressedHeight = 150;
     const svg = d3.select(deviationSvgRef.current);
     svg.selectAll("*").remove();
-    let tooltipDiv = d3.select(".deviation-tooltip");
-    if (tooltipDiv.empty()) {
-      tooltipDiv = d3
-        .select("body")
-        .append("div")
-        .attr("class", "deviation-tooltip")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background", "lightgrey")
-        .style("padding", "5px")
-        .style("border-radius", "5px")
-        .style("color", "black");
-    }
+
+    const tooltipDiv = d3.select(deviationTooltipRef.current);
     svg.attr("width", width).attr("height", compressedHeight);
 
     const x = d3
@@ -337,13 +326,22 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       .on("mouseover", function (event, d) {
         const digit = deviations.indexOf(d) + 1; // Getting the digit (1-9)
         tooltipDiv
-          .html(`Digit: ${digit}<br>Deviation: ${d.toFixed(2)}%`)
-          .style("visibility", "visible")
-          .style("top", event.pageY - 10 + "px")
-          .style("left", event.pageX + 10 + "px");
+          .html(
+            `
+            <div class="tooltip-content">
+              <div><strong>Digit: ${digit}</strong></div>
+              <div style="color: ${
+                d >= -20 && d <= 20 ? "#2BE19F" : "red"
+              };">Deviation: ${d.toFixed(2)}%</div>
+            </div>
+            `
+          )
+          .style("left", event.pageX + "px")
+          .style("top", event.pageY - 28 + "px")
+          .style("opacity", 1);
       })
       .on("mouseout", function () {
-        tooltipDiv.style("visibility", "hidden");
+        tooltipDiv.style("opacity", 0);
       });
 
     // Add Y-axis
@@ -360,7 +358,11 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
 
   return isLoading ? (
     <div className="loading">
-      <CircularProgress color="secondary" />
+      <div class="spinner-box">
+        <div class="circle-border">
+          <div class="circle-core"></div>
+        </div>
+      </div>
     </div>
   ) : (
     <div className="graph_container" ref={containerRef}>
@@ -371,6 +373,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       ></svg>
       <div className="tooltip" ref={tooltipRef}></div>
       <svg className="deviation-graph" ref={deviationSvgRef}></svg>
+      <div className="tooltip" ref={deviationTooltipRef}></div>
     </div>
   );
 };
