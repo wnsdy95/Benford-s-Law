@@ -102,7 +102,7 @@ const DragDropFile = memo(({
         <div>
           {/* <p className="upload-button-text"></p> */}
           <button className="upload-button" onClick={onButtonClick}>
-            Drag and drop to upload a file (.XLSX)
+            Drag and drop to upload a file <br></br>(.XLSX .TXT)
           </button>
           {/* <p className="upload-button-text"></p> */}
         </div>

@@ -16,6 +16,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: center;
     background-image: repeating-linear-gradient(-57deg, #ffffff, #ffffff 26.1px, transparent 29px, transparent 49.7px, #ffffff 52px), repeating-linear-gradient(33deg, #ffffff, #ffffff 26.1px, transparent 29px, transparent 49.7px, #ffffff 52px), repeating-linear-gradient(123deg, #ffffff, #ffffff 26.1px, transparent 29px, transparent 49.7px, #ffffff 52px), repeating-linear-gradient(213deg, #ffffff, #ffffff 26.1px, transparent 29px, transparent 49.7px, #ffffff 52px);
     background-size: 3px calc(100% + 95.48px), calc(100% + 95.48px) 3px, 3px calc(100% + 95.48px) , calc(100% + 95.48px) 3px;
@@ -37,7 +38,7 @@
     padding: -1rem;
     font-size: 1rem;
     border: none;
-    font-family: 'Chalkboard';
+    font-family: 'Roboto Mono', monospace;
     background-color: transparent;
     color: #ffffff;
 }
@@ -52,9 +53,9 @@
 .upload-button {
     cursor: pointer;
     padding: 0.05rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     border: none;
-    /*font-family: 'Chalkboard';*/
+    font-family: 'Roboto Mono', monospace;
     background-color: transparent;
     color:#ffffff;
     margin-left: 70px;

@@ -6,7 +6,17 @@
   font-size: 12px; /* Adjust font size as needed */
   fill: #2be19f; /* Color of the numbers */
 }
-
+.graph {
+  background-color: rgba(56,57,58,0.6);
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.deviation-graph {
+  margin-top: 20px;
+  background-color: rgba(56,57,58,0.6);
+  margin-left: 30px;
+  border-radius: 10px;
+}
 .percentage-label {
   fill: #2be19f;
   font-family: "Sometype Mono", monospace;
@@ -14,12 +24,14 @@
 
 rect {
   transition: fill 0.3s ease, transform 0.3s ease;
+
 }
 
 rect:hover {
   fill: #fefdde; /* a different color on hover */
   cursor: pointer; /* Change cursor to indicate interactive element */
   animation: float 0.4s ease-in-out forwards;
+
 }
 
 @keyframes float {
@@ -36,12 +48,13 @@ rect:hover {
 }
 
 .tooltip {
+
   position: absolute;
   text-align: left;
   width: auto; /* Auto width to accommodate content */
   padding: 10px;
   font: 13px sans-serif;
-  background: rgba(10,10,10,0.95); /* Dark purple background */
+  background: rgba(10,10,10,0.80); /* Dark purple background */
   color: #ffffff; /* White text color */
   /*border: 1px solid white;*/
   border-radius: 10px;
@@ -54,8 +67,10 @@ rect:hover {
 .tooltip-content {
   display: flex;
   flex-direction: column; /* Stack content vertically */
+
 }
 
 .tooltip-content div {
   margin: 2px 0; /* Spacing between lines */
+
 }
