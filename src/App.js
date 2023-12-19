@@ -49,7 +49,7 @@ function App() {
           <h1 className="title">BENFORD'S LAW</h1>
           <div className="description-contents">
             <p className="description">
-              Benford's law, or the Newcomb–Benford law, observes that in
+              <span className="tab"></span>Benford's law, or the Newcomb–Benford law, observes that in
               real-life numerical data, smaller digits often appear as the first
               digit. For example, the number 1 occurs as the first digit 30% of
               the time, whereas 9 appears only 5% of the time. If digits were
