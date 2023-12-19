@@ -18,7 +18,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   let width = 400; // Default width
   let height = 450; // Default height
 
-  const margin = { top: 20, right: 100, bottom: 30, left: 50 };
+  const margin = { top: 20, right: 50, bottom: 30, left: 50 };
 
   const colorScale = d3
     .scaleLinear()
@@ -76,7 +76,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
   };
 
   const updateGraph = () => {
-    if (!svgRef.current || !deviationSvgRef.current) return;
+    if (!containerRef.current) return;
     const svg = d3.select(svgRef.current, deviationSvgRef.current);
 
     svg.selectAll("*").remove();
@@ -109,7 +109,6 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
 
     // Define the resize handler
     const handleResize = () => {
-      console.log(svgRef.current.clientWidth);
       updateGraph();
     };
 
