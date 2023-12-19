@@ -252,10 +252,7 @@ body::-webkit-scrollbar-track {
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-  width: calc(100% - 37vw); /* Adjust the width dynamically */
-  max-width: calc(
-    100% - 37vw
-  ); /* Ensure it does not exceed the calculated width */
+
   box-sizing: border-box; /* Includes padding and border in the width */
   background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
