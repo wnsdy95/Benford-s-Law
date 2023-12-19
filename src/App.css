@@ -2,6 +2,7 @@
   text-align: center;
   overflow-x: hidden;
   display: flex;
+  /*justify-content: center;*/
   flex-direction: column;
   min-height: 100vh;
 }
@@ -12,6 +13,7 @@
 }
 .left_part {
   width: 25vw; /* Fixed width for the left part */
+  max-width: 300px;
   flex-shrink: 0;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -34,6 +36,7 @@
     width: 100%; /* Ensures that the Main container spans the full width */
     box-sizing: border-box;
     flex-grow: 1;
+    justify-content: center;
   }
 }
 
@@ -252,7 +255,7 @@ body::-webkit-scrollbar-track {
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-
+  max-width: 900px;
   box-sizing: border-box; /* Includes padding and border in the width */
   background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
