@@ -11,14 +11,14 @@
   pointer-events: none;
 }
 .left_part {
-  width: 350px; /* Fixed width for the left part */
+  width: 25vw; /* Fixed width for the left part */
   flex-shrink: 0;
-  margin-left: 30px;
-  margin-right: 50px;
+  margin-left: 3vw;
+  margin-right: 3vw;
   margin-top: 30px;
   background: rgba(133, 133, 148, 0.1);
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 3vw;
+  padding-right: 3vw;
   border-radius: 10px;
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -27,7 +27,7 @@
   }
 }
 
-@media (min-width: 975px) {
+@media (min-width: 900px) {
   .Main {
     display: flex;
     flex-wrap: nowrap;
@@ -37,7 +37,7 @@
   }
 }
 
-@media (max-width: 975px) {
+@media (max-width: 900px) {
   .Main {
     display: flex;
     flex-direction: column;
@@ -47,11 +47,23 @@
   .Main .right_part {
     flex-grow: 1; /* Takes up the remaining space */
     flex-shrink: 1; /* Allows shrinking if necessary */
-    width: 100%;
-    max-width: 100%;
+    width: 90vw;
+    max-width: 90vw;
     box-sizing: border-box; /* Includes padding and border in the width */
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-right: 0vw;
+  }
+  .Main .left_part {
+    width: 80vw; /* Fixed width for the left part */
+    flex-shrink: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 30px;
+    background: rgba(133, 133, 148, 0.1);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 10px;
   }
 }
 
@@ -224,7 +236,7 @@ body::-webkit-scrollbar-track {
 .data_textBox {
   /* margin-top: 150px; */
   left: 50px;
-  width: 100px;
+  width: 7vw;
   height: 436px;
   resize: none;
   border-radius: 10px;
@@ -240,16 +252,14 @@ body::-webkit-scrollbar-track {
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-  width: calc(100% - 520px); /* Adjust the width dynamically */
-  max-width: calc(
-    100% - 520px
-  ); /* Ensure it does not exceed the calculated width */
+
   box-sizing: border-box; /* Includes padding and border in the width */
   background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
   border-radius: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-right: 3vw;
 }
 
 .main_content {
@@ -285,8 +295,6 @@ body::-webkit-scrollbar-track {
   transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-
-
 #workarea {
   position: absolute;
   width: 100%;
@@ -296,14 +304,13 @@ body::-webkit-scrollbar-track {
 }
 
 #personal {
-  color:white;
-  text-decoration:none;
-  position:absolute;
-  bottom:15px;
-  right:2%;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 15px;
+  right: 2%;
 }
 /*    start code for the actual button:         */
-
 
 /*
     Spot is the span on the inside of the href that
@@ -376,4 +383,5 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #06D6A0;
+
 }
