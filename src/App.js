@@ -78,7 +78,7 @@ function App() {
             <span class="tab"></span> ID: Ideal Distribution <br></br><br></br>
             is a mathematical expression used to quantify the difference between the actual data distribution (DD) and the ideal or expected distribution (ID). This formula calculates the percentage deviation of the observed data distribution from the ideal distribution.<br></br><br></br>
 
-            <span className="tab"></span>In this context, "DD" stands for "Data Distribution," which refers to the observed distribution of data in a given dataset. "ID," on the other hand, represents the "Ideal Distribution," which is the theoretical or expected distribution of data based on certain assumptions or models.<br></br><br></br>
+            <span className="tab"></span>In this context, "DD" stands for "Data Distribution," which refers to the observed distribution of data in a given dataset. "ID," on the other hand, represents the "Ideal Distribution," which is the theoretical or expected distribution of data based on Benford's Law.<br></br><br></br>
 
             <span className="tab"></span>The resultant value from this formula indicates the extent of deviation of the actual data from the expected norm. A significant deviation, particularly when it exceeds 20%, especially in the higher value digits like 8 or 9, is often considered indicative of artificial or manipulated data. This is because natural datasets typically adhere to certain statistical properties or laws, such as Benford's Law.<br></br><br></br>
 
