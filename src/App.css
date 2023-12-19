@@ -2,6 +2,7 @@
   text-align: center;
   overflow-x: hidden;
   display: flex;
+  /*justify-content: center;*/
   flex-direction: column;
   min-height: 100vh;
 }
@@ -12,6 +13,7 @@
 }
 .left_part {
   width: 25vw; /* Fixed width for the left part */
+  max-width: 300px;
   flex-shrink: 0;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -34,6 +36,7 @@
     width: 100%; /* Ensures that the Main container spans the full width */
     box-sizing: border-box;
     flex-grow: 1;
+    justify-content: center;
   }
 }
 
@@ -134,7 +137,7 @@ body::-webkit-scrollbar-track {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-  max-height: 180px;
+  height: 180px;
   overflow: scroll;
   border-top: #1b1b1b;
   border-style: solid;
@@ -252,7 +255,7 @@ body::-webkit-scrollbar-track {
 .right_part {
   flex-grow: 1; /* Takes up the remaining space */
   flex-shrink: 1; /* Allows shrinking if necessary */
-
+  max-width: 900px;
   box-sizing: border-box; /* Includes padding and border in the width */
   background-color: rgba(56, 57, 58, 0.3);
   margin-top: 30px;
@@ -382,5 +385,6 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke: #06d6a0;
+  stroke: #06D6A0;
+
 }
