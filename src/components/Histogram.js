@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./Histogram.css";
 import { CircularProgress } from "@mui/material";
 import { ContactPageSharp } from "@mui/icons-material";
-
+import html2canvas from 'html2canvas';
 const Histogram = ({ data, isLoading, setIsLoading }) => {
   const [distribution, setDistribution] = useState([]);
   const [digitsCount, setDigitsCount] = useState([]);
@@ -355,7 +355,23 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
     // Remove the axis line
     svg.select(".domain").remove();
   };
+  const handleDownload = () => {
+    const container = document.querySelector('.graph_container'); // Adjust the class to target your container div
 
+    html2canvas(container, { backgroundColor: 'transparent' }).then(canvas => {
+      const image = canvas.toDataURL('image/png', 1.0);
+      downloadImage(image, 'graphs.png');
+    });
+  };
+
+  const downloadImage = (blob, filename) => {
+    const fakeLink = window.document.createElement('a');
+    fakeLink.href = blob;
+    fakeLink.download = filename;
+    document.body.appendChild(fakeLink);
+    fakeLink.click();
+    document.body.removeChild(fakeLink);
+  };
   return isLoading ? (
     <div className="loading">
       <div class="spinner-box">
@@ -367,6 +383,7 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       </div>
     </div>
   ) : (
+      <div>
     <div className="graph_container" ref={containerRef}>
       <svg
         className="graph"
@@ -380,7 +397,11 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
         style={{ width: "100%", height: "150" }}
       ></svg>
       <div className="tooltip" ref={deviationTooltipRef}></div>
-    </div>
+
+      </div>
+        <button className={"download-button"} onClick={handleDownload}>Download Image</button>
+      </div>
+
   );
 };
 
