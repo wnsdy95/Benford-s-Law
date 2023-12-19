@@ -398,7 +398,12 @@ const Histogram = ({ data, isLoading, setIsLoading }) => {
       <div className="tooltip" ref={deviationTooltipRef}></div>
 
       </div>
-        <button className={"download-button"} onClick={handleDownload}>Download Image</button>
+        <div className="svg-wrapper">
+          <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+            <rect id="shape" height="40" width="150" onClick={handleDownload}/>
+            <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="white">Download Image</text>
+          </svg>
+        </div>
       </div>
 
   );
