@@ -341,7 +341,7 @@ body::-webkit-scrollbar-track {
 #shape {
   stroke-width: 6px;
   fill: transparent;
-  stroke: #009FFD;
+  stroke: white;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
   transition: 1s all ease;
