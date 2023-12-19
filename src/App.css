@@ -122,7 +122,7 @@ body::-webkit-scrollbar-track {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-  max-height: 180px;
+  height: 180px;
   overflow: scroll;
   border-top: #1b1b1b;
   border-style: solid;
