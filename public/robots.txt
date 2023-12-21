@@ -5,4 +5,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow:/
 
-Sitemap: https://calc.benfords-law.com/index.html
+Sitemap: https://calc.benfords-law.com/sitemap.xml
