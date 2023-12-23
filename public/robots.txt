@@ -5,4 +5,5 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow:/
 
+host: https://calc.benfords-law.com
 Sitemap: https://calc.benfords-law.com/sitemap.xml
